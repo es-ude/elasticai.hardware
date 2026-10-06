@@ -5128,7 +5128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 117.348 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5451,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 104.648 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5938,7 +5938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 144.018 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6267,7 +6267,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 156.718 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,7 +6613,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 105.918 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,7 +6936,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 105.918 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +7943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 117.348 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8190,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 116.078 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -698,7 +698,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "#PWR418-419,NT401",
+    "used_designators": "#PWR416-426,NT401,B401-402",
     "variants": []
   },
   "sheets": [

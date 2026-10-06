@@ -2,17 +2,17 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a43e1a20-6cdd-4e51-989c-e70e0a492063")
+	(uuid "f9a9ef59-4b79-46df-84de-0af5212039b4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ENv6_Custom_Symbols:BaseBoard_ENv6"
+		(symbol "ENv6_Custom_Symbols:FPGABoard_ENv6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "B"
-				(at -49.022 39.37 0)
+				(at -48.768 39.624 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,8 +31,8 @@
 					)
 				)
 			)
-			(property "Footprint" "ENv6_Custom_Footprints:BaseBoard_ENv6"
-				(at -2.54 11.43 0)
+			(property "Footprint" "ENv6_Custom_Footprints:ExtensionBoard_ENv6"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(symbol "BaseBoard_ENv6_0_1"
+			(symbol "FPGABoard_ENv6_0_1"
 				(rectangle
 					(start -49.53 38.1)
 					(end 49.53 -38.1)
@@ -77,7 +77,7 @@
 					)
 				)
 			)
-			(symbol "BaseBoard_ENv6_1_1"
+			(symbol "FPGABoard_ENv6_1_1"
 				(rectangle
 					(start -49.53 20.32)
 					(end -44.45 10.16)
@@ -644,7 +644,7 @@
 						)
 					)
 				)
-				(text "Env6\nBase Board"
+				(text "Env6\nFPGA Board"
 					(at -42.926 35.306 0)
 					(effects
 						(font
@@ -3068,6 +3068,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "passive:R0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3185,20 +3325,8 @@
 		)
 	)
 	(rectangle
-		(start 124.46 101.6)
-		(end 134.62 152.4)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "4d0afc8e-5bad-4cb0-8ca9-8527d9970a6b")
-	)
-	(rectangle
-		(start 142.24 101.6)
-		(end 149.86 152.4)
+		(start 152.4 40.64)
+		(end 162.56 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -3206,474 +3334,96 @@
 		(fill
 			(type none)
 		)
-		(uuid "83a1451a-e100-41ec-92eb-8f2b9c534f7c")
+		(uuid "ae933d89-fd7d-444c-83b1-35ad666812b9")
 	)
-	(rectangle
-		(start 127 34.29)
-		(end 132.08 91.44)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "85798c67-6af5-4524-bef3-a39236de02b8")
-	)
-	(rectangle
-		(start 147.32 34.29)
-		(end 157.48 88.9)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f39e73a8-db0a-4502-8983-2d2a25747d2a")
-	)
-	(text "FPGA \nJTAG"
+	(text "To Ask:\n> Same Exact Spartan 7?\n> FPGA Config M0 M1 M2 to MCU or switches?"
 		(exclude_from_sim no)
-		(at 137.668 31.75 0)
+		(at 27.94 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "053ad9e7-85db-4832-a53a-89304c070481")
+		(uuid "00ca6f74-36ab-4ca5-aa95-66ae05f687df")
 	)
 	(text "FPGA IO\nto MCU IO"
 		(exclude_from_sim no)
-		(at 152.4 31.496 0)
+		(at 157.48 38.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "1fff4817-50b8-4761-a8a4-0d613580abb3")
-	)
-	(text "FPGA to\nApplication \nBoard"
-		(exclude_from_sim no)
-		(at 130.302 155.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "46b9392d-bcb3-450c-8fd7-37b4dd3f4cd8")
-	)
-	(text "MCU to\nApplication \nBoard"
-		(exclude_from_sim no)
-		(at 146.304 155.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "65c2bf0b-9ff3-49b7-94e7-61804dd08990")
-	)
-	(text "4, Connector"
-		(exclude_from_sim no)
-		(at 13.716 14.224 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "67997a63-a523-47db-9fc2-5c79a8e8d1c7")
-	)
-	(text "FPGA \nConfig 1"
-		(exclude_from_sim no)
-		(at 128.524 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7820797d-20e5-48d2-bac1-8dc126b0a747")
-	)
-	(text "application header\n- V_SYS\n- I2C\n- Unused GPIO MCU\n- GND"
-		(exclude_from_sim no)
-		(at 68.834 145.796 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d3a94bae-c2df-4201-8c5d-139c99c95617")
-	)
-	(text "Voltage Outputs\nand add GPIOs"
-		(exclude_from_sim no)
-		(at 66.294 136.652 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "d5e3eaf2-8772-48f2-b3ad-6fd8f7a312e3")
+		(uuid "99016cbd-3d48-4bc7-b604-49b316191b30")
 	)
 	(no_connect
-		(at 133.35 119.38)
-		(uuid "0fbf05f7-7f18-45d6-ad47-9941f34ae39d")
+		(at 165.1 140.97)
+		(uuid "07a5b441-2efd-4666-b416-f4a042ffd7d5")
 	)
 	(no_connect
-		(at 130.81 137.16)
-		(uuid "1f26f19f-419c-4611-8c67-cabf5129016b")
+		(at 146.05 140.97)
+		(uuid "33fff87d-75b4-48fa-a7a7-51f3bcbd2038")
 	)
 	(no_connect
-		(at 128.27 119.38)
-		(uuid "25a7d4bd-af0a-4c5e-8ed5-ee887fd5508f")
+		(at 151.13 123.19)
+		(uuid "53ebd704-d9eb-4dfb-8a02-63627374b3dd")
 	)
 	(no_connect
-		(at 130.81 119.38)
-		(uuid "4310e81f-8c0a-4e22-954b-ab3122179e3e")
+		(at 153.67 123.19)
+		(uuid "846828bc-5ad5-463f-a8ce-117ab68d3dd1")
 	)
 	(no_connect
-		(at 125.73 137.16)
-		(uuid "47fe6536-2f35-487a-aa60-3409db5add4a")
+		(at 153.67 140.97)
+		(uuid "ad7700b3-a1fd-4b4d-8022-710177215f74")
 	)
 	(no_connect
-		(at 133.35 137.16)
-		(uuid "7fd125a4-93f4-4f0e-9f06-1023e0caaedf")
+		(at 203.2 115.57)
+		(uuid "b52c5748-cdaa-4feb-9576-37e8842556e0")
 	)
 	(no_connect
-		(at 125.73 119.38)
-		(uuid "d2f7f5a1-073d-497b-aa1f-0d4c3532a6a5")
+		(at 143.51 123.19)
+		(uuid "c302c407-4c51-4c0f-87a6-34adcfd70851")
 	)
 	(no_connect
-		(at 128.27 137.16)
-		(uuid "f8cdb7ba-6b6d-4139-9c31-3c2e164073f9")
+		(at 160.02 140.97)
+		(uuid "ce65e205-650e-4161-9802-c07c7c63829c")
 	)
-	(polyline
+	(no_connect
+		(at 148.59 140.97)
+		(uuid "d1230f6f-829a-431a-b538-1bd9e3adc732")
+	)
+	(no_connect
+		(at 148.59 123.19)
+		(uuid "e8c29128-c1e4-425b-8b7c-e2f63740ec80")
+	)
+	(no_connect
+		(at 151.13 140.97)
+		(uuid "f631fddf-9abd-41c7-8f2e-fb8f54ac6e7a")
+	)
+	(wire
 		(pts
-			(xy 134.62 62.23) (xy 132.08 62.23)
+			(xy 166.37 153.67) (xy 168.91 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f2d6a28-60cd-4b07-a25c-258273d5e487")
+		(uuid "356fe4d0-0821-45fa-b260-502f3126b0d0")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 134.62 34.29) (xy 134.62 62.23)
+			(xy 181.61 153.67) (xy 176.53 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fbd37cf-6836-49eb-97f6-aea096d889ff")
-	)
-	(polyline
-		(pts
-			(xy 132.08 91.44) (xy 137.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "734f0f25-a6a1-423e-9f04-70f6d6ea1e53")
-	)
-	(polyline
-		(pts
-			(xy 139.7 34.29) (xy 134.62 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a68e13ff-8e82-470d-8c31-75caac6073f0")
-	)
-	(polyline
-		(pts
-			(xy 137.16 91.44) (xy 137.16 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80f97bf-6599-4144-9691-139abb639ab2")
-	)
-	(polyline
-		(pts
-			(xy 139.7 62.23) (xy 139.7 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa7fade-460c-4dff-99a4-3b33082c9596")
-	)
-	(polyline
-		(pts
-			(xy 132.08 62.23) (xy 132.08 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed9fa4de-1314-4e50-829c-aa94efa39f39")
-	)
-	(polyline
-		(pts
-			(xy 137.16 62.23) (xy 139.7 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff67432e-c950-4c11-963f-ecacc6b5f4ac")
-	)
-	(global_label "GP14{slash}SPI1_SCK"
-		(shape bidirectional)
-		(at 140.97 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "015a4f95-e3b8-465f-b433-48b17c320df9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 33.9431 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_CFG_3"
-		(shape bidirectional)
-		(at 130.81 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1498c314-e107-4c41-b68b-5c3d5936138d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 37.753 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Unused_GP9"
-		(shape bidirectional)
-		(at 148.59 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ba9efbd-ae53-42de-8184-796c267f0a9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 86.8278 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP47_ADC7"
-		(shape bidirectional)
-		(at 148.59 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28d41bdf-a34e-4d76-a041-ddd028138469")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 104.5188 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "JTAG_TMS_GP19"
-		(shape bidirectional)
-		(at 133.35 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31591b67-93a1-4537-9c4c-b912a0ed586a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 90.033 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Unused_GP8"
-		(shape bidirectional)
-		(at 151.13 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40576111-8073-4a0a-95c7-fdce4015ce5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 37.6322 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GP45_ADC5"
-		(shape bidirectional)
-		(at 146.05 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e882293-1c11-4dc6-82e6-55e9476f6ad6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 104.5188 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Unused_GP4"
-		(shape bidirectional)
-		(at 156.21 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54a10822-19dd-4d53-a9f2-fc5f22095cfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 37.6322 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GP44_ADC4"
-		(shape bidirectional)
-		(at 146.05 137.16 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58030c4f-760d-483f-b21b-e6c966c4003a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 152.0212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ADC_Detect2"
-		(shape bidirectional)
-		(at 140.97 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ab510ef-90fa-44bb-aa9d-4dbc1bbc3304")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 103.4906 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "75c4ae19-697a-4222-9ddb-8bcb356f85f7")
 	)
 	(global_label "GP12{slash}SPI1_RX"
 		(shape bidirectional)
-		(at 143.51 53.34 90)
+		(at 148.59 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3681,9 +3431,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5b21d47d-fb53-423b-af26-784c368beab1")
+		(uuid "0343965d-2262-47c6-8293-a5788e5b6993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 35.2131 90)
+			(at 148.59 39.0231 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,9 +3445,57 @@
 			)
 		)
 	)
-	(global_label "GP0{slash}I2C0_SDA"
+	(global_label "GP14{slash}SPI1_SCK"
 		(shape bidirectional)
-		(at 161.29 71.12 270)
+		(at 146.05 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "136fffb8-a966-42ee-a813-4560b0a55033")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 37.7531 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_IO_0"
+		(shape input)
+		(at 161.29 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ab36fb-0c1d-4be9-b9d2-940da7e1ca1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 44.3676 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_IO_A_0"
+		(shape input)
+		(at 130.81 140.97 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3705,81 +3503,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5d8f1774-f0fc-4f46-af0e-5a60c539c148")
+		(uuid "22d810df-9078-41b6-b914-4852895c6390")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 89.126 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP1{slash}I2C0_SCL"
-		(shape bidirectional)
-		(at 161.29 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f167642-5525-4ff7-a3c7-f046360ac5fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 35.3945 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Unused_GP6"
-		(shape bidirectional)
-		(at 153.67 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ff21ab4-af22-492e-9e87-53696f1c650d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 37.6322 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Unused_GP5"
-		(shape bidirectional)
-		(at 153.67 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "612a4db5-1d06-4fea-a33b-6f0ec45bf0fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 86.8278 90)
+			(at 130.81 155.8086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,7 +3519,7 @@
 	)
 	(global_label "JTAG_TCK_GP18"
 		(shape bidirectional)
-		(at 135.89 53.34 90)
+		(at 140.97 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3801,9 +3527,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6a569906-fb8e-4fc2-9f00-cb55b4a43d0d")
+		(uuid "24be3554-088a-4eeb-9f14-c860824182c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 34.5479 90)
+			(at 140.97 38.3579 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,33 +3541,9 @@
 			)
 		)
 	)
-	(global_label "Unused_GP7"
-		(shape bidirectional)
-		(at 151.13 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d19a8a6-4495-4344-9e27-c060de135631")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 86.8278 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VSYS_EX"
+	(global_label "FPGA_IO_1"
 		(shape input)
-		(at 154.94 137.16 270)
+		(at 161.29 74.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3849,9 +3551,9 @@
 			)
 			(justify right)
 		)
-		(uuid "745c8062-f089-4170-bef8-f4dbd3ea0116")
+		(uuid "273a5b68-aa74-470b-a68c-3b831d238ebf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 148.0675 90)
+			(at 161.29 87.7124 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,57 +3565,9 @@
 			)
 		)
 	)
-	(global_label "FPGA_CFG_5"
-		(shape bidirectional)
-		(at 128.27 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "884dd68b-986b-4db9-8bb5-beafa3158eff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 37.753 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Unused_GP3"
-		(shape bidirectional)
-		(at 156.21 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e8fcd51-11cb-4d4f-84ff-8d995a7409bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 86.8278 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VDDD_PERI"
+	(global_label "FPGA_M1"
 		(shape input)
-		(at 138.43 119.38 90)
+		(at 133.35 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3921,9 +3575,9 @@
 			)
 			(justify left)
 		)
-		(uuid "95bd4ddf-ad32-4b84-a2c6-71c48be0ee47")
+		(uuid "2a655247-c820-4aa4-8924-fa9706590a54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 106.2348 90)
+			(at 133.35 45.8191 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,9 +3589,9 @@
 			)
 		)
 	)
-	(global_label "GP13{slash}SPI1_CS"
-		(shape bidirectional)
-		(at 140.97 71.12 270)
+	(global_label "FPGA_M0"
+		(shape input)
+		(at 133.35 74.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3945,9 +3599,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9732a181-b66b-4642-951e-e24f28c05014")
+		(uuid "3692c4e8-d997-4e7d-bcc9-d57f047ad2f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 89.2469 90)
+			(at 133.35 86.2609 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,9 +3613,9 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDI_GP16"
+	(global_label "GP1{slash}I2C0_SCL"
 		(shape bidirectional)
-		(at 138.43 53.34 90)
+		(at 166.37 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3969,9 +3623,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9e018b7d-d4f0-4f55-a371-274dfff38208")
+		(uuid "388de071-a611-4e85-8ce5-cf48814c93fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 35.2131 90)
+			(at 166.37 39.2045 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,9 +3637,9 @@
 			)
 		)
 	)
-	(global_label "Unused_GP10"
-		(shape bidirectional)
-		(at 148.59 53.34 90)
+	(global_label "VMCU"
+		(shape input)
+		(at 140.97 123.19 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3993,9 +3647,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a6b30911-c910-4a01-b89c-43e1a8cdfe73")
+		(uuid "3f145af8-728c-4e66-9969-19e038546222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 36.4227 90)
+			(at 140.97 115.0643 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +3663,7 @@
 	)
 	(global_label "GP15{slash}SPI1_TX"
 		(shape bidirectional)
-		(at 138.43 71.12 270)
+		(at 143.51 74.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4017,9 +3671,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b5a1ea84-25bb-4811-bdb3-8bb2279d5b30")
+		(uuid "40fa0467-e9d5-4814-89cf-8e87777f58f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 88.9445 90)
+			(at 143.51 92.7545 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,105 +3685,33 @@
 			)
 		)
 	)
-	(global_label "GP42_ADC2"
-		(shape bidirectional)
-		(at 143.51 137.16 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd64473a-cb38-4002-8af0-1efa71d38a44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 152.0212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FPGA_CFG_4"
-		(shape bidirectional)
-		(at 128.27 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c17d81d1-8a31-44c4-ba80-a7cfabdd9eda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 86.707 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GP43_ADC3"
-		(shape bidirectional)
-		(at 143.51 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1efb317-353b-4aa9-b2d8-c5ddc7d7c8af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 104.5188 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_CFG_1"
-		(shape bidirectional)
-		(at 133.35 53.34 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c22ac19d-15e3-413b-9346-1b091e212cac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 37.753 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDDD_MCU"
+	(global_label "FPGA_M2"
 		(shape input)
-		(at 125.73 71.12 270)
+		(at 130.81 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4eba9462-befc-494f-ad53-bc4cefc45f78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 45.8191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_IO_A_2"
+		(shape input)
+		(at 133.35 140.97 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4137,9 +3719,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c3f46988-8d97-4092-a4b7-63b430a2fe5f")
+		(uuid "4f0da682-bd63-4371-907b-bb4820801e14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 84.0233 90)
+			(at 133.35 155.8086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,9 +3733,33 @@
 			)
 		)
 	)
-	(global_label "FPGA_CFG_2"
-		(shape bidirectional)
-		(at 130.81 71.12 270)
+	(global_label "FPGA_IO_6"
+		(shape input)
+		(at 153.67 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50afdbd3-6482-43a2-8e14-19298aa9398c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 44.3676 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_IO_3"
+		(shape input)
+		(at 158.75 74.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4161,9 +3767,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c742af25-9771-4e1f-a75f-9b64d147ae67")
+		(uuid "5c3eff2f-3f5d-4845-8305-fd4da6f11f87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 86.707 90)
+			(at 158.75 87.7124 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4172,12 +3778,108 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_OSC_EN"
+		(shape bidirectional)
+		(at 148.59 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "665cba06-fbad-40d5-99a2-af11066040e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 91.9684 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VMCU"
+		(shape input)
+		(at 130.81 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69d03088-9234-41c9-9a15-66bed5c4fbfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 83.0557 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_IO_7"
+		(shape input)
+		(at 153.67 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "767429bf-9db2-4536-a0ff-3ec09b047149")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 87.7124 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_IO_4"
+		(shape input)
+		(at 156.21 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "783b1798-5f39-4e8e-b312-702d4497176c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 44.3676 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
 	(global_label "JTAG_TDO_GP17"
 		(shape bidirectional)
-		(at 135.89 71.12 270)
+		(at 140.97 74.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4185,9 +3887,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d097938b-73be-4723-a2a0-bf537a221483")
+		(uuid "79d61047-5db2-47ad-ac5f-9c110b6afc0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 89.9726 90)
+			(at 140.97 93.7826 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,57 +3901,33 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect1"
-		(shape bidirectional)
-		(at 140.97 137.16 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d173ff38-e130-409e-ab78-2b2c60737fdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 153.0494 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MCU-FPGA_EN_OSC"
-		(shape bidirectional)
-		(at 143.51 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5774d8f-49ce-4c3b-b96a-164179b4b173")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 93.7827 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VDDD_MCU"
+	(global_label "FPGA_IO_A_4"
 		(shape input)
-		(at 135.89 119.38 90)
+		(at 135.89 140.97 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f3bec43-5a31-4eae-ac6d-968b333d4925")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 155.8086 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_INIT"
+		(shape input)
+		(at 135.89 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4257,9 +3935,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ecfca1b3-fbdc-4c90-88a5-5f16443b14cd")
+		(uuid "979ce66d-2c7c-4fbb-9f9a-c3b73a86e607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 106.4767 90)
+			(at 135.89 44.9723 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,33 +3949,9 @@
 			)
 		)
 	)
-	(global_label "GP46_ADC6"
+	(global_label "ADC_Detect2"
 		(shape bidirectional)
-		(at 148.59 137.16 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ee989f32-103e-4e4a-9630-e1e90c676814")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 152.0212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ExtraCFG_GP26"
-		(shape bidirectional)
-		(at 125.73 53.34 90)
+		(at 146.05 123.19 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4305,9 +3959,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f77d776d-3f46-4a3b-88b7-15d4dcad4b9b")
+		(uuid "9f6861f3-5457-4757-858c-845475338560")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 34.8503 90)
+			(at 146.05 107.3006 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4319,65 +3973,441 @@
 			)
 		)
 	)
-	(hierarchical_label "PSU2"
+	(global_label "VMCU"
 		(shape input)
-		(at 198.12 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a95463a-5f3b-4ffd-a455-f0b2f6eba11c")
-	)
-	(hierarchical_label "PSU3"
-		(shape input)
-		(at 160.02 137.16 270)
+		(at 166.37 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3bc7812e-31ab-4133-b113-2774b6771700")
+		(uuid "a0d0423c-dbf2-4e7d-971c-5b7a4008f35f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.2443 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "PSU3"
-		(shape input)
-		(at 198.12 111.76 0)
+	(global_label "1V0"
+		(shape output)
+		(at 203.2 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3f36585e-0d87-45d0-a4a9-4a6f963c64d4")
+		(uuid "a22907cd-cd40-4e80-9c69-ad2c8ceddaef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6928 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "PSU4"
-		(shape input)
-		(at 198.12 101.6 0)
+	(global_label "ADC_Detect2"
+		(shape bidirectional)
+		(at 181.61 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "63401e7b-5e93-4118-9cf6-3542ed4726d4")
+		(uuid "a4cff3f8-9890-45e2-95ea-cc55b616be04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.4994 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "PSU1"
+	(global_label "FPGA_IO_A_1"
 		(shape input)
-		(at 198.12 81.28 0)
+		(at 130.81 123.19 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "da98b3e9-ebf9-4b1f-a71b-812da06bb415")
+		(uuid "c7e2564d-6a77-4e88-9ac5-1d96435a58be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 108.3514 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_IO_A_5"
+		(shape input)
+		(at 135.89 123.19 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdd55b13-576f-48b2-bfc9-dafdbe365f17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 108.3514 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP13{slash}SPI1_CS"
+		(shape bidirectional)
+		(at 146.05 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0042496-fd3b-4f6d-9e8a-cb041eb15c51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 93.0569 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_IO_A_3"
+		(shape input)
+		(at 133.35 123.19 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3414c9b-5d7c-4004-aebb-33964b6c3f53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 108.3514 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_IO_A_7"
+		(shape input)
+		(at 138.43 123.19 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d582a46a-2869-45ba-b210-b2ec7d589a6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 108.3514 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "JTAG_TDI_GP16"
+		(shape bidirectional)
+		(at 143.51 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d64d2bf4-68bd-4204-a1e6-94d77acd8e83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 39.0231 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP0{slash}I2C0_SDA"
+		(shape bidirectional)
+		(at 166.37 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6b2f3af-b698-4f2e-8c6e-fae8bf09f6b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 92.936 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape output)
+		(at 203.2 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9f20e7e-9707-423b-95b7-afd61c240183")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6928 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "1V8"
+		(shape output)
+		(at 203.2 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da519f03-4565-4e7f-b6fe-21738ff315cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6928 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_RESET"
+		(shape input)
+		(at 135.89 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db400661-0aec-4662-8a7f-78e0a8ec0ea8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 89.3451 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_IO_5"
+		(shape input)
+		(at 156.21 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e38947b7-d754-4ba9-8110-a4441b57cc71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 87.7124 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_IO_A_6"
+		(shape input)
+		(at 138.43 140.97 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e434d376-7a98-4238-9f43-936e46224b34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 155.8086 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_IO_2"
+		(shape input)
+		(at 158.75 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6cda82a-4a56-4c5c-bcb6-f668ba1489d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 44.3676 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "JTAG_TMS_GP19"
+		(shape bidirectional)
+		(at 138.43 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff441d02-d6ee-4798-8d9d-8ce5547eb8c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 93.843 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA_DONE"
+		(shape input)
+		(at 138.43 57.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffe4e41b-b89e-4bcc-b9fe-a8332515698c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 43.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 96.52 90)
-		(mirror x)
+		(at 96.52 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4385,9 +4415,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0296d885-046e-46ae-a222-a9b9b7c71ab7")
-		(property "Reference" "#PWR0421"
-			(at 204.47 96.52 0)
+		(uuid "18131f46-7c19-4ea9-8019-daa15101afa0")
+		(property "Reference" "#PWR06"
+			(at 90.17 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,17 +4428,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 96.52 90)
+			(at 93.472 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 96.52 0)
+			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4419,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 96.52 0)
+			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4430,7 +4461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 96.52 0)
+			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,20 +4472,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4dd234fd-d665-4d03-bc41-58c5ef679dfe")
+			(uuid "b19f3f02-bdba-4189-a296-aede6e39d9c3")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0421")
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ENv6_Custom_Symbols:BaseBoard_ENv6")
-		(at 144.78 95.25 0)
+		(lib_id "power:GND")
+		(at 96.52 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4462,10 +4493,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ec12323-7add-4131-a7fb-247a6b19ceda")
-		(property "Reference" "B401"
-			(at 91.44 76.1298 0)
+		(uuid "21b41eaa-15eb-40ab-9583-a5026190d787")
+		(property "Reference" "#PWR05"
+			(at 90.17 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4474,18 +4505,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 144.78 95.25 0)
+		(property "Value" "GND"
+			(at 93.472 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "ENv6_Custom_Footprints:BaseBoard_ENv6"
-			(at 142.24 83.82 0)
+		(property "Footprint" ""
+			(at 96.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,7 +4528,945 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 95.25 0)
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec46149a-b07c-4cac-8a9f-1b4c34b0658c")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:R0402")
+		(at 172.72 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "251c2817-7061-4c22-a952-8f16822a3399")
+		(property "Reference" "R328"
+			(at 180.594 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBD"
+			(at 174.498 155.956 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 155.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43346dfe-b824-4f23-9c13-53a057aee622")
+		)
+		(pin "1"
+			(uuid "dd3eea8f-dbf3-4d9f-866c-18e68629234e")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "R328")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a0ddcf6-c1cb-4323-b9af-15c3e5a5f8d0")
+		(property "Reference" "#PWR08"
+			(at 142.24 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae99cfb4-2f01-4881-915c-921f85821378")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a63796a-d4ff-459b-ae7a-2eb2545f71a1")
+		(property "Reference" "#PWR011"
+			(at 151.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba30a8e8-b202-444f-a0e9-6ee627702943")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68b38858-376c-4151-bf98-f4395e94e741")
+		(property "Reference" "#PWR010"
+			(at 128.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6288da5-73de-42f4-9194-c1c0b66fb915")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91def347-4d44-443c-9524-6ffa70eafab7")
+		(property "Reference" "#PWR02"
+			(at 209.55 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.248 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2f9c174-eba7-401f-9842-097330a0e6d8")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96c459ca-29b2-4355-9210-c1d4fd5cb804")
+		(property "Reference" "#PWR01"
+			(at 209.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.248 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58973079-e243-4c4e-a736-6f492a36446a")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a277e9db-c95f-485c-bc0b-9755d126b86a")
+		(property "Reference" "#PWR09"
+			(at 156.21 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de970c3b-eb5a-4856-89be-6423b9e34d7e")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd618fc2-5173-4beb-84f4-75941171be16")
+		(property "Reference" "#PWR03"
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.248 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db722825-6e4a-417f-b9a2-0ec2a78b3a1a")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd77a62b-c0bd-402d-b3f3-f333e25bee8b")
+		(property "Reference" "#PWR012"
+			(at 163.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0161a65-5a33-4fa8-9205-8339c62834a2")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ef6043-f443-49e3-8514-6a88d2dfc445")
+		(property "Reference" "#PWR04"
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.248 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de5b69b6-8830-41d6-8586-bf3cea442637")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e78d6391-d377-464f-9444-4e00289002fa")
+		(property "Reference" "#PWR07"
+			(at 128.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73aaee47-cfb5-484d-ad39-23d82bc921d8")
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ENv6_Custom_Symbols:FPGABoard_ENv6")
+		(at 149.86 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff6d5bfd-f98c-4c1c-9696-b93c325c1b5c")
+		(property "Reference" "B1"
+			(at 97.79 79.9398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 149.86 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ENv6_Custom_Footprints:ExtensionBoard_ENv6"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +5477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 95.25 0)
+			(at 149.86 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,1197 +5486,347 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "C18"
-			(uuid "f766c0e9-3180-4856-b086-f789ff2295b0")
-		)
-		(pin "C19"
-			(uuid "ff260036-9853-49f0-b9db-bba0f341788c")
-		)
-		(pin "C29"
-			(uuid "65aad39a-0d93-41b5-8fff-8a85aa2321e6")
-		)
-		(pin "C20"
-			(uuid "7132a2d4-5ad3-46b0-89bd-2de70d6571f2")
-		)
-		(pin "D3"
-			(uuid "96bfbd96-a170-462d-95be-d75c501c8cab")
-		)
-		(pin "C12"
-			(uuid "70b295c2-1eeb-40e2-97be-dc5a58fc07bd")
-		)
-		(pin "D6"
-			(uuid "6ea5c69f-1177-4bd8-8391-61de5597e3c1")
-		)
-		(pin "C16"
-			(uuid "43f90aeb-6e54-49f4-82a2-fd3595b33328")
-		)
-		(pin "C30"
-			(uuid "b2f8b1d0-9255-4f6c-9124-1fd74147095a")
-		)
-		(pin "C31"
-			(uuid "669f9f62-3453-420f-b24b-e39798f0b0b7")
-		)
-		(pin "E2"
-			(uuid "72a850f9-8ded-4c59-a9da-1895ec81daeb")
-		)
-		(pin "C22"
-			(uuid "a9f852d2-88ab-486f-b73a-faced50c28d2")
-		)
-		(pin "C28"
-			(uuid "f2539205-10b1-4783-b688-a88dda865022")
-		)
-		(pin "D4"
-			(uuid "4075dbce-a83d-42ac-99f6-94d104098a5d")
-		)
-		(pin "C25"
-			(uuid "66a24164-f267-4926-b180-a364bde5f98b")
-		)
-		(pin "C27"
-			(uuid "3c4bbf7c-7dd9-401f-984a-ed44d1da8106")
-		)
-		(pin "D5"
-			(uuid "82e17713-1d6e-42e2-87d0-c5dd6b8731b7")
-		)
-		(pin "C26"
-			(uuid "f0459b3b-7a1f-4a37-8044-fae7cfeaf7b6")
-		)
-		(pin "C14"
-			(uuid "8b603e4f-f595-4408-b6f6-f3c22f21d148")
-		)
-		(pin "C15"
-			(uuid "6cdc1d02-f833-4295-8626-3082113ae5b1")
-		)
-		(pin "C13"
-			(uuid "d0c61ef8-bbcc-4d56-82d4-d3ac566aceb7")
-		)
-		(pin "C21"
-			(uuid "c302e077-c036-4474-adf3-7df434d92946")
-		)
-		(pin "C24"
-			(uuid "4d65708d-7025-4cd2-94a5-e787d00d5829")
-		)
-		(pin "C17"
-			(uuid "599d9e51-55a7-4a5f-9bfd-f489e7b7d493")
-		)
-		(pin "C23"
-			(uuid "7916315b-8357-4579-ad2a-db7f86389ab7")
-		)
-		(pin "D2"
-			(uuid "7b580871-8148-4c78-9e60-bbe7d94f2493")
-		)
-		(pin "C32"
-			(uuid "49ef50f8-6201-4ed5-8d8c-b6bba0e82e50")
-		)
-		(pin "D1"
-			(uuid "2e39a230-14c2-499f-9079-0d5cd0ff5adb")
-		)
-		(pin "D7"
-			(uuid "6995c0e5-a49e-4e82-8639-5d087a19ce65")
-		)
-		(pin "D8"
-			(uuid "d70289fe-582c-4b87-96a2-ee8ddc0ab677")
-		)
-		(pin "E1"
-			(uuid "7fab855d-27aa-47b2-afe3-89acf9ed0985")
-		)
-		(pin "E3"
-			(uuid "3cff7c08-6f99-4708-bb9e-96db8ee2a093")
-		)
-		(pin "E4"
-			(uuid "dae47bfe-d2cb-428a-a2ea-41579d8cdfe8")
-		)
-		(pin "E5"
-			(uuid "394d516d-47b6-4a52-8854-3f662aa6fe94")
-		)
-		(pin "E6"
-			(uuid "6665b29c-b10c-4a71-a2ec-917533b8de86")
-		)
-		(pin "E8"
-			(uuid "3ad2f0dd-144b-455c-817c-f1e254c9123f")
-		)
-		(pin "E7"
-			(uuid "5d5c4228-c5d8-4cd8-82a1-a5cbb3785f15")
-		)
-		(pin "A21"
-			(uuid "76038f88-52a2-4be1-97a4-55de8f3d6e5b")
-		)
-		(pin "A25"
-			(uuid "cc6bf7a0-4962-4a23-b1a2-1a1abfad82c7")
-		)
-		(pin "A11"
-			(uuid "273b9a38-8380-4bbf-a5f0-c920d983c74a")
-		)
-		(pin "A18"
-			(uuid "d82fcaf8-7ece-425b-9132-87d7bc99aa39")
-		)
-		(pin "A19"
-			(uuid "595b63f8-ca83-4ec5-8399-a79a4a58fc20")
-		)
-		(pin "A23"
-			(uuid "043c808c-c387-4b00-b31a-07e5cccf37d1")
-		)
-		(pin "A3"
-			(uuid "ade5646d-6295-4a6c-b33e-4d610ff53a32")
-		)
-		(pin "A24"
-			(uuid "04bfaa46-be82-4df5-8ae8-284496ad9ab2")
-		)
-		(pin "A15"
-			(uuid "36f46efb-cde1-4cbd-af4e-05cc39b5d4e1")
-		)
-		(pin "A8"
-			(uuid "77060613-b337-4333-b56d-dc1c191342fd")
-		)
-		(pin "A12"
-			(uuid "e2b658ec-565d-4a3c-88c2-d805d89e95e2")
-		)
-		(pin "A16"
-			(uuid "7dfd63cf-adc2-417c-b781-72d4071b655d")
-		)
-		(pin "A1"
-			(uuid "393e2277-a14c-4bf1-805c-e4b0e5b8a489")
-		)
-		(pin "A6"
-			(uuid "48fc4cee-afa1-447d-b8fc-ce3e266de5ce")
-		)
-		(pin "A17"
-			(uuid "95b13848-8a6f-4a4d-ba6c-b6bc28cffb0a")
-		)
-		(pin "A7"
-			(uuid "c16c8f94-68fc-460d-af69-1b99ac5f1180")
-		)
-		(pin "A20"
-			(uuid "105bc54d-4c79-4527-bc6d-11f4e7119779")
-		)
-		(pin "A5"
-			(uuid "1dd2cac2-0139-4651-81ba-56891130935a")
-		)
-		(pin "A9"
-			(uuid "8d8f1154-b89e-4320-84c0-b83311cee9e2")
-		)
-		(pin "A14"
-			(uuid "e5e0c9ee-8272-4b4d-a701-3dab82d7415f")
-		)
-		(pin "A13"
-			(uuid "cacc4c5e-6b79-4647-9327-42ab4b8c3805")
-		)
-		(pin "A4"
-			(uuid "2ee2df45-6db9-4c96-bc3c-99b6bc30745e")
-		)
-		(pin "A10"
-			(uuid "891f7c81-17a4-4332-9471-eee79ae21371")
-		)
-		(pin "A2"
-			(uuid "0d99dfd4-9052-451a-bc76-be63efc413d9")
-		)
-		(pin "A22"
-			(uuid "52934a38-f246-42b3-9882-278f77a86a6b")
-		)
-		(pin "B5"
-			(uuid "76603751-d3d9-483a-9e2b-1348560d9719")
-		)
-		(pin "B18"
-			(uuid "92da1321-7d24-4022-bfba-2c8cf7e4e3ed")
-		)
-		(pin "A31"
-			(uuid "8d297761-d0b6-4999-9b8e-f5c161f0d67f")
-		)
-		(pin "B13"
-			(uuid "31e1e9e1-ff7e-479b-bfa5-3026825b47a8")
-		)
-		(pin "B1"
-			(uuid "907c36d1-663f-4817-8580-ff88965ff027")
-		)
-		(pin "B3"
-			(uuid "d9b7664e-9894-4d69-877f-9c0f5d6c7ed1")
-		)
-		(pin "B6"
-			(uuid "b480ebe9-de1c-468b-ae9a-f9def1e33c0f")
-		)
-		(pin "A28"
-			(uuid "d65d6651-9b27-470b-9993-599581d8c84c")
-		)
-		(pin "A30"
-			(uuid "591327a9-3af7-4dd7-913a-df20d0296c7a")
-		)
-		(pin "B2"
-			(uuid "fa63b5ba-626c-4713-9444-dcdbb4ae627e")
-		)
-		(pin "B4"
-			(uuid "0c5470cf-635a-4b97-aeae-e2dd0ba7d8f7")
-		)
-		(pin "B7"
-			(uuid "47a653aa-6a9b-4d66-bd58-1306cd21cda2")
-		)
-		(pin "B9"
-			(uuid "598a2354-0b0f-47f5-b0c5-b5c4ac65360b")
 		)
 		(pin "B12"
-			(uuid "f939befb-6d39-4479-8164-fff1742b68c3")
-		)
-		(pin "B14"
-			(uuid "d3f18b60-2b0e-4230-be9d-9b403fe07de0")
-		)
-		(pin "B15"
-			(uuid "f590cd44-63b3-464f-83de-b9872e2fd90c")
-		)
-		(pin "B16"
-			(uuid "1d07fe8f-d99b-4cf8-820e-f1ed6ec50ddf")
-		)
-		(pin "A26"
-			(uuid "70121bbe-3bc5-4d63-bc96-f02fb84db38b")
-		)
-		(pin "A27"
-			(uuid "cd2a2b10-3455-4f0f-bc62-2b46c3f09ee9")
-		)
-		(pin "A32"
-			(uuid "64658bca-1e93-4905-838b-4410f40b6d61")
-		)
-		(pin "B11"
-			(uuid "5e4e9213-c651-44c1-9f43-112bb0f9c8b2")
+			(uuid "7e83ce10-2b37-4093-816d-aa864c6e474d")
 		)
 		(pin "B10"
-			(uuid "94ceb22c-0b99-4c26-910c-75dea60fd9a5")
+			(uuid "13bbb904-801f-4adc-899a-621cf928c8ce")
 		)
-		(pin "B17"
-			(uuid "fb0261c4-c04a-4577-8a3f-0ac228422b1d")
-		)
-		(pin "A29"
-			(uuid "aeb61288-938b-4ff8-9dd2-1d8f2d6a3336")
-		)
-		(pin "B8"
-			(uuid "ac1d7649-346d-4125-9d5f-484abedd3d33")
+		(pin "B11"
+			(uuid "8ee15033-fc45-4a77-a02b-7282eb5759d8")
 		)
 		(pin "B19"
-			(uuid "d55ee4ac-f5ed-4cf5-a8d3-b2998cbc4eb1")
-		)
-		(pin "B22"
-			(uuid "5ba77aa1-4f63-4159-b5bd-1575da419107")
-		)
-		(pin "B23"
-			(uuid "dbb2fce9-7606-4ec7-8f8e-ed7cce946cbb")
-		)
-		(pin "B25"
-			(uuid "a4159621-b7a2-413c-a621-a1fc0050a21a")
+			(uuid "a53bdcd6-42c5-4de7-b5f1-946e33d9b2f3")
 		)
 		(pin "B27"
-			(uuid "f058cd91-c0f0-43d9-b061-d742694389f7")
+			(uuid "1c2d9f6a-c1b6-4868-898b-a3570a5889a3")
 		)
-		(pin "B28"
-			(uuid "10965ebf-6fcb-47d1-8b90-f9860975ecd0")
-		)
-		(pin "B29"
-			(uuid "3ce79105-5c72-4964-9361-7f2a69fe6cc7")
-		)
-		(pin "B30"
-			(uuid "c2dced79-353a-4bb0-9ff8-c8cfe873a2f7")
-		)
-		(pin "B26"
-			(uuid "ee8e59d5-97c9-44a7-a6f1-9db025e8b353")
-		)
-		(pin "B21"
-			(uuid "04013858-20c1-4f16-9bad-dd95d321e87d")
-		)
-		(pin "B31"
-			(uuid "fb1797fb-3b8a-456b-9e85-c41a644f8001")
-		)
-		(pin "B20"
-			(uuid "7900202a-f9d2-44ce-ae5d-0e0ddc12f854")
-		)
-		(pin "B24"
-			(uuid "38a0827f-4293-4705-9ef1-0780acb4f6db")
-		)
-		(pin "B32"
-			(uuid "c975ec56-8db8-402f-88bf-9bc677ca957d")
-		)
-		(pin "C7"
-			(uuid "15518ae2-add1-46c1-8e38-956a85d67459")
-		)
-		(pin "C2"
-			(uuid "21fbd5e7-1986-48cc-b5d3-0dd25b97cdae")
-		)
-		(pin "C10"
-			(uuid "c44d810b-d20f-499d-a4d7-122708a7d9f0")
-		)
-		(pin "C6"
-			(uuid "9fc3247c-200c-44f5-8ba3-ebf7dae59e30")
-		)
-		(pin "C8"
-			(uuid "77bff59c-1bb7-45d5-a774-a360d23a3556")
-		)
-		(pin "C9"
-			(uuid "5cf1ab2a-9d26-4be5-8cf2-b0fac7fec67d")
-		)
-		(pin "C3"
-			(uuid "c37d0052-9fc9-484f-b3c0-7d408299e31c")
-		)
-		(pin "C11"
-			(uuid "0057e6a9-4877-4bfa-bd27-581f9a9facba")
-		)
-		(pin "C1"
-			(uuid "7d69999b-6166-4cff-9c08-5002961a7d78")
+		(pin "B23"
+			(uuid "c7a77771-a448-44a2-849a-c2e5d6b6d765")
 		)
 		(pin "C4"
-			(uuid "7127b910-b730-42bf-8c27-afc03a8f2b93")
+			(uuid "0b94405b-dd12-4a4c-9869-4277180b3c6c")
+		)
+		(pin "B13"
+			(uuid "e789be26-fec7-4fdc-a121-ab112a710c73")
+		)
+		(pin "B15"
+			(uuid "a074c630-4f17-4f03-969d-6bf9bbe8db08")
+		)
+		(pin "B25"
+			(uuid "2da81ac3-f97d-4476-a04f-d19250d767ca")
+		)
+		(pin "B22"
+			(uuid "f338e42e-e6c4-4c25-9ce9-919cb0ff5d18")
+		)
+		(pin "B29"
+			(uuid "e73ce4ab-be63-42a5-8fb8-eac490766ede")
+		)
+		(pin "B17"
+			(uuid "620cbea5-c6d4-4aae-a399-3fdc27e09f67")
+		)
+		(pin "B31"
+			(uuid "c4a6e25d-a8c0-4093-853a-184eeaadce4a")
+		)
+		(pin "C3"
+			(uuid "5e958892-3263-4cce-b5b3-de4481f58728")
+		)
+		(pin "C8"
+			(uuid "e978e52f-ac32-46d2-973a-3176ff10ae05")
+		)
+		(pin "C10"
+			(uuid "70396c56-f4e9-4433-9d14-7810f93d02cd")
+		)
+		(pin "C11"
+			(uuid "d73ba286-09ce-4163-9e4f-894817c999cd")
+		)
+		(pin "C1"
+			(uuid "abeadd69-3584-4394-94d5-7cc71e2d0b51")
+		)
+		(pin "B26"
+			(uuid "38a922c7-f002-4be9-a167-84e9d9fdb745")
+		)
+		(pin "B20"
+			(uuid "4b1f2054-a95b-401b-8558-4acb5825b186")
+		)
+		(pin "B24"
+			(uuid "8694c2b8-8c97-4caa-b761-b041f8ac673e")
+		)
+		(pin "B30"
+			(uuid "c0ea28b2-bdaf-4cdc-aac6-3837ef6f8ce4")
+		)
+		(pin "B14"
+			(uuid "2ed52f9a-759d-4ed0-a31c-1b5a140ce8fd")
+		)
+		(pin "C2"
+			(uuid "c25eea9b-3650-451b-9829-e0593c7daf21")
+		)
+		(pin "B18"
+			(uuid "e754cf6d-06ce-426b-a8a1-dd9816be1454")
+		)
+		(pin "B16"
+			(uuid "80c91066-0946-4440-9c89-6bc83303867a")
+		)
+		(pin "B21"
+			(uuid "db6d1006-b49e-4ecb-9df3-bdc1ddce39cf")
+		)
+		(pin "B32"
+			(uuid "7fd2dce7-d14f-4065-9d6d-b9918eb02be2")
+		)
+		(pin "B28"
+			(uuid "021eba28-fe51-4f0c-af6a-5a6f937efb2b")
 		)
 		(pin "C5"
-			(uuid "1f47ad8e-e235-43d3-9adb-82fce7f1513c")
+			(uuid "bfbad1f0-a142-4ca0-92d5-8b2fc6f0534a")
+		)
+		(pin "C6"
+			(uuid "1b2be82a-58ce-46fa-abda-e9a36030978e")
+		)
+		(pin "C7"
+			(uuid "c01b0f29-f3f6-44ed-9584-107262368bb0")
+		)
+		(pin "C9"
+			(uuid "0fc67a00-508e-4b7e-8b04-cb837626ba8c")
+		)
+		(pin "C12"
+			(uuid "e612c339-b5af-4b31-b5a2-532a600a25a7")
+		)
+		(pin "C13"
+			(uuid "408a578d-8f78-41ce-8209-68c0e6e11bed")
+		)
+		(pin "C14"
+			(uuid "fe3d200b-9b6f-4798-8f46-10d7812a2563")
+		)
+		(pin "C28"
+			(uuid "8ba44bf0-3321-49ec-85b6-9b02330d9156")
+		)
+		(pin "C29"
+			(uuid "133ad788-607e-4d61-824c-e26aa3fe173c")
+		)
+		(pin "C15"
+			(uuid "07708568-44e1-4063-b71e-3c159ed614ba")
+		)
+		(pin "D5"
+			(uuid "fc72b6f7-c623-4742-ab6f-896cebd7f9c0")
+		)
+		(pin "C23"
+			(uuid "a5e374fe-d0ca-493a-ac24-64064a66785a")
+		)
+		(pin "E1"
+			(uuid "3eb0a45a-0e35-4eea-9a4f-0751c41f1409")
+		)
+		(pin "E3"
+			(uuid "05b7cf6f-082b-4a76-a670-ed266bbc8457")
+		)
+		(pin "D4"
+			(uuid "4702b8a8-858a-435b-b2af-ed1779d94221")
+		)
+		(pin "D7"
+			(uuid "bd617cd7-4061-470d-9d96-3d43a2db1e05")
+		)
+		(pin "E7"
+			(uuid "48684cd6-80cf-44e6-9bed-77a73a7f8596")
+		)
+		(pin "C16"
+			(uuid "affebc70-8387-45b2-8f9a-b6d0c71d9f42")
+		)
+		(pin "C18"
+			(uuid "bd6ba564-6cd2-4e61-8598-e03c10a7856f")
+		)
+		(pin "C30"
+			(uuid "cc28c9b0-122d-4c1d-9ed2-5aca576f0a2d")
+		)
+		(pin "C22"
+			(uuid "719afe5f-624b-41b3-9f4c-b54d44a7fc3c")
+		)
+		(pin "C26"
+			(uuid "7b29fc8c-a945-4e37-84c1-0a7437b49369")
+		)
+		(pin "C21"
+			(uuid "61a0ec62-d1d8-41af-9232-c38878ac1bb9")
+		)
+		(pin "D1"
+			(uuid "3b8b4832-7764-433f-b5a0-4f9bc06bb9fb")
+		)
+		(pin "C17"
+			(uuid "e77e4488-497a-448f-a4cc-1ee4929ef86c")
+		)
+		(pin "C27"
+			(uuid "e826fb7a-6e1b-43c1-a928-59aa85b589ef")
+		)
+		(pin "C20"
+			(uuid "6fc1395f-2681-47cd-bb55-053f0a3331fd")
+		)
+		(pin "C19"
+			(uuid "a0bd0729-e602-4ccb-8aac-3e27ce63c54f")
+		)
+		(pin "C25"
+			(uuid "8042cab2-1640-4f8a-9f41-92b5acf74db2")
+		)
+		(pin "C32"
+			(uuid "b7318184-f6f9-4996-b4c9-255040b160d4")
+		)
+		(pin "C24"
+			(uuid "a34dc4a8-df3e-46d6-92b3-af55f5b366d4")
+		)
+		(pin "C31"
+			(uuid "61e61e9d-7d41-40ea-bf92-2b325e9157ce")
+		)
+		(pin "D2"
+			(uuid "05bd5ae6-e8bb-4f22-a727-b2fd554d0eff")
+		)
+		(pin "D3"
+			(uuid "81ddcc72-bfe0-4222-84ac-c9dbb55467bf")
+		)
+		(pin "D6"
+			(uuid "d0b2e368-783e-4b77-a519-06b173332a5e")
+		)
+		(pin "D8"
+			(uuid "06b70d9a-f4af-44a3-82c4-3baf1d4e59b1")
+		)
+		(pin "E2"
+			(uuid "a29fb7ac-429f-4e9e-a3e5-f4fd8709058e")
+		)
+		(pin "E4"
+			(uuid "938c4e94-cf56-4dcc-b6b6-fa811a89a68d")
+		)
+		(pin "E5"
+			(uuid "95e7d668-7f84-423c-b7ff-8c3776a19e04")
+		)
+		(pin "E6"
+			(uuid "1dea5306-2f13-46c9-8e01-6dc5e897a3d8")
+		)
+		(pin "E8"
+			(uuid "c4a89e23-6059-4c3d-a1d8-ea9c198e4457")
+		)
+		(pin "B3"
+			(uuid "63cf8f0d-1c4c-401f-ab4c-183c05479904")
+		)
+		(pin "B4"
+			(uuid "41a3898d-f3b5-4199-bbe0-cd37eeb55b6b")
+		)
+		(pin "B6"
+			(uuid "3c15acef-9ba1-4e7c-a10a-e0774b29e516")
+		)
+		(pin "B5"
+			(uuid "90dfb243-c1da-4eb2-bc97-7968a8a416e7")
+		)
+		(pin "B7"
+			(uuid "65a11136-ce63-46a8-a13f-b36308d27aa5")
+		)
+		(pin "B8"
+			(uuid "0fb1d0c4-4c38-43b4-b9bc-14f7537e861c")
+		)
+		(pin "B9"
+			(uuid "fe1f638f-0ec1-4e21-8845-059a35bcd11f")
+		)
+		(pin "A4"
+			(uuid "b57d81d9-5694-45f1-ba9e-4e7213a5b1d6")
+		)
+		(pin "A10"
+			(uuid "cb6b98e4-50b4-43d0-a104-92fe7ce3f791")
+		)
+		(pin "A11"
+			(uuid "22c8cee2-718f-4c51-befe-5c87fe1d76b8")
+		)
+		(pin "A24"
+			(uuid "6d4abd66-366e-4505-b15b-5daddd613a1e")
+		)
+		(pin "A26"
+			(uuid "d55f7de9-18f8-4c32-9f11-b0c1ba051b92")
+		)
+		(pin "A12"
+			(uuid "f669941a-0fa6-4dd2-a87a-a154ae73392c")
+		)
+		(pin "A29"
+			(uuid "cc42d6eb-2f82-4f5d-85ae-147c1ad3f0ad")
+		)
+		(pin "A17"
+			(uuid "dc282f5f-4a80-4659-81b8-f8e41d98d6e9")
+		)
+		(pin "A19"
+			(uuid "d54ed5fa-0b80-45e0-9d97-f49f0ff6f93b")
+		)
+		(pin "A20"
+			(uuid "5e56c88f-62a5-4547-acd0-5f75da7679bc")
+		)
+		(pin "A2"
+			(uuid "511b1fa6-1cc1-49a0-8857-03fb2cc2aeb2")
+		)
+		(pin "A7"
+			(uuid "328f34a7-5d2d-461b-8b10-5dce52b389c7")
+		)
+		(pin "A14"
+			(uuid "9f347ec9-844b-418a-80be-0cfd71f1d61d")
+		)
+		(pin "A15"
+			(uuid "90f72694-de7d-4c96-93c5-46a82456276a")
+		)
+		(pin "A5"
+			(uuid "17f80e83-9353-4650-870a-9790db7f8d4a")
+		)
+		(pin "A8"
+			(uuid "a08bd46c-877f-41d3-995a-0d23691534b1")
+		)
+		(pin "A18"
+			(uuid "ed680ccc-1503-43e5-88bf-9d54ca196832")
+		)
+		(pin "A21"
+			(uuid "bd5ee8a0-f109-489f-b4b2-7f2a127fa56d")
+		)
+		(pin "A1"
+			(uuid "7b5ede65-f8cd-4e3a-9e61-eb00f9eb204d")
+		)
+		(pin "A3"
+			(uuid "ca5e458a-ab11-484f-a3cb-d9ace5a8e7e6")
+		)
+		(pin "A9"
+			(uuid "93d6a95a-5a63-4aba-bcd9-6980f8ad54b0")
+		)
+		(pin "A13"
+			(uuid "c6a33fc6-678b-446d-b076-02774162b101")
+		)
+		(pin "A16"
+			(uuid "ef6ca833-77db-4064-980c-3727ee78b534")
+		)
+		(pin "A6"
+			(uuid "04752709-16ab-4ea0-b8cb-e64ddfc44175")
+		)
+		(pin "A22"
+			(uuid "e59026d7-d99a-4916-8203-239818abdb64")
+		)
+		(pin "A23"
+			(uuid "bd01fb55-c293-4045-9a94-a44bc884e540")
+		)
+		(pin "A25"
+			(uuid "435263f6-36ff-4f0f-8383-f9184a83cad7")
+		)
+		(pin "A27"
+			(uuid "29ac5ae6-01cd-4901-824a-3922483dc379")
+		)
+		(pin "A28"
+			(uuid "aea8edf3-8b9f-40cd-aac9-aa90d3d5f86d")
+		)
+		(pin "A30"
+			(uuid "cbcc5a82-c9a9-46b4-b1e9-e933a892a205")
+		)
+		(pin "A32"
+			(uuid "b7943cc4-dfde-42fb-959b-750846e2dbe5")
+		)
+		(pin "A31"
+			(uuid "b888159f-a530-4c55-8a53-29f7e0f4cbe0")
+		)
+		(pin "B1"
+			(uuid "0dafb492-5083-47a7-a997-3f8bb1a4162a")
+		)
+		(pin "B2"
+			(uuid "b1e44326-76de-45d3-a741-370343c55736")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "B401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 86.36 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "366076d4-c286-4677-8992-e7ce9fedd455")
-		(property "Reference" "#PWR0417"
-			(at 204.47 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "395c5044-6a02-435c-aa12-fbcc2a318da6")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0417")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46c90de9-66fa-4ac7-9c2b-f16ebc1b3f64")
-		(property "Reference" "#PWR0424"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78f0bff4-eaf7-4303-84fe-46bb4a76e16f")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0424")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51e12722-e2a3-4f00-ae4c-22695400428f")
-		(property "Reference" "#PWR0422"
-			(at 146.05 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6aba3ea-f2af-49c4-b1f5-4e9f8b3a21f8")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54928244-e19f-4dd3-87ba-52ffe4bd8db4")
-		(property "Reference" "#PWR0420"
-			(at 123.19 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7899b583-4170-4dd4-9ee5-3fa5b59550a4")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0420")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "780700c9-ec6b-4cb7-86b8-09293af80839")
-		(property "Reference" "#PWR0415"
-			(at 123.19 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd6ff988-aa18-402f-b042-126846325a74")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0415")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 80.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f123d00-f23b-490c-9804-e06ba898d308")
-		(property "Reference" "#PWR0425"
-			(at 85.09 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a313af2d-440c-4a71-a355-a22f0bb68096")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0425")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3893c70-a772-4080-b2d5-88933b3afbc4")
-		(property "Reference" "#PWR0522"
-			(at 151.13 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40e18e6d-8a06-4f9a-9695-87ef299666fb")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0522")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 106.68 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aaa072ef-e108-48ac-9c7b-6d6937601461")
-		(property "Reference" "#PWR0423"
-			(at 204.47 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "385915df-728e-41d9-af18-ae2682b5e4c8")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0423")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2523c24-bf0d-4114-8552-942ae1be14dd")
-		(property "Reference" "#PWR0521"
-			(at 137.16 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ea475e0-2f59-4987-b7bb-b13fa95523e4")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0521")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 110.49 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0ba7f53-ea25-4768-bedb-f36caa459f73")
-		(property "Reference" "#PWR0426"
-			(at 85.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "584af050-8505-437d-bd95-33ef4e6531fb")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0426")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 76.2 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7d70aab-a983-4932-af49-e983d62665f2")
-		(property "Reference" "#PWR0416"
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfb4ac0e-f542-4f43-b2d2-34ba84bf77bb")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
-					(reference "#PWR0416")
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
+					(reference "B1")
 					(unit 1)
 				)
 			)

@@ -7880,6 +7880,30 @@
 			)
 		)
 	)
+	(global_label "FPGA_CFG_2"
+		(shape bidirectional)
+		(at 137.16 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cae9dbf-e6ac-4570-ae5b-6af58c1a1f6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.747 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "JTAG_TMS_GP19"
 		(shape bidirectional)
 		(at 137.16 104.14 0)
@@ -8240,6 +8264,30 @@
 			)
 		)
 	)
+	(global_label "FPGA_CFG_4"
+		(shape bidirectional)
+		(at 137.16 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d8746a9-93eb-485d-8a4a-d6f2f5925b53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.747 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GP38{slash}SPI0_SCK"
 		(shape bidirectional)
 		(at 137.16 157.48 0)
@@ -8360,6 +8408,30 @@
 			)
 		)
 	)
+	(global_label "FPGA_CFG_3"
+		(shape bidirectional)
+		(at 137.16 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88fb5717-8152-4067-883c-13f28fa0442f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.747 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GP14{slash}SPI1_SCK"
 		(shape bidirectional)
 		(at 138.43 88.9 0)
@@ -8421,78 +8493,6 @@
 		(uuid "91bfff93-45e4-4ef3-b7c3-0a4625926649")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.1055 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CFG_DONE"
-		(shape input)
-		(at 137.16 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94f91070-f85d-49c2-9551-e6ae569133b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.8214 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "POR_EN"
-		(shape output)
-		(at 137.16 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f28f969-a5ed-4a65-ac06-43145d1a15fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CFG_Extra"
-		(shape output)
-		(at 137.16 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a748a225-4c17-4b0d-8091-8fa0db72fef3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.5794 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,6 +8672,30 @@
 			)
 		)
 	)
+	(global_label "FPGA_CFG_5"
+		(shape bidirectional)
+		(at 137.16 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d27202e5-11d2-4c50-a190-8d4495455ee6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.747 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GP0{slash}I2C0_SDA"
 		(shape bidirectional)
 		(at 124.46 33.02 180)
@@ -8768,30 +8792,6 @@
 			)
 		)
 	)
-	(global_label "CFG_FAILED_N"
-		(shape input)
-		(at 137.16 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f09eeae2-05d9-4553-a2ad-7f8541ecd5b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.2686 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GP45_ADC5"
 		(shape bidirectional)
 		(at 137.16 177.8 0)
@@ -8816,7 +8816,7 @@
 			)
 		)
 	)
-	(global_label "FPGA_RST"
+	(global_label "FPGA_CFG_1"
 		(shape bidirectional)
 		(at 137.16 106.68 0)
 		(fields_autoplaced yes)
@@ -8828,7 +8828,7 @@
 		)
 		(uuid "f806d5fb-e4be-41fb-ae57-d38750116b6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3884 106.68 0)
+			(at 152.747 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +8910,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 57.658 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9085,7 +9085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 213.36 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9243,7 +9243,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 91.948 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +9682,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 80.518 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10310,7 +10310,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 34.798 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +10557,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 80.518 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11215,7 +11215,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 91.948 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +11861,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 80.518 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,7 +12113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 23.368 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12297,7 +12297,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 69.088 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,7 +12948,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 69.088 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13040,7 +13040,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 80.518 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13209,7 +13209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 22.733 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13457,7 +13457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 46.228 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13551,7 +13551,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 200.66 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)

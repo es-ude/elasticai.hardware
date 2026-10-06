@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "564866ff-b654-4c06-b096-1cad86fb817b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 36.83 46.99)
+		(size 46.99 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "090affa8-e140-43e2-9f91-ec11e07568e5")
+		(property "Sheetname" "Connectors"
+			(at 36.83 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 36.83 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 48.26)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8fdba40a-7291-4b50-bbcd-150eb7f6de80")
+		(property "Sheetname" "FPGA_IO_Banks"
+			(at 175.26 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_IO_Banks.kicad_sch"
+			(at 175.26 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 46.99)
+		(size 48.26 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b10cfba8-ff05-4930-b034-8c27966aafd6")
+		(property "Sheetname" "FPGA_Power_Config"
+			(at 106.68 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Power_Config.kicad_sch"
+			(at 106.68 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGABoard_Spartan7_v1"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
