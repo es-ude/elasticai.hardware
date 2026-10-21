@@ -39,14 +39,14 @@
 		)
 		(uuid "38e7628a-7176-49f7-8e46-e96dccccd1c8")
 	)
-	(text "Notes:\n- Make capacitors to common size (100n / 10u --> 1u)\n-common symbol layout for connector"
+	(text "Notes:\n- ..."
 		(exclude_from_sim no)
-		(at 178.816 154.686 0)
+		(at 177.8 167.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "50e8345b-00fd-4cd8-be3b-c12a7825946f")
 	)
@@ -69,16 +69,6 @@
 			)
 		)
 		(uuid "b0e1e2a9-ec21-4d32-ae60-53b7987c5d99")
-	)
-	(text "-> list of componencts to buy\n--> Maybe make a list / sheet with the function of each pin\n\nnext layout"
-		(exclude_from_sim no)
-		(at 209.042 159.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eb6f8829-88d2-47f6-bf85-5ad8a6172b4c")
 	)
 	(wire
 		(pts

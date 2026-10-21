@@ -988,7 +988,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "S2B_PH_SM4_TB:S2B-PH-SM4-TB"
+		(symbol "connectors:S2B-PH-SM4-TB"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -998,7 +998,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J_BATT1"
+			(property "Reference" "J_BATT301"
 				(at 13.716 -2.286 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1020,7 +1020,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(property "Footprint" "connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6024,7 +6024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01e5ec84-07eb-49de-9a64-6ec85e59830f")
-		(property "Reference" "C301"
+		(property "Reference" "C308"
 			(at 91.948 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6088,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C301")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0380a39c-e1c7-47a6-bd50-08245ea865c9")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0314"
 			(at 160.02 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6165,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0306")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0545451b-55f5-43de-8909-faef223091c4")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0308"
 			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -6242,7 +6242,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR061")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -6259,7 +6259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05663cbe-c0a7-44d9-8e13-674578609c03")
-		(property "Reference" "C311"
+		(property "Reference" "C304"
 			(at 67.818 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,7 +6334,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C311")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -6351,7 +6351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11dc4c1c-c656-4ef5-98ff-58dc37e460a2")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0303"
 			(at 72.39 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6411,7 +6411,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR058")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -6428,7 +6428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12e39110-e463-4884-ab3d-e518bb923b86")
-		(property "Reference" "C316"
+		(property "Reference" "C311"
 			(at 123.698 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6503,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C316")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1519aa2f-387b-424f-baa0-b90422f4e2a7")
-		(property "Reference" "C310"
+		(property "Reference" "C302"
 			(at 57.658 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6595,7 +6595,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C310")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -6612,7 +6612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16f04f87-9ce3-4822-889e-3b43dfa884c1")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0309"
 			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6672,7 +6672,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0302")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bb6796b-777a-47d7-94bf-fd8565652bbc")
-		(property "Reference" "R302"
+		(property "Reference" "R303"
 			(at 79.248 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +6753,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R302")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -6770,7 +6770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20c80970-e73d-44ca-9cc4-163e1e9eb34c")
-		(property "Reference" "C305"
+		(property "Reference" "C317"
 			(at 204.978 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,7 +6834,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C305")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -6851,7 +6851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2125887f-43e6-4712-8991-e2671845eb11")
-		(property "Reference" "C307"
+		(property "Reference" "C318"
 			(at 204.978 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6915,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C307")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28f0fc30-b047-4ce3-8360-ce4008c82f0b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0316"
 			(at 193.04 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7070,7 +7070,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR017")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "294a41f2-d318-4341-8c68-7da6895e3df2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0311"
 			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7147,7 +7147,96 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR040")
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "connectors:S2B-PH-SM4-TB")
+		(at 222.25 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "301a319a-ff79-400c-8408-4206caea13c0")
+		(property "Reference" "J_BATT301"
+			(at 236.22 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-SM4-TB"
+			(at 236.22 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 222.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S2B-PH-SM4-TB"
+			(at 222.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee648aa-3896-4b08-a179-1205a29e31bb")
+		)
+		(pin "MP"
+			(uuid "b5cbd845-a12e-44c8-a285-f63c16fe8752")
+		)
+		(pin "2"
+			(uuid "0b7bb5fa-c3e6-4a00-9fd5-6e13780bce21")
+		)
+		(pin "MP"
+			(uuid "cd295f44-41de-4ff1-a3fd-4e9c6aacf526")
+		)
+		(instances
+			(project "ENV6_DemoBoard_1"
+				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
+					(reference "J_BATT301")
 					(unit 1)
 				)
 			)
@@ -7164,7 +7253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "303efe74-7837-4926-8fdf-ff57cbc7ed8a")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0301"
 			(at 54.61 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7224,7 +7313,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0305")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36c9b87a-da91-49a3-9454-43813220af49")
-		(property "Reference" "C312"
+		(property "Reference" "C305"
 			(at 67.818 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7316,7 +7405,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C312")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c1eced1-167b-46b6-a000-39f4eaadddf5")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0307"
 			(at 124.46 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7393,7 +7482,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR062")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -7410,7 +7499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "416c6cce-e1e4-4bc6-aea7-23b85ebdd476")
-		(property "Reference" "C321"
+		(property "Reference" "C319"
 			(at 207.518 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7574,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C321")
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -7502,7 +7591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "425b2898-1679-499d-8dea-3eb0c36bd835")
-		(property "Reference" "C306"
+		(property "Reference" "C321"
 			(at 217.678 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7655,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C306")
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45f04bc8-b177-425b-84cc-eefeaaf7db39")
-		(property "Reference" "C313"
+		(property "Reference" "C306"
 			(at 67.818 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7747,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C313")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -7675,7 +7764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4975fe81-fb2d-4f9b-be63-4f7ef347dac5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0302"
 			(at 72.39 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7735,7 +7824,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR057")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -7752,7 +7841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d99c0fe-5509-4af7-ae83-49cb26cd13ac")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0318"
 			(at 213.36 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7811,7 +7900,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR036")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -7828,7 +7917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e51af70-572a-4f7a-9ffd-56d3d5fde7be")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0315"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +7976,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR016")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -7904,7 +7993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "594819d4-1fc0-40a6-ab03-0b3ea5451bd0")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0310"
 			(at 139.7 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7964,7 +8053,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0301")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -7981,7 +8070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d693971-fe81-4916-85fa-1d8ee3faddad")
-		(property "Reference" "C315"
+		(property "Reference" "C310"
 			(at 123.698 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8145,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C315")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -8073,7 +8162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "600c63a5-bb7d-4ba6-b713-fb233c53a46d")
-		(property "Reference" "C303"
+		(property "Reference" "C316"
 			(at 204.978 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,7 +8226,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C303")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64b7c44c-708f-4218-9410-3b61f180c239")
-		(property "Reference" "C314"
+		(property "Reference" "C307"
 			(at 67.818 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +8318,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C314")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -8246,7 +8335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77c140b6-6e9c-404f-ad69-b2376683608f")
-		(property "Reference" "C319"
+		(property "Reference" "C314"
 			(at 146.558 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,7 +8410,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C319")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -8417,7 +8506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "829c1453-7c93-4ae8-8e5d-b034f65a135a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0317"
 			(at 204.47 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8476,7 +8565,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR035")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -8493,7 +8582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83cefce8-1327-4ca5-8d65-7bcc3ea71dd2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0306"
 			(at 116.84 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8553,7 +8642,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR019")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -8570,7 +8659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e3b5523-3276-4543-9686-d04e10aa101c")
-		(property "Reference" "C320"
+		(property "Reference" "C315"
 			(at 146.558 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8645,7 +8734,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C320")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -9012,7 +9101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0425130-439f-406f-9c8c-dc2689b42e3d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0323"
 			(at 256.54 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9071,7 +9160,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR032")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -9213,7 +9302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9a381aa-eb7f-4428-89d1-6f1cc214eaf8")
-		(property "Reference" "C317"
+		(property "Reference" "C312"
 			(at 137.668 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9288,7 +9377,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C317")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -9305,7 +9394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab90b4aa-e31e-47af-87d3-48109d607e84")
-		(property "Reference" "C304"
+		(property "Reference" "C320"
 			(at 216.408 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,7 +9458,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C304")
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -9386,7 +9475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "add443d0-0b68-4d80-84fd-78732b99b967")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0313"
 			(at 142.24 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9446,7 +9535,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0307")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -9463,7 +9552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b86d282c-5d48-47e3-a4a8-36c3f0ded659")
-		(property "Reference" "R303"
+		(property "Reference" "R301"
 			(at 62.23 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9527,7 +9616,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R303")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -9624,7 +9713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d785db-0eb2-46f6-b116-d494b9918861")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0319"
 			(at 219.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9683,7 +9772,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR018")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -9700,7 +9789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c47d5575-aa23-4e2a-a9e2-ee5e174f51fb")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0305"
 			(at 72.39 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9760,7 +9849,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0304")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -9777,7 +9866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd2d50f7-e0eb-425d-8e17-23d8b611207e")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0304"
 			(at 72.39 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9837,7 +9926,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0303")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -9854,7 +9943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf83d99d-6fc2-4156-bbc9-fbcb21b49646")
-		(property "Reference" "C302"
+		(property "Reference" "C309"
 			(at 103.378 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +10007,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C302")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -9935,7 +10024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d686f563-fae5-49ea-ae8f-3bdb2dac0e47")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0312"
 			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +10084,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR052")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -10172,7 +10261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de213a6f-b0f0-42ea-b101-6c57c9854c9a")
-		(property "Reference" "C308"
+		(property "Reference" "C301"
 			(at 57.658 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,95 +10336,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "S2B_PH_SM4_TB:S2B-PH-SM4-TB")
-		(at 222.25 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df0bc789-4c78-40e7-a6e6-4103942479a9")
-		(property "Reference" "J_BATT301"
-			(at 235.966 60.706 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2B-PH-SM4-TB"
-			(at 235.712 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 222.25 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "S2B-PH-SM4-TB"
-			(at 222.25 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "MP"
-			(uuid "5be9e1c6-5f26-4e63-be95-f62f6e7dd406")
-		)
-		(pin "1"
-			(uuid "298fdc10-32e4-4af5-8b97-1fdabca6f747")
-		)
-		(pin "2"
-			(uuid "fe66c8a0-3cb3-44e9-8eae-51374a839b26")
-		)
-		(pin "MP"
-			(uuid "d1497d02-4f7e-411f-a222-ec58c05e4f0b")
-		)
-		(instances
-			(project "ENV6_DemoBoard_1"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "J_BATT301")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -10575,7 +10576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6eef337-e7f9-42b8-aae4-4c7905986fa6")
-		(property "Reference" "C309"
+		(property "Reference" "C303"
 			(at 67.818 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,7 +10651,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C309")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -10667,7 +10668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8c4466a-9c06-4253-9401-d15cbd631315")
-		(property "Reference" "C318"
+		(property "Reference" "C313"
 			(at 137.668 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10742,7 +10743,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C318")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -10861,7 +10862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eba69c01-65c6-4980-8f88-1858e2217c40")
-		(property "Reference" "R301"
+		(property "Reference" "R302"
 			(at 79.248 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +10926,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R301")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -10942,7 +10943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef2b118a-198a-4b44-ae12-457877c499fa")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0320"
 			(at 229.87 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11002,7 +11003,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR014")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -11019,7 +11020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa8f30a4-b347-4ca9-9175-4a77c3cf0a74")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0322"
 			(at 240.03 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11078,7 +11079,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR037")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -11095,7 +11096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb71c44c-9afc-4912-8d97-25d76aa4b863")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0321"
 			(at 229.87 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11155,7 +11156,7 @@
 		(instances
 			(project "ENV6_DemoBoard_1"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR015")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)

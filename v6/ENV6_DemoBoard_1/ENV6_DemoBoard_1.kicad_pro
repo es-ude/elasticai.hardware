@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -510,7 +510,17 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "connectors",
+      "connectors_edge",
+      "custom_asics",
+      "custom_library",
+      "logos",
+      "maker",
+      "mcu_rpi_pico",
+      "sensors",
+      "ui_stuff"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -545,7 +555,6 @@
     "net_colors": {
       "AGND": "rgb(0, 194, 0)",
       "GND": "rgb(129, 255, 65)",
-      "OSCGND": "rgb(0, 132, 0)",
       "VDDD_FLASH": "rgb(57, 112, 255)",
       "VDDD_MCU": "rgb(27, 36, 255)",
       "VDDD_PERI": "rgb(27, 64, 255)",
@@ -698,7 +707,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "#PWR416-426,SW201-204,NT401,R201-204,B401-402",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
