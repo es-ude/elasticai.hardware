@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -555,10 +555,12 @@
     "net_colors": {
       "AGND": "rgb(0, 194, 0)",
       "GND": "rgb(129, 255, 65)",
+      "OSCGND": "rgb(0, 194, 0)",
       "VDDD_FLASH": "rgb(57, 112, 255)",
       "VDDD_MCU": "rgb(27, 36, 255)",
       "VDDD_PERI": "rgb(27, 64, 255)",
       "VDDD_RADIO": "rgb(48, 159, 255)",
+      "VDD_MCU": "rgb(0, 0, 255)",
       "VDIG_OUT": "rgb(77, 86, 255)",
       "VFPGA_IN": "rgb(143, 71, 255)",
       "VPERI_IN": "rgb(214, 107, 255)",
@@ -585,7 +587,7 @@
     "annotate_start_num": 8,
     "annotation": {
       "method": 1,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -707,7 +709,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "",
+    "used_designators": "JP201-210,R205-216,J201-203,C201-204,U201",
     "variants": []
   },
   "sheets": [

@@ -5701,7 +5701,7 @@
 			)
 		)
 	)
-	(global_label "VSYS_IN"
+	(global_label "VSYS"
 		(shape output)
 		(at 238.76 41.91 0)
 		(fields_autoplaced yes)
@@ -5713,7 +5713,7 @@
 		)
 		(uuid "22a792bf-52e7-47ea-9ad0-9a9178d2b6e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.2443 41.91 0)
+			(at 246.3414 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,6 +5746,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape output)
+		(at 259.08 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3746884d-771b-4932-bfde-eebec50f2e75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.7133 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5810,30 +5834,6 @@
 		(uuid "61fe502a-df62-4406-b34b-bb7cbe209041")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.6765 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDIG_OUT"
-		(shape output)
-		(at 259.08 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "797ac24d-2c60-4f86-965b-b720ba1c08ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.8948 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5965,31 +5965,7 @@
 			)
 		)
 	)
-	(global_label "VDIG_IN"
-		(shape input)
-		(at 201.93 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbd71ef3-9cb5-46b8-8e8e-030bcfbac99c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8085 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VFPGA_IN"
+	(global_label "VSYS"
 		(shape input)
 		(at 43.18 93.98 180)
 		(fields_autoplaced yes)
@@ -6001,7 +5977,31 @@
 		)
 		(uuid "e49b1ef7-dbc0-4e53-a9ac-4814ebbf7edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4861 93.98 0)
+			(at 35.5986 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 201.93 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f49adb0a-2e3e-43e4-9758-1115ef7430ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3486 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

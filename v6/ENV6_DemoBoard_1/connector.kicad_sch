@@ -3551,6 +3551,54 @@
 			)
 		)
 	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 125.73 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "327bc7b9-5318-41a9-abaf-5a78c200938d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 82.7533 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 135.89 119.38 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35d8cf22-5538-4f43-8063-8b952324ba7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 107.7467 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Unused_GP8"
 		(shape bidirectional)
 		(at 151.13 53.34 90)
@@ -3839,7 +3887,7 @@
 			)
 		)
 	)
-	(global_label "VSYS_EX"
+	(global_label "VSYS"
 		(shape input)
 		(at 154.94 137.16 270)
 		(fields_autoplaced yes)
@@ -3851,7 +3899,7 @@
 		)
 		(uuid "745c8062-f089-4170-bef8-f4dbd3ea0116")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 148.0675 90)
+			(at 154.94 144.7414 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3860,6 +3908,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 138.43 119.38 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "873345f3-4518-4c4c-b593-56b9aee459b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 107.7467 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3908,30 +3980,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VDDD_PERI"
-		(shape input)
-		(at 138.43 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95bd4ddf-ad32-4b84-a2c6-71c48be0ee47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 106.2348 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4127,30 +4175,6 @@
 			)
 		)
 	)
-	(global_label "VDDD_MCU"
-		(shape input)
-		(at 125.73 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c3f46988-8d97-4092-a4b7-63b430a2fe5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 84.0233 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "FPGA_CFG_2"
 		(shape bidirectional)
 		(at 130.81 71.12 270)
@@ -4244,30 +4268,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VDDD_MCU"
-		(shape input)
-		(at 135.89 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecfca1b3-fbdc-4c90-88a5-5f16443b14cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 106.4767 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
