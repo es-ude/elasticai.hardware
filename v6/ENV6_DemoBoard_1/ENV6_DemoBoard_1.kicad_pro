@@ -709,7 +709,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "JP201-210,R205-216,J201-203,C201-204,U201",
+    "used_designators": "JP201-210,U201,R205-216,C201-204,J201-203",
     "variants": []
   },
   "sheets": [
