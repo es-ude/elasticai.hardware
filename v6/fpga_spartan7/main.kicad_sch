@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
 					(page "2")
 				)
@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
 					(page "4")
 				)
@@ -136,7 +136,7 @@
 			)
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
 					(page "3")
 				)

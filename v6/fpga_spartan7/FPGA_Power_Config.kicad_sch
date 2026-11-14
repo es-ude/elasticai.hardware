@@ -4781,6 +4781,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Resistors for RX TX\nDirection swapping"
+		(exclude_from_sim no)
+		(at 233.426 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5ebe362-d26c-41eb-8fb2-8a6a0338bec3")
+	)
 	(junction
 		(at 80.01 101.6)
 		(diameter 0)
@@ -4804,6 +4814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11237ad8-019c-4eb7-bda0-a2ecd5b2e5c1")
+	)
+	(junction
+		(at 245.11 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cec332e-15d2-4444-8014-937fe3ce1b1e")
 	)
 	(junction
 		(at 90.17 101.6)
@@ -4836,6 +4852,12 @@
 		(uuid "25d8e3ad-2c85-4fb8-8842-cb36eacdcd19")
 	)
 	(junction
+		(at 255.27 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d39da72-a8b5-49db-b2c7-325820ca761f")
+	)
+	(junction
 		(at 223.52 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4858,6 +4880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3685d0f9-a28f-48a5-a365-6238944561b9")
+	)
+	(junction
+		(at 252.73 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41eba96e-07bb-46b0-b80e-8b9d58702893")
 	)
 	(junction
 		(at 223.52 119.38)
@@ -4996,6 +5024,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1d7d72f-881a-4009-91d2-bf1ead2506c1")
+	)
+	(junction
+		(at 247.65 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ba17cd-9acb-4267-856e-6060115c058d")
 	)
 	(junction
 		(at 158.75 40.64)
@@ -5251,6 +5285,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 43.18) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117249de-7fbc-466d-b0f0-1882f6362f46")
+	)
+	(wire
+		(pts
 			(xy 171.45 119.38) (xy 171.45 120.65)
 		)
 		(stroke
@@ -5268,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "13b206c1-d112-49d4-abfd-90c1319f43c1")
+	)
+	(wire
+		(pts
+			(xy 256.54 33.02) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151fc921-0add-4b02-8489-541deddaae22")
 	)
 	(wire
 		(pts
@@ -5491,6 +5545,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d006e83-8f3a-4ad9-a3d0-1cab57aabfb5")
+	)
+	(wire
+		(pts
 			(xy 223.52 119.38) (xy 223.52 120.65)
 		)
 		(stroke
@@ -5661,6 +5725,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5408736b-2984-47dc-a7ac-ba75465417ee")
+	)
+	(wire
+		(pts
 			(xy 237.49 68.58) (xy 240.03 68.58)
 		)
 		(stroke
@@ -5721,6 +5795,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 53.34) (xy 255.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6ce43e-3f24-485b-ba77-4409daea6159")
+	)
+	(wire
+		(pts
 			(xy 80.01 114.3) (xy 80.01 115.57)
 		)
 		(stroke
@@ -5748,6 +5832,16 @@
 			(type default)
 		)
 		(uuid "5fa205ff-7150-4a8b-bba1-cc9111881185")
+	)
+	(wire
+		(pts
+			(xy 245.11 33.02) (xy 245.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6138cf3e-0c99-4104-8138-d280baf5972e")
 	)
 	(wire
 		(pts
@@ -5861,6 +5955,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 33.02) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c8a7c7-a18a-481b-8d28-f035b0d32043")
+	)
+	(wire
+		(pts
 			(xy 90.17 101.6) (xy 100.33 101.6)
 		)
 		(stroke
@@ -5888,6 +5992,16 @@
 			(type default)
 		)
 		(uuid "7d5b568d-a396-4042-8422-0e3998bb101e")
+	)
+	(wire
+		(pts
+			(xy 256.54 48.26) (xy 242.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7856ec-1ebc-4228-aaa7-31cd648c76f5")
 	)
 	(wire
 		(pts
@@ -5941,6 +6055,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 22.86) (xy 245.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d3512d-8b59-4320-9f34-da71cd623bc6")
+	)
+	(wire
+		(pts
 			(xy 80.01 137.16) (xy 90.17 137.16)
 		)
 		(stroke
@@ -5968,6 +6092,16 @@
 			(type default)
 		)
 		(uuid "880a853a-de04-4b60-b924-efd71da7f718")
+	)
+	(wire
+		(pts
+			(xy 255.27 35.56) (xy 255.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d835e0-865d-4009-8fbc-455c228b12cc")
 	)
 	(wire
 		(pts
@@ -6121,6 +6255,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 40.64) (xy 245.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcea570-5b73-4a27-a703-09135ce2eb98")
+	)
+	(wire
+		(pts
 			(xy 90.17 101.6) (xy 90.17 102.87)
 		)
 		(stroke
@@ -6191,6 +6335,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 43.18) (xy 256.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71bc437-56e3-45d0-a55d-39e0c7e4f6bb")
+	)
+	(wire
+		(pts
 			(xy 193.04 110.49) (xy 193.04 111.76)
 		)
 		(stroke
@@ -6218,6 +6372,16 @@
 			(type default)
 		)
 		(uuid "aab34d64-f330-4c34-9dd5-078a8c10d145")
+	)
+	(wire
+		(pts
+			(xy 245.11 22.86) (xy 245.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae69f11-873d-40e0-880a-a4d481813bda")
 	)
 	(wire
 		(pts
@@ -6351,6 +6515,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 25.4) (xy 247.65 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d78994-9354-4a87-86c3-fd4bdae1212a")
+	)
+	(wire
+		(pts
 			(xy 182.88 101.6) (xy 193.04 101.6)
 		)
 		(stroke
@@ -6408,6 +6582,16 @@
 			(type default)
 		)
 		(uuid "be611855-3df8-4c77-8b7e-8b7aac49517c")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 242.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4e6f29-e7ef-432b-80d7-1a07f7458b16")
 	)
 	(wire
 		(pts
@@ -6601,6 +6785,26 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 33.02) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbb365b-1a2c-4d34-bdcf-e6a101de9d0b")
+	)
+	(wire
+		(pts
+			(xy 256.54 35.56) (xy 255.27 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea33d76-0a39-42fc-9f0c-543875272c41")
+	)
+	(wire
+		(pts
 			(xy 171.45 128.27) (xy 171.45 129.54)
 		)
 		(stroke
@@ -6641,6 +6845,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 40.64) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b8bf46-5206-4173-a0d6-798b802fa826")
+	)
+	(wire
+		(pts
 			(xy 100.33 111.76) (xy 110.49 111.76)
 		)
 		(stroke
@@ -6658,6 +6872,16 @@
 			(type default)
 		)
 		(uuid "e4d89f31-5c5d-42e2-b8d8-273ed84f9c21")
+	)
+	(wire
+		(pts
+			(xy 242.57 53.34) (xy 255.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e652e4ac-3159-48e0-8f28-683fbbfa41af")
 	)
 	(wire
 		(pts
@@ -6935,30 +7159,6 @@
 			)
 		)
 	)
-	(global_label "FLASH_CS"
-		(shape input)
-		(at 240.03 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2381418a-def6-4912-b791-c90c50377382")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.2076 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "FPGA_XADC_VN"
 		(shape input)
 		(at 62.23 186.69 0)
@@ -7004,6 +7204,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GP14{slash}SPI1_SCK"
+		(shape bidirectional)
+		(at 256.54 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f183975-3603-481d-ad84-efc874f3892a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.9369 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7057,7 +7281,7 @@
 	)
 	(global_label "FPGA_3V3"
 		(shape input)
-		(at 209.55 35.56 180)
+		(at 212.09 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7067,7 +7291,7 @@
 		)
 		(uuid "4b639b3f-7eca-40bc-89bd-9a8f3c5dd612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.3724 35.56 0)
+			(at 199.9124 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,6 +7316,30 @@
 		(uuid "4b857106-b433-4787-bb40-cf39ab539232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.6576 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP15{slash}SPI1_TX"
+		(shape bidirectional)
+		(at 256.54 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9f57aa-d020-4cca-ad2f-86b01bfe5eca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.3645 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7129,7 +7377,7 @@
 	)
 	(global_label "FPGA_CCLK"
 		(shape input)
-		(at 240.03 45.72 0)
+		(at 256.54 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7137,9 +7385,33 @@
 			)
 			(justify left)
 		)
-		(uuid "4f0686c0-24c3-4dcc-ae33-ea611e7bc0bb")
+		(uuid "500809cd-059c-48c6-bb86-7db859f8e21f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5381 45.72 0)
+			(at 270.0481 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FLASH_IO2"
+		(shape input)
+		(at 256.54 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "511bdd97-01c7-4a31-84af-f52072407a19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.3829 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,30 +7447,6 @@
 			)
 		)
 	)
-	(global_label "FLASH_IO2"
-		(shape input)
-		(at 240.03 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c250753-ed2e-496b-9983-789199e6fe5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.8729 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "FPGA_INIT"
 		(shape input)
 		(at 157.48 60.96 0)
@@ -7212,6 +7460,30 @@
 		(uuid "6d75d63a-a910-41a5-9924-9ece29613fcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.6577 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FLASH_CS"
+		(shape input)
+		(at 256.54 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71f1d691-632c-4886-9be4-df60c9f040cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.7176 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7244,30 +7516,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "FLASH_MOSI"
-		(shape input)
-		(at 240.03 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77deccba-e04d-4515-ada5-52841f22d570")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.3243 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -7316,6 +7564,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "FLASH_MISO"
+		(shape input)
+		(at 256.54 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8feb1426-3c34-45a1-8bf6-0a5ccc5407d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8343 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7380,6 +7652,30 @@
 		(uuid "a6369c00-d712-4a59-aaba-c2da7ce7e1ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.8951 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP12{slash}SPI1_RX"
+		(shape bidirectional)
+		(at 256.54 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b27c0a73-fb19-4654-8810-734da723d647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6669 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7535,9 +7831,9 @@
 			)
 		)
 	)
-	(global_label "FLASH_MISO"
+	(global_label "FLASH_MOSI"
 		(shape input)
-		(at 240.03 38.1 0)
+		(at 256.54 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7545,9 +7841,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d6fd8ec8-5e89-4be5-a26b-978404b33620")
+		(uuid "dc0e7845-1632-4bea-877e-86b85633d62b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.3243 38.1 0)
+			(at 270.8343 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7572,6 +7868,54 @@
 		(uuid "de9861bf-85d2-44f4-a17f-52f0d4d34db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.4381 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FLASH_IO3"
+		(shape input)
+		(at 256.54 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e02b65e7-bb71-4c6c-a665-f61d7e0496ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.3829 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP13{slash}SPI1_CS"
+		(shape bidirectional)
+		(at 256.54 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4bebf33-192f-4004-850a-d4c0801bcb50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6669 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,30 +7964,6 @@
 		(uuid "ecbecccd-f5e7-43ea-b55d-5a86fed67f1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.8109 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FLASH_IO3"
-		(shape input)
-		(at 240.03 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8a1bb4d-0167-44ab-ba0f-50d3d6b51a81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.8729 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7749,7 +8069,7 @@
 			(uuid "0a4f2ed5-128c-41fc-858d-006d6013c767")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR013")
 					(unit 1)
@@ -7768,7 +8088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "094acbbc-2b95-4361-b89c-6ffc78cb0389")
-		(property "Reference" "C26"
+		(property "Reference" "C325"
 			(at 206.248 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,9 +8150,9 @@
 			(uuid "c9d2a696-d8f8-499d-a1b4-262f16a4dde2")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C26")
+					(reference "C325")
 					(unit 1)
 				)
 			)
@@ -7849,7 +8169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1679deca-3293-41e4-9b80-539d8d7795d5")
-		(property "Reference" "C35"
+		(property "Reference" "C334"
 			(at 226.568 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7911,9 +8231,9 @@
 			(uuid "0f32fb5a-690c-44f4-bad2-11c74bf2bf66")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C35")
+					(reference "C334")
 					(unit 1)
 				)
 			)
@@ -7989,7 +8309,7 @@
 			(uuid "399dea9a-b5b4-473e-8ae3-11482d8ba164")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR015")
 					(unit 1)
@@ -8009,7 +8329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d7012ca-2c73-4eb0-8970-a699a29d19b2")
-		(property "Reference" "U1"
+		(property "Reference" "U301"
 			(at 43.6148 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,10 +8971,91 @@
 			(uuid "8116f772-2dc1-42f5-97e4-f6620667ce07")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "U1")
+					(reference "U301")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:R0402")
+		(at 245.11 29.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e9264c0-85a6-4beb-a0ea-df44d627d216")
+		(property "Reference" "R303"
+			(at 243.586 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 245.11 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.888 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac72842a-8cfa-49aa-92a6-cc65f31c9732")
+		)
+		(pin "1"
+			(uuid "8544e83f-c1a0-4a8f-ab88-196f7d8b15b8")
+		)
+		(instances
+			(project "main"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
+					(reference "R303")
+					(unit 1)
 				)
 			)
 		)
@@ -8670,7 +9071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fa18382-f551-42d0-ad04-f25764ab6b1c")
-		(property "Reference" "C16"
+		(property "Reference" "C312"
 			(at 103.378 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,9 +9133,9 @@
 			(uuid "0325720c-85e7-40b8-9222-6a4da6c26f12")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C16")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -8751,7 +9152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20647373-e35b-4b9a-a64c-1b31c554302a")
-		(property "Reference" "R331"
+		(property "Reference" "R302"
 			(at 178.054 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,9 +9214,9 @@
 			(uuid "a641e42e-5f5e-4a0c-8ec5-30806b8fcd03")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "R331")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -8832,7 +9233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21088ccd-3c04-4189-add1-60024d1c40a0")
-		(property "Reference" "C27"
+		(property "Reference" "C326"
 			(at 216.408 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8894,9 +9295,9 @@
 			(uuid "38e81123-5317-42db-a4a1-b132c650a537")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C27")
+					(reference "C326")
 					(unit 1)
 				)
 			)
@@ -8913,7 +9314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23301d71-ace3-482d-9bc5-31c4a4a7682f")
-		(property "Reference" "C24"
+		(property "Reference" "C323"
 			(at 185.928 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8975,9 +9376,9 @@
 			(uuid "8313d518-a905-4c8f-96c9-ae76e8c62ac7")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C24")
+					(reference "C323")
 					(unit 1)
 				)
 			)
@@ -8994,7 +9395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d92b2d3-3f78-4734-b5df-4ae48d4b74a8")
-		(property "Reference" "C15"
+		(property "Reference" "C311"
 			(at 93.218 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9056,9 +9457,9 @@
 			(uuid "e9e67f11-5d21-4850-8c6e-f7da7d11f898")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C15")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -9075,7 +9476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36f2119d-e65d-4d6e-a433-1256d5dc63bc")
-		(property "Reference" "C22"
+		(property "Reference" "C308"
 			(at 61.468 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9137,9 +9538,9 @@
 			(uuid "7392e111-440c-44fc-b197-98f55e0bb871")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C22")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -9156,7 +9557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c000c11-229d-42cc-b8cb-1483cb94d4c9")
-		(property "Reference" "C33"
+		(property "Reference" "C332"
 			(at 206.248 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,9 +9619,9 @@
 			(uuid "b9fdf413-0998-40a7-8dd5-9ab9e54a5ad2")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C33")
+					(reference "C332")
 					(unit 1)
 				)
 			)
@@ -9237,7 +9638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "453cdb2f-def1-4c40-b3b2-0a433c45feae")
-		(property "Reference" "C10"
+		(property "Reference" "C304"
 			(at 93.218 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9299,9 +9700,9 @@
 			(uuid "b132b03d-2a94-48c2-ad93-8c3464c1f774")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C10")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47b2fb33-2424-4a37-be06-70c4aea04290")
-		(property "Reference" "C42"
+		(property "Reference" "C320"
 			(at 113.538 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9380,9 +9781,9 @@
 			(uuid "c2c76143-3392-46dd-86f6-584aa42b7720")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C42")
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -9399,7 +9800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "517f3521-adfc-4100-8eb1-07e8485e67ae")
-		(property "Reference" "C13"
+		(property "Reference" "C307"
 			(at 123.698 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,9 +9862,9 @@
 			(uuid "b4503cef-f7a4-4fa7-acd6-955c1efefe40")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C13")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -9539,7 +9940,7 @@
 			(uuid "c8b0d36d-54a2-4750-a2ae-3e8520e17c46")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR020")
 					(unit 1)
@@ -9558,7 +9959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55e1d721-db06-4ee9-8ce8-996ac7e8470a")
-		(property "Reference" "C39"
+		(property "Reference" "C317"
 			(at 83.058 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,9 +10021,9 @@
 			(uuid "585fe492-74e5-45b4-954b-f2615e9b4e03")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C39")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -9639,7 +10040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fe38154-1197-4eef-a7eb-9e05cf192b29")
-		(property "Reference" "C30"
+		(property "Reference" "C329"
 			(at 174.498 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9701,9 +10102,9 @@
 			(uuid "cf56d371-88cd-450d-b3e2-ff3dc9803de7")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C30")
+					(reference "C329")
 					(unit 1)
 				)
 			)
@@ -9779,7 +10180,7 @@
 			(uuid "7bb240e6-a0e8-4471-9048-e1fba53ce02e")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR025")
 					(unit 1)
@@ -9857,7 +10258,7 @@
 			(uuid "116d63a2-83b3-4dab-8001-03b39e7ee458")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR018")
 					(unit 1)
@@ -9877,7 +10278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a48890-ce93-4cfb-96e5-90557e36d947")
-		(property "Reference" "U1"
+		(property "Reference" "U301"
 			(at 58.7278 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10519,9 +10920,9 @@
 			(uuid "8116f772-2dc1-42f5-97e4-f6620667ce05")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "U1")
+					(reference "U301")
 					(unit 5)
 				)
 			)
@@ -10538,7 +10939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67df2b41-7522-4d69-86da-89cbaf672da8")
-		(property "Reference" "C17"
+		(property "Reference" "C313"
 			(at 113.538 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,9 +11001,9 @@
 			(uuid "2377a53d-2337-472c-b611-dc4cd7efedad")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C17")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -10678,7 +11079,7 @@
 			(uuid "bac92f22-2884-49d3-94df-cbdc54ca4ea4")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR024")
 					(unit 1)
@@ -10697,7 +11098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70b6a3c6-7924-48d6-ac7d-cfadcb5f530e")
-		(property "Reference" "C43"
+		(property "Reference" "C321"
 			(at 123.698 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10759,9 +11160,9 @@
 			(uuid "47b28e5f-ab4d-45bf-ae61-e0421e361466")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C43")
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -10778,7 +11179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80280d0b-b8ee-404f-b98d-0ee5d798ef6e")
-		(property "Reference" "C37"
+		(property "Reference" "C315"
 			(at 61.468 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,9 +11241,9 @@
 			(uuid "ef7c1d6f-08e8-4ab2-9197-bf42c2173d8d")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C37")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -10860,7 +11261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cc1bb9-f43e-453e-9c09-94da64bc2e11")
-		(property "Reference" "U1"
+		(property "Reference" "U301"
 			(at 137.0868 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11502,9 +11903,9 @@
 			(uuid "8116f772-2dc1-42f5-97e4-f6620667ce06")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "U1")
+					(reference "U301")
 					(unit 3)
 				)
 			)
@@ -11521,7 +11922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8524577e-31a2-40b3-8928-4a315534df78")
-		(property "Reference" "C28"
+		(property "Reference" "C327"
 			(at 226.568 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11583,9 +11984,9 @@
 			(uuid "c2b3afc9-0b72-4d86-9e60-9e0c8423e9dc")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C28")
+					(reference "C327")
 					(unit 1)
 				)
 			)
@@ -11602,7 +12003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85269fd4-bdc5-4eeb-af71-1002886be767")
-		(property "Reference" "C29"
+		(property "Reference" "C328"
 			(at 236.728 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11664,9 +12065,9 @@
 			(uuid "a6dd019f-3b2d-4c5b-bb3b-0a8ded25e86e")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C29")
+					(reference "C328")
 					(unit 1)
 				)
 			)
@@ -11683,7 +12084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4d23d6-7dde-4290-904f-0d927fa0fcb3")
-		(property "Reference" "C32"
+		(property "Reference" "C331"
 			(at 196.088 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11745,9 +12146,9 @@
 			(uuid "ffe8e327-b7c1-4cb6-bb2b-e51e79662530")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C32")
+					(reference "C331")
 					(unit 1)
 				)
 			)
@@ -11755,7 +12156,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 48.26 270)
+		(at 212.09 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11765,7 +12166,7 @@
 		(dnp no)
 		(uuid "8d5aeccb-32e2-41ff-92cd-4ea767a13b3e")
 		(property "Reference" "#PWR019"
-			(at 203.2 48.26 0)
+			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11776,7 +12177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.502 48.26 90)
+			(at 209.042 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11787,7 +12188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 48.26 0)
+			(at 212.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +12199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 48.26 0)
+			(at 212.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,7 +12210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 48.26 0)
+			(at 212.09 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11823,7 +12224,7 @@
 			(uuid "74e516e5-d903-4e24-88e5-1992b85e22fe")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR019")
 					(unit 1)
@@ -11842,7 +12243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9611acb2-54f6-4f16-9a2e-1a9de8250972")
-		(property "Reference" "C40"
+		(property "Reference" "C318"
 			(at 93.218 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11904,9 +12305,9 @@
 			(uuid "81ddd5d5-869c-44e8-9bdb-95ed33aec865")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C40")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -11923,7 +12324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a236da94-5151-4d6d-ad1d-c26c5f03f7c6")
-		(property "Reference" "C14"
+		(property "Reference" "C310"
 			(at 83.058 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11985,9 +12386,9 @@
 			(uuid "dbe7ce8d-10e7-4615-a9cf-17072d4840dd")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C14")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -12004,7 +12405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a686d68f-f315-4f58-b0ee-4f5a80359f1b")
-		(property "Reference" "C23"
+		(property "Reference" "C322"
 			(at 174.498 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12066,9 +12467,9 @@
 			(uuid "b5a5107e-5a24-4a75-8504-bb05c7c850cb")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C23")
+					(reference "C322")
 					(unit 1)
 				)
 			)
@@ -12085,7 +12486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a73abac4-7752-4112-a840-6b3977c296e9")
-		(property "Reference" "C25"
+		(property "Reference" "C324"
 			(at 196.088 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12147,9 +12548,9 @@
 			(uuid "81ab3a94-57d2-4803-8a18-303e1f4486f8")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C25")
+					(reference "C324")
 					(unit 1)
 				)
 			)
@@ -12225,7 +12626,7 @@
 			(uuid "63734b3b-6163-4ce5-a2d6-f50ee28585c1")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR017")
 					(unit 1)
@@ -12244,7 +12645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aeba7a24-bef5-4959-b7e7-a1b34f961952")
-		(property "Reference" "C31"
+		(property "Reference" "C330"
 			(at 185.928 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12306,9 +12707,9 @@
 			(uuid "cc2a7769-cd59-4f37-93ab-c44d44a0869f")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C31")
+					(reference "C330")
 					(unit 1)
 				)
 			)
@@ -12326,7 +12727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b409989d-6dcf-4870-b8b5-edf6a5a73f5f")
-		(property "Reference" "S401"
+		(property "Reference" "S301"
 			(at 229.87 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12392,9 +12793,9 @@
 			(uuid "cd347108-d07e-415e-9bb3-d394853bb816")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "S401")
+					(reference "S301")
 					(unit 1)
 				)
 			)
@@ -12402,7 +12803,7 @@
 	)
 	(symbol
 		(lib_id "memory:S25FL256S")
-		(at 224.79 43.18 0)
+		(at 227.33 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12412,8 +12813,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e6996c-9f61-4882-8dde-86b2c47233b8")
-		(property "Reference" "U2"
-			(at 224.79 27.94 0)
+		(property "Reference" "U302"
+			(at 227.33 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12423,7 +12824,7 @@
 			)
 		)
 		(property "Value" "S25FL256S"
-			(at 224.79 30.48 0)
+			(at 227.33 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12433,7 +12834,7 @@
 			)
 		)
 		(property "Footprint" "custom_library:WSON-8_EP_8x6_Pitch1.27mm"
-			(at 224.79 43.18 0)
+			(at 227.33 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12444,7 +12845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/196/Infineon_S25FL128SS25FL256S_128_Mb__16_MB_256_Mb__-3363490.pdf"
-			(at 224.79 43.18 0)
+			(at 227.33 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12455,7 +12856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 43.18 0)
+			(at 227.33 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12493,9 +12894,9 @@
 			(uuid "b489a2bc-8c25-45bf-86c8-27a14271dd62")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "U2")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -12571,7 +12972,7 @@
 			(uuid "3f0699ca-fd64-4939-8928-cad411190ecd")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR023")
 					(unit 1)
@@ -12590,7 +12991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d7adb9-621c-475c-81a4-ac41c7871a4c")
-		(property "Reference" "C21"
+		(property "Reference" "C301"
 			(at 61.468 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12652,9 +13053,9 @@
 			(uuid "efe6a451-df31-4d12-bad7-d4663c2c460b")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C21")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -12671,7 +13072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c35446dc-8e8d-42e6-81ea-b57eeb229fe2")
-		(property "Reference" "C9"
+		(property "Reference" "C303"
 			(at 83.058 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12733,9 +13134,9 @@
 			(uuid "56aaf4d7-97d0-4638-a976-70c33c80f3d1")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C9")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -12752,7 +13153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c393b107-08c1-443c-ba6a-f1a2c9f107ae")
-		(property "Reference" "C19"
+		(property "Reference" "C302"
 			(at 72.898 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12814,9 +13215,9 @@
 			(uuid "129ba4c4-101b-43f2-b113-404067292998")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C19")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -12833,7 +13234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c440ed0c-16e9-4b01-99ae-638191c3544e")
-		(property "Reference" "C18"
+		(property "Reference" "C314"
 			(at 123.698 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12895,9 +13296,9 @@
 			(uuid "5e77961d-a0d4-4f06-a03d-c157e06057e2")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C18")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -12983,7 +13384,7 @@
 			(uuid "60d7258c-8a0a-4ae8-ba29-d8dbeda4b63b")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "U3")
 					(unit 1)
@@ -13002,7 +13403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5dcb9f5-187e-45c4-abce-6fc54e1f5e73")
-		(property "Reference" "R330"
+		(property "Reference" "R306"
 			(at 77.724 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,9 +13465,90 @@
 			(uuid "4d872930-cc6b-4838-8972-32e70a8e1c09")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "R330")
+					(reference "R306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:R0402")
+		(at 247.65 29.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7ebcd0d-d52d-480b-9f7c-a383b82283c1")
+		(property "Reference" "R304"
+			(at 254 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 247.65 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.428 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b17f8236-c553-4665-a276-1acf64b84c18")
+		)
+		(pin "1"
+			(uuid "cee6b66d-5483-43c9-8e01-ccad92cde39c")
+		)
+		(instances
+			(project "main"
+				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -13083,7 +13565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce2cdab3-f2e3-4ce7-b3b2-23c4b710fe40")
-		(property "Reference" "C41"
+		(property "Reference" "C319"
 			(at 103.378 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13145,9 +13627,9 @@
 			(uuid "b724f01b-645c-47ea-b10b-6b58a217c724")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C41")
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -13164,7 +13646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d081bbc1-c8a7-4d12-879b-ab9617d0631d")
-		(property "Reference" "C20"
+		(property "Reference" "C309"
 			(at 72.898 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13226,9 +13708,9 @@
 			(uuid "647bf393-80dc-4b23-8979-a4707ab299e3")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C20")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -13304,7 +13786,7 @@
 			(uuid "26dfdafe-d9da-4aac-815f-887e93db02ae")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR021")
 					(unit 1)
@@ -13382,7 +13864,7 @@
 			(uuid "4c4c3f3f-55ba-41a0-b46a-9f0558dcdb87")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR022")
 					(unit 1)
@@ -13401,7 +13883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5f5ff2a-c0ea-4872-83b3-d05ba0402303")
-		(property "Reference" "R329"
+		(property "Reference" "R301"
 			(at 94.234 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13463,9 +13945,9 @@
 			(uuid "3011ab5d-e3a9-491d-aa8a-8f834e245901")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "R329")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -13482,7 +13964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7b4a9b3-1fe3-4acf-b52e-bdd4986cce5f")
-		(property "Reference" "C34"
+		(property "Reference" "C333"
 			(at 216.408 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13544,9 +14026,9 @@
 			(uuid "1334ac16-379e-4512-8bd0-3ea2aa9e84ca")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C34")
+					(reference "C333")
 					(unit 1)
 				)
 			)
@@ -13563,7 +14045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecbb86a3-da7a-449f-8796-136081d4d09f")
-		(property "Reference" "C12"
+		(property "Reference" "C306"
 			(at 113.538 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13625,9 +14107,9 @@
 			(uuid "78858b4a-aed0-4b00-bc1b-ee5360ea0707")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C12")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -13644,7 +14126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3ade49a-a0d8-4c4b-9041-45ca56b387bb")
-		(property "Reference" "R327"
+		(property "Reference" "R305"
 			(at 235.204 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,9 +14188,9 @@
 			(uuid "6dc6de95-4981-4b2f-afaf-0616c1befeea")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "R327")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -13725,7 +14207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f620698d-7c1a-454c-a6ab-38f128b16854")
-		(property "Reference" "C38"
+		(property "Reference" "C316"
 			(at 72.898 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,9 +14269,9 @@
 			(uuid "5fbc7cf9-5af5-4cea-8178-699f9197ec91")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C38")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -13865,7 +14347,7 @@
 			(uuid "949d73f8-b7fe-4e69-b30e-6de5202a942b")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
 					(reference "#PWR016")
 					(unit 1)
@@ -13884,7 +14366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcd535d9-f548-4678-a8cb-f7672a287e1c")
-		(property "Reference" "C11"
+		(property "Reference" "C305"
 			(at 103.378 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13946,9 +14428,9 @@
 			(uuid "3b6a120b-7bb6-4095-abff-67189f038c61")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C11")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -13965,7 +14447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fedf7428-36b7-4abe-a3f2-f008912a49c2")
-		(property "Reference" "C36"
+		(property "Reference" "C335"
 			(at 236.728 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14027,9 +14509,9 @@
 			(uuid "18c242e7-933f-41f4-b64c-65945f815199")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/b10cfba8-ff05-4930-b034-8c27966aafd6"
-					(reference "C36")
+					(reference "C335")
 					(unit 1)
 				)
 			)

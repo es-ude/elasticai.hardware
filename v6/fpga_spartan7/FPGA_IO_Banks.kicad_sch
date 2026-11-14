@@ -5732,7 +5732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2205b0fb-37e7-43ac-b584-626922361ad6")
-		(property "Reference" "R320"
+		(property "Reference" "R403"
 			(at 92.964 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5794,9 +5794,9 @@
 			(uuid "37258078-d1a1-4620-97f1-2a608284caab")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R320")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -6458,7 +6458,7 @@
 			(uuid "3748068a-3468-4bce-a2a0-c2e81fa857f1")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
 					(reference "U1")
 					(unit 2)
@@ -6536,7 +6536,7 @@
 			(uuid "989eb200-ea62-4ca7-b8ae-2686414ffd3e")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
 					(reference "#PWR014")
 					(unit 1)
@@ -6555,7 +6555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bee9d99-7bf9-4754-80f8-2e40654e4499")
-		(property "Reference" "R325"
+		(property "Reference" "R408"
 			(at 56.134 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6617,9 +6617,9 @@
 			(uuid "51e4306b-01b8-4d7f-9e65-6f9c1941d9e7")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R325")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81b87c7b-7700-4e69-ad23-e7b6fe5d882e")
-		(property "Reference" "R324"
+		(property "Reference" "R407"
 			(at 56.134 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,9 +6698,9 @@
 			(uuid "d1f6691f-d4b4-4e67-9087-35d2f37abfac")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R324")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -6717,7 +6717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c0e03fe-bb1d-4392-a12f-a48297336f92")
-		(property "Reference" "R319"
+		(property "Reference" "R402"
 			(at 92.964 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,9 +6779,9 @@
 			(uuid "f52b3c0e-0d93-4fef-a2e0-0d463bb7e460")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R319")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -6798,7 +6798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90a44309-8d51-4fdf-a453-d6c184cb0898")
-		(property "Reference" "R321"
+		(property "Reference" "R404"
 			(at 92.964 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,9 +6860,9 @@
 			(uuid "1d0ab475-36cb-4254-8b63-9cba54bbd853")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R321")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -6879,7 +6879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "918bb7f5-2260-41bb-adc7-afa5d75d6454")
-		(property "Reference" "R322"
+		(property "Reference" "R405"
 			(at 56.134 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6941,9 +6941,9 @@
 			(uuid "19c05b61-1460-4f05-ba66-c26167385e0d")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R322")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -7604,7 +7604,7 @@
 			(uuid "8116f772-2dc1-42f5-97e4-f6620667ce06")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
 					(reference "U1")
 					(unit 1)
@@ -7623,7 +7623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a709ab12-65da-4f91-8d06-14c0c08e8dc5")
-		(property "Reference" "R318"
+		(property "Reference" "R401"
 			(at 92.964 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,9 +7685,9 @@
 			(uuid "efec39f2-2597-4d3f-990d-b5667d6fa789")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R318")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7704,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab4bc565-9888-447f-a4cb-4c936bc052fb")
-		(property "Reference" "R323"
+		(property "Reference" "R406"
 			(at 56.134 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,9 +7766,9 @@
 			(uuid "940170ac-1052-4d50-9120-47fc7da2e307")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R323")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -8009,7 +8009,7 @@
 			(uuid "721d9a89-bcb9-4036-816b-cb949d5f714a")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
 					(reference "Y1")
 					(unit 1)
@@ -8028,7 +8028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fddb6dbf-df57-4744-aff9-9a4151e4d6d4")
-		(property "Reference" "R326"
+		(property "Reference" "R409"
 			(at 56.134 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,9 +8090,9 @@
 			(uuid "9da5199f-6c1f-4c6a-91f7-67312dd46757")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/8fdba40a-7291-4b50-bbcd-150eb7f6de80"
-					(reference "R326")
+					(reference "R409")
 					(unit 1)
 				)
 			)

@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FPGABoard_Spartan7_v1.kicad_pro",
+    "filename": "main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -533,8 +533,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
-      "sort_order": 0
+      "method": 1,
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -643,18 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "FPGABoard_Spartan7_v1.kicad_sch",
-        "name": "FPGABoard_Spartan7_v1",
+        "filename": "main.kicad_sch",
+        "name": "main",
         "uuid": "564866ff-b654-4c06-b096-1cad86fb817b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R301-306,R332-333,R401-409,U301-302,C301-335,S301",
     "variants": []
   },
   "sheets": [
     [
       "564866ff-b654-4c06-b096-1cad86fb817b",
-      "FPGABoard_Spartan7_v1"
+      "main"
     ],
     [
       "090affa8-e140-43e2-9f91-ec11e07568e5",

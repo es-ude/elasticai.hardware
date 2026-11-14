@@ -670,7 +670,7 @@
 						)
 					)
 				)
-				(text "Extra"
+				(text "Extra/\nCFG 6"
 					(at -19.05 35.56 900)
 					(effects
 						(font
@@ -792,7 +792,7 @@
 						)
 					)
 				)
-				(text "V PER"
+				(text "V MCU"
 					(at -6.35 -30.48 900)
 					(effects
 						(font
@@ -848,20 +848,20 @@
 						)
 					)
 				)
-				(text "MCU IO\nto\nApp\nBoard"
-					(at 1.016 -33.02 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-							(thickness 0.1588)
-						)
-					)
-				)
 				(text "GND"
 					(at 1.27 33.02 900)
 					(effects
 						(font
 							(size 1.27 1.27)
+							(thickness 0.1588)
+						)
+					)
+				)
+				(text "MCU IO\nto App\n& Test\nBoard"
+					(at 1.27 -33.02 0)
+					(effects
+						(font
+							(size 1.016 1.016)
 							(thickness 0.1588)
 						)
 					)
@@ -3382,10 +3382,6 @@
 		(uuid "b52c5748-cdaa-4feb-9576-37e8842556e0")
 	)
 	(no_connect
-		(at 143.51 123.19)
-		(uuid "c302c407-4c51-4c0f-87a6-34adcfd70851")
-	)
-	(no_connect
 		(at 160.02 140.97)
 		(uuid "ce65e205-650e-4161-9802-c07c7c63829c")
 	)
@@ -3400,6 +3396,26 @@
 	(no_connect
 		(at 151.13 140.97)
 		(uuid "f631fddf-9abd-41c7-8f2e-fb8f54ac6e7a")
+	)
+	(wire
+		(pts
+			(xy 140.97 123.19) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e63a970-70e4-4794-8ca8-0279c0c3d486")
+	)
+	(wire
+		(pts
+			(xy 143.51 123.19) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c79ec7a-b25e-4ad3-90f7-9a9c532a7410")
 	)
 	(wire
 		(pts
@@ -3420,6 +3436,16 @@
 			(type default)
 		)
 		(uuid "75c4ae19-697a-4222-9ddb-8bcb356f85f7")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef416088-52e5-413a-8e3a-e12d97b61f86")
 	)
 	(global_label "GP12{slash}SPI1_RX"
 		(shape bidirectional)
@@ -3639,7 +3665,7 @@
 	)
 	(global_label "VMCU"
 		(shape input)
-		(at 140.97 123.19 90)
+		(at 142.24 120.65 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3649,7 +3675,7 @@
 		)
 		(uuid "3f145af8-728c-4e66-9969-19e038546222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 115.0643 90)
+			(at 142.24 112.5243 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4475,7 +4501,7 @@
 			(uuid "b19f3f02-bdba-4189-a296-aede6e39d9c3")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR06")
 					(unit 1)
@@ -4553,7 +4579,7 @@
 			(uuid "ec46149a-b07c-4cac-8a9f-1b4c34b0658c")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR05")
 					(unit 1)
@@ -4634,7 +4660,7 @@
 			(uuid "dd3eea8f-dbf3-4d9f-866c-18e68629234e")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "R328")
 					(unit 1)
@@ -4712,7 +4738,7 @@
 			(uuid "ae99cfb4-2f01-4881-915c-921f85821378")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR08")
 					(unit 1)
@@ -4790,7 +4816,7 @@
 			(uuid "ba30a8e8-b202-444f-a0e9-6ee627702943")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR011")
 					(unit 1)
@@ -4868,7 +4894,7 @@
 			(uuid "c6288da5-73de-42f4-9194-c1c0b66fb915")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR010")
 					(unit 1)
@@ -4946,7 +4972,7 @@
 			(uuid "c2f9c174-eba7-401f-9842-097330a0e6d8")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR02")
 					(unit 1)
@@ -5024,7 +5050,7 @@
 			(uuid "58973079-e243-4c4e-a736-6f492a36446a")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR01")
 					(unit 1)
@@ -5102,7 +5128,7 @@
 			(uuid "de970c3b-eb5a-4856-89be-6423b9e34d7e")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR09")
 					(unit 1)
@@ -5180,7 +5206,7 @@
 			(uuid "db722825-6e4a-417f-b9a2-0ec2a78b3a1a")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR03")
 					(unit 1)
@@ -5258,7 +5284,7 @@
 			(uuid "b0161a65-5a33-4fa8-9205-8339c62834a2")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR012")
 					(unit 1)
@@ -5336,7 +5362,7 @@
 			(uuid "de5b69b6-8830-41d6-8586-bf3cea442637")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR04")
 					(unit 1)
@@ -5414,7 +5440,7 @@
 			(uuid "73aaee47-cfb5-484d-ad39-23d82bc921d8")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "#PWR07")
 					(unit 1)
@@ -5824,7 +5850,7 @@
 			(uuid "b1e44326-76de-45d3-a741-370343c55736")
 		)
 		(instances
-			(project "FPGABoard_Spartan7_v1"
+			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b/090affa8-e140-43e2-9f91-ec11e07568e5"
 					(reference "B1")
 					(unit 1)

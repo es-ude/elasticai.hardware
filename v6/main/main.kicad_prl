@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 35,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -51,8 +51,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ff5ffff5",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_ffffd575_ff5fffa0",
+    "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
@@ -97,11 +97,11 @@
       156,
       141,
       103,
-      77,
+      79,
       103,
       106,
       103,
-      81,
+      83,
       103,
       103,
       103,
