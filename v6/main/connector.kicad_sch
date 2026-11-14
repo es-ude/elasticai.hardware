@@ -4444,7 +4444,7 @@
 			(uuid "4dd234fd-d665-4d03-bc41-58c5ef679dfe")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0425")
 					(unit 1)
@@ -4854,7 +4854,7 @@
 			(uuid "1f47ad8e-e235-43d3-9adb-82fce7f1513c")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "B401")
 					(unit 1)
@@ -4932,7 +4932,7 @@
 			(uuid "395c5044-6a02-435c-aa12-fbcc2a318da6")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0424")
 					(unit 1)
@@ -5009,7 +5009,7 @@
 			(uuid "78f0bff4-eaf7-4303-84fe-46bb4a76e16f")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0419")
 					(unit 1)
@@ -5086,7 +5086,7 @@
 			(uuid "a6aba3ea-f2af-49c4-b1f5-4e9f8b3a21f8")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0417")
 					(unit 1)
@@ -5163,7 +5163,7 @@
 			(uuid "7899b583-4170-4dd4-9ee5-3fa5b59550a4")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0414")
 					(unit 1)
@@ -5240,7 +5240,7 @@
 			(uuid "fd6ff988-aa18-402f-b042-126846325a74")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0415")
 					(unit 1)
@@ -5317,7 +5317,7 @@
 			(uuid "a313af2d-440c-4a71-a355-a22f0bb68096")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0411")
 					(unit 1)
@@ -5394,7 +5394,7 @@
 			(uuid "40e18e6d-8a06-4f9a-9695-87ef299666fb")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0418")
 					(unit 1)
@@ -5472,7 +5472,7 @@
 			(uuid "385915df-728e-41d9-af18-ae2682b5e4c8")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0426")
 					(unit 1)
@@ -5549,7 +5549,7 @@
 			(uuid "4ea475e0-2f59-4987-b7bb-b13fa95523e4")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0416")
 					(unit 1)
@@ -5626,7 +5626,7 @@
 			(uuid "584af050-8505-437d-bd95-33ef4e6531fb")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0412")
 					(unit 1)
@@ -5704,7 +5704,7 @@
 			(uuid "cfb4ac0e-f542-4f43-b2d2-34ba84bf77bb")
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/a98a571e-c6ed-44bc-aada-f381df9153ba"
 					(reference "#PWR0423")
 					(unit 1)

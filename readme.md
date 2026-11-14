@@ -1,7 +1,7 @@
 # Elastic Node Hardware Platform
 This repo contains the hardware design files of our elastic node hardware for deploying deep learning architectures on embedded hardware.
 
-## ENv6 - Elastic Node v6
+### ENv6 - Elastic Node v6
 See further detailed information in their specific [docu file](v6/readme.md).
 
 ## ENv5 - Elastic Node v5

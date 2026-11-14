@@ -2799,7 +2799,7 @@
 			)
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
 					(page "2")
 				)
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
 					(page "3")
 				)
@@ -2931,7 +2931,7 @@
 			)
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
 					(page "4")
 				)
@@ -2977,7 +2977,7 @@
 			)
 		)
 		(instances
-			(project "ENV6_DemoBoard_1"
+			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012"
 					(page "4")
 				)

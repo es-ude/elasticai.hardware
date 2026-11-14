@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 21,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ff555520",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_ff5ffff5",
     "zone_display_mode": 1
   },
   "git": {
@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ENV6_DemoBoard_1.kicad_prl",
+    "filename": "main.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -94,18 +94,18 @@
       11
     ],
     "col_widths": [
-      162,
-      147,
-      98,
-      79,
-      91,
+      156,
+      141,
+      103,
+      77,
+      103,
       106,
-      91,
-      83,
-      91,
-      91,
-      101,
-      100
+      103,
+      81,
+      103,
+      103,
+      103,
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

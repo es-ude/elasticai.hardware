@@ -519,12 +519,15 @@
       "maker",
       "mcu_rpi_pico",
       "sensors",
-      "ui_stuff"
+      "ui_stuff",
+      "ENv6_Custom_Footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ENv6_Custom_Symbols"
+    ]
   },
   "meta": {
-    "filename": "ENV6_DemoBoard_1.kicad_pro",
+    "filename": "main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -704,18 +707,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ENV6_DemoBoard_1.kicad_sch",
-        "name": "ENV6_DemoBoard_1",
+        "filename": "main.kicad_sch",
+        "name": "main",
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "JP201-210,U201,R205-216,C201-204,J201-203",
+    "used_designators": "R205-216,R307,JP201-210,U201,#PWR324-325,C201-204,J201-203,J301",
     "variants": []
   },
   "sheets": [
     [
       "c353698e-fca1-4ed3-95bc-4f5142868012",
-      "ENV6_DemoBoard_1"
+      "main"
     ],
     [
       "543f2454-ebb1-4255-972f-f49352e545fa",

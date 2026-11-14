@@ -1,5 +1,5 @@
+# Main artefacts
 *.epf
-*.lck
 *.s#*
 *.b#*
 *.pro
@@ -9,4 +9,5 @@
 **/*-backups
 **/fp-info-cache
 **/*.lck
-
+**/.history
+**/*.zip
