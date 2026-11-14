@@ -523,7 +523,8 @@
       "ENv6_Custom_Footprints"
     ],
     "pinned_symbol_libs": [
-      "ENv6_Custom_Symbols"
+      "ENv6_Custom_Symbols",
+      "passive"
     ]
   },
   "meta": {
@@ -712,7 +713,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J302,U302",
     "variants": []
   },
   "sheets": [
