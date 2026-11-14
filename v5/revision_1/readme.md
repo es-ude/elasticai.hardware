@@ -1,5 +1,8 @@
 # ENv5 Revision 1 User Manual
 
+## Firmware:
+Please use the elasticAI.runtime in order to build your application-specific project (in C) and to flash the ENV5-MCU.
+
 ## Notice:
 - The old wifi-shield is not compatible with the ENv5-Rev1. Please use the new extension board instead.
   - When you plug out the extension board, please try to make to PCBs in parallel to avoid damage to the male headers.

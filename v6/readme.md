@@ -1,0 +1,1 @@
+# Elastic Node Hardware Platform v6
