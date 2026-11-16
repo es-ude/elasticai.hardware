@@ -4438,16 +4438,6 @@
 		)
 		(uuid "443b5087-a0d4-4b35-89ff-1f3b52f9d798")
 	)
-	(text "FPGA \nProgramming"
-		(exclude_from_sim no)
-		(at 168.91 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "47a80338-6a4a-422a-9fd2-82a5335a624c")
-	)
 	(text "Programmable Buttons"
 		(exclude_from_sim no)
 		(at 207.772 16.002 0)
@@ -4460,16 +4450,6 @@
 			(justify left bottom)
 		)
 		(uuid "77ccf869-047f-4944-a1e0-a86c2b561122")
-	)
-	(text "GPIOs\nto FPGA"
-		(exclude_from_sim no)
-		(at 159.004 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7a7ccab9-cfcd-479d-8a67-1b56fd1c30c8")
 	)
 	(text "Pi Radio\nWiFi"
 		(exclude_from_sim no)
@@ -4540,13 +4520,14 @@
 		)
 		(uuid "df3125d4-da9d-445b-b64c-ecf1a930ecc3")
 	)
-	(text "DirtyJTAG\nFor FPGA"
+	(text "(Dirty-)JTAG\nFor FPGA"
 		(exclude_from_sim no)
-		(at 163.83 133.35 0)
+		(at 159.004 101.092 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "e710099a-a695-4c5a-a235-199ddd200dd6")
 	)
@@ -5219,16 +5200,6 @@
 		)
 		(uuid "192909d6-1568-41fd-abe9-d1cd0d25c11a")
 	)
-	(polyline
-		(pts
-			(xy 156.337 139.7) (xy 157.607 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a03e1bd-2e4e-4d6b-9932-39ce9d888418")
-	)
 	(wire
 		(pts
 			(xy 254 46.99) (xy 254 50.8)
@@ -5328,16 +5299,6 @@
 			(type default)
 		)
 		(uuid "226f83b6-0a8c-41f4-a3ea-19bda3c0ebe4")
-	)
-	(polyline
-		(pts
-			(xy 161.798 184.15) (xy 163.068 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dfa569-de05-45d3-9b57-a9121e6bdeef")
 	)
 	(wire
 		(pts
@@ -5481,7 +5442,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 95.25) (xy 163.8218 112.0334)
+			(xy 158.75 95.25) (xy 158.7418 112.0334)
 		)
 		(stroke
 			(width 0)
@@ -5548,6 +5509,16 @@
 			(type default)
 		)
 		(uuid "38c8c745-fa16-4724-b783-8d2d5b726bd9")
+	)
+	(wire
+		(pts
+			(xy 134.62 139.7) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a62dcfa-6c92-4622-9353-21176c6c0dbb")
 	)
 	(wire
 		(pts
@@ -5621,7 +5592,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.195 95.25) (xy 164.465 95.25)
+			(xy 158.115 95.25) (xy 159.385 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5909,16 +5880,6 @@
 		)
 		(uuid "5ee38639-336b-44ef-8e43-60b552bf5b0d")
 	)
-	(polyline
-		(pts
-			(xy 156.337 127) (xy 157.607 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4cd725-7f82-4e0e-b455-835e7b1c301e")
-	)
 	(wire
 		(pts
 			(xy 218.44 130.81) (xy 214.63 130.81)
@@ -6101,16 +6062,6 @@
 	)
 	(polyline
 		(pts
-			(xy 162.433 173.99) (xy 163.068 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb83c65-4abb-42d7-b54e-8759f5cfdcfb")
-	)
-	(polyline
-		(pts
 			(xy 158.115 82.55) (xy 158.115 92.71)
 		)
 		(stroke
@@ -6158,16 +6109,6 @@
 			(type default)
 		)
 		(uuid "7dca91ec-a8c0-4c6c-aba8-0218d2624168")
-	)
-	(polyline
-		(pts
-			(xy 162.433 173.99) (xy 162.433 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecbca9c-14af-40de-93e3-7e5ec9115612")
 	)
 	(wire
 		(pts
@@ -6681,6 +6622,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 147.32) (xy 138.43 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34c0afc-0e0b-4ea0-a1f4-01540e84cfb9")
+	)
+	(wire
+		(pts
 			(xy 137.16 170.18) (xy 134.62 170.18)
 		)
 		(stroke
@@ -6779,16 +6730,6 @@
 		)
 		(uuid "bf622322-2d5f-435c-9312-b5216897f7d1")
 	)
-	(polyline
-		(pts
-			(xy 161.798 173.99) (xy 163.068 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ef089e-ab09-4f25-bf22-0cc8ffda9e4a")
-	)
 	(wire
 		(pts
 			(xy 259.08 132.08) (xy 269.24 132.08)
@@ -6838,6 +6779,16 @@
 			(type default)
 		)
 		(uuid "c367ed33-4039-49ea-a01c-0f558a0c85e6")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 138.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38c6634-b23c-4095-829c-fe56d48e7c20")
 	)
 	(wire
 		(pts
@@ -6979,16 +6930,6 @@
 		)
 		(uuid "cf10dacf-5a1c-4c8a-b0ef-0fe3e714effc")
 	)
-	(polyline
-		(pts
-			(xy 156.972 127) (xy 156.972 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf40d364-44cd-492e-98e4-4cbc9701f8e1")
-	)
 	(wire
 		(pts
 			(xy 209.55 158.75) (xy 218.44 158.75)
@@ -7018,6 +6959,16 @@
 			(type default)
 		)
 		(uuid "d0a6edc8-18cc-4ed1-be5d-88419fdedbf7")
+	)
+	(wire
+		(pts
+			(xy 134.62 149.86) (xy 138.43 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1883e7e-4445-4a3a-9f89-e8fca5bc8dc1")
 	)
 	(wire
 		(pts
@@ -7051,7 +7002,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.83 111.76) (xy 165.1 111.76)
+			(xy 158.75 111.76) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7119,16 +7070,6 @@
 		)
 		(uuid "dadd6e4d-bc81-4a2d-becc-70544de314cc")
 	)
-	(wire
-		(pts
-			(xy 151.13 149.86) (xy 134.62 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1ba4c1-b837-407d-853d-038505436e0a")
-	)
 	(polyline
 		(pts
 			(xy 152.527 122.428) (xy 153.797 122.428)
@@ -7158,16 +7099,6 @@
 			(type default)
 		)
 		(uuid "dc6b75b2-b5f7-4c52-8154-53ce23611428")
-	)
-	(wire
-		(pts
-			(xy 151.13 147.32) (xy 134.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de87e7de-f84e-4d14-b896-0462b966349b")
 	)
 	(polyline
 		(pts
@@ -7351,16 +7282,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 142.24) (xy 134.62 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec61b0e6-00b3-475c-92f7-6bfb6bbd7f6a")
-	)
-	(wire
-		(pts
 			(xy 271.78 104.14) (xy 255.27 104.14)
 		)
 		(stroke
@@ -7471,16 +7392,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 151.13 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d22b5d-b42d-499a-82c1-3fe882379bda")
-	)
-	(wire
-		(pts
 			(xy 66.04 49.53) (xy 77.47 49.53)
 		)
 		(stroke
@@ -7539,7 +7450,7 @@
 		)
 		(uuid "16288446-f4af-4703-a7a4-b759e9019d93")
 	)
-	(label "MCU_JTAG_TCK"
+	(label "JTAG_TCK_GP18"
 		(at 271.78 99.06 180)
 		(effects
 			(font
@@ -7548,16 +7459,6 @@
 			(justify right bottom)
 		)
 		(uuid "1fbe9dad-82ed-4bf4-9d3b-8957abc870e8")
-	)
-	(label "MCU_JTAG_TDI"
-		(at 151.13 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29399bf2-cb8d-4573-9335-4d99ceaa5d51")
 	)
 	(label "WL_~{CS}"
 		(at 146.05 119.38 180)
@@ -7569,7 +7470,7 @@
 		)
 		(uuid "3059a32d-2488-4acd-8c12-70deaae598ed")
 	)
-	(label "MCU_JTAG_TDI"
+	(label "JTAG_TDI_GP16"
 		(at 271.78 101.6 180)
 		(effects
 			(font
@@ -7608,16 +7509,6 @@
 			(justify right bottom)
 		)
 		(uuid "72d3699a-370c-408b-8908-72d5a8893b5e")
-	)
-	(label "MCU_JTAG_TDO"
-		(at 151.13 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76212a08-33fa-4261-8dd0-5f01fc8d3fa6")
 	)
 	(label "WL_EN"
 		(at 256.54 146.05 180)
@@ -7659,16 +7550,6 @@
 		)
 		(uuid "b19993e0-56e2-4d7c-96ce-8c1739132ef8")
 	)
-	(label "MCU_JTAG_TCK"
-		(at 151.13 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b3c09b2a-9c6d-4ce8-bb55-0e1794c125cf")
-	)
 	(label "WL_EN"
 		(at 146.05 114.3 180)
 		(effects
@@ -7679,7 +7560,7 @@
 		)
 		(uuid "c455d52f-63f7-4c3a-873e-dcf6f6bee63a")
 	)
-	(label "MCU_JTAG_TMS"
+	(label "JTAG_TMS_GP19"
 		(at 271.78 104.14 180)
 		(effects
 			(font
@@ -7729,7 +7610,7 @@
 		)
 		(uuid "df33629d-1c6b-404c-9a1c-383f3af125f2")
 	)
-	(label "MCU_JTAG_TDO"
+	(label "JTAG_TDO_GP17"
 		(at 271.78 96.52 180)
 		(effects
 			(font
@@ -7738,16 +7619,6 @@
 			(justify right bottom)
 		)
 		(uuid "f9412fc2-b5f5-4b24-a860-d8e0177a0ff3")
-	)
-	(label "MCU_JTAG_TMS"
-		(at 151.13 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa0e62ff-b4f0-4a08-82d7-0bcbff4be090")
 	)
 	(label "WL_DATA"
 		(at 269.24 132.08 180)
@@ -8407,6 +8278,30 @@
 			)
 		)
 	)
+	(global_label "Unused{slash}GP35"
+		(shape bidirectional)
+		(at 138.43 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "850be86f-34a1-4f0d-8329-a3f6dc5307c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.7102 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GP37{slash}SPI0_CS"
 		(shape bidirectional)
 		(at 137.16 154.94 0)
@@ -8695,6 +8590,30 @@
 			)
 		)
 	)
+	(global_label "Unused{slash}GP34"
+		(shape bidirectional)
+		(at 138.43 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c46ff9d6-8796-4151-922d-3934060247ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.7102 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Unused_GP9"
 		(shape bidirectional)
 		(at 138.43 76.2 0)
@@ -8780,6 +8699,30 @@
 		(uuid "d27202e5-11d2-4c50-a190-8d4495455ee6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.747 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Unused{slash}GP32"
+		(shape bidirectional)
+		(at 138.43 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3df7323-2c59-453f-8a09-e5f83750009f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.7102 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,6 +8867,30 @@
 		(uuid "edb9359a-cf34-40f2-b80f-dc025c8abcfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.0633 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Unused{slash}GP33"
+		(shape bidirectional)
+		(at 138.43 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5655254-a4ca-42a6-863e-470d1874db5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.7102 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,7 +11083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KX7_QRZ"
+		(property "Value" "KX7_12M"
 			(at 89.408 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
