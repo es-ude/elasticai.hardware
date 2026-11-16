@@ -2969,6 +2969,17 @@
 		)
 		(uuid "7820797d-20e5-48d2-bac1-8dc126b0a747")
 	)
+	(text "ToDo:\n- Differentiate between CFG_RESET (--> Getting the bitstream from the flash) and (USR_RESET --> Used for the user-logic to reset the content)\n- Add a second CS to the FPGA (1x for flash is already there)\n- Remove three Mx config lines (only for mode selection) and add it to the SPI block to enable QUAD-SPI later (2x DATA, 1x CS)\n- Add all funcs to the README-Pin table\n"
+		(exclude_from_sim no)
+		(at 73.66 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ad069d75-d7b8-47ce-be5e-a67213044638")
+	)
 	(polyline
 		(pts
 			(xy 134.62 62.23) (xy 132.08 62.23)
@@ -3323,7 +3334,7 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect2"
+	(global_label "APP_DETECT"
 		(shape bidirectional)
 		(at 140.97 119.38 90)
 		(fields_autoplaced yes)
@@ -3335,7 +3346,7 @@
 		)
 		(uuid "5ab510ef-90fa-44bb-aa9d-4dbc1bbc3304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 103.4906 90)
+			(at 140.97 103.9141 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,7 +3934,7 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect1"
+	(global_label "FPGA_DETECT"
 		(shape bidirectional)
 		(at 140.97 137.16 270)
 		(fields_autoplaced yes)
@@ -3935,7 +3946,7 @@
 		)
 		(uuid "d173ff38-e130-409e-ab78-2b2c60737fdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 153.0494 90)
+			(at 140.97 153.7145 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

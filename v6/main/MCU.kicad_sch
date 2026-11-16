@@ -4461,6 +4461,16 @@
 		)
 		(uuid "7b726e53-bdc4-4448-9c38-d37ee724008a")
 	)
+	(text "Only for debugging FPGA with external device\nuntil dirtyJTAG is running on the MCU"
+		(exclude_from_sim no)
+		(at 257.81 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f0ba36e-4245-4b9e-8e69-3fec257333fa")
+	)
 	(text "Pi Radio"
 		(exclude_from_sim no)
 		(at 172.212 122.174 0)
@@ -4554,7 +4564,7 @@
 		)
 		(uuid "ebc7ac7f-daa7-41e1-9a19-0dd8419c45a3")
 	)
-	(text "FPGA Detection"
+	(text "Shield Detection"
 		(exclude_from_sim no)
 		(at 246.634 16.002 0)
 		(effects
@@ -4843,10 +4853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd42f039-dbb0-44be-9d60-0326fbd2e7d3")
-	)
-	(no_connect
-		(at 137.16 55.88)
-		(uuid "0e0f1390-41ab-4d3d-851c-123714367861")
 	)
 	(no_connect
 		(at 246.38 153.67)
@@ -5362,6 +5368,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a073f90-0638-4321-8cc8-fb3592502281")
+	)
+	(wire
+		(pts
 			(xy 134.62 127) (xy 149.86 127)
 		)
 		(stroke
@@ -5659,16 +5675,6 @@
 			(type default)
 		)
 		(uuid "48b9c1fc-7442-4b69-90f1-1b6838452dff")
-	)
-	(wire
-		(pts
-			(xy 134.62 55.88) (xy 137.16 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e4cb3e-e6c7-47e6-a4c0-cef32b267c16")
 	)
 	(wire
 		(pts
@@ -7918,7 +7924,7 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect1"
+	(global_label "FPGA_DETCT"
 		(shape bidirectional)
 		(at 266.7 48.26 0)
 		(fields_autoplaced yes)
@@ -7930,7 +7936,7 @@
 		)
 		(uuid "376e12d3-c0ac-4357-a89f-8b531e24fb97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.5894 48.26 0)
+			(at 282.1055 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8398,7 +8404,7 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect2"
+	(global_label "APP_DETECT"
 		(shape bidirectional)
 		(at 137.16 167.64 0)
 		(fields_autoplaced yes)
@@ -8410,7 +8416,7 @@
 		)
 		(uuid "9187ccfe-27de-46ce-9641-942d76fadb3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0494 167.64 0)
+			(at 152.6259 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8435,6 +8441,30 @@
 		(uuid "91bfff93-45e4-4ef3-b7c3-0a4625926649")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.1055 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Unused_GP0"
+		(shape bidirectional)
+		(at 137.16 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3de6678-59d9-4ba7-9bb9-07b9b3d78454")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.8678 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8518,7 +8548,7 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect2"
+	(global_label "APP_DETECT"
 		(shape bidirectional)
 		(at 266.7 50.8 0)
 		(fields_autoplaced yes)
@@ -8530,7 +8560,7 @@
 		)
 		(uuid "b045a599-913a-4ad8-9ebe-51beae372072")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.5894 50.8 0)
+			(at 282.1659 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8758,30 +8788,6 @@
 			)
 		)
 	)
-	(global_label "LP_nRST"
-		(shape bidirectional)
-		(at 137.16 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1457e4d-06f3-4b82-9c34-1e8052b67573")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.1183 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "JTAG_TDI_GP16"
 		(shape bidirectional)
 		(at 137.16 96.52 0)
@@ -8950,7 +8956,7 @@
 			)
 		)
 	)
-	(global_label "ADC_Detect1"
+	(global_label "FPGA_DETECT"
 		(shape bidirectional)
 		(at 137.16 165.1 0)
 		(fields_autoplaced yes)
@@ -8962,7 +8968,7 @@
 		)
 		(uuid "f9184588-5157-4e69-8247-7167e7ff7141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0494 165.1 0)
+			(at 153.7145 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

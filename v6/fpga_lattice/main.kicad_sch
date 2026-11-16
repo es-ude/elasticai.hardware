@@ -6667,6 +6667,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 20.32) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bdead4-2a00-4419-b801-d56cd1da50b9")
+	)
+	(wire
+		(pts
 			(xy 218.44 85.09) (xy 234.95 85.09)
 		)
 		(stroke
@@ -7447,16 +7457,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 21.59) (xy 66.04 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67ec6a5-c78d-410b-8d17-464754435d12")
-	)
-	(wire
-		(pts
 			(xy 58.42 123.19) (xy 58.42 137.16)
 		)
 		(stroke
@@ -8166,7 +8166,7 @@
 		(uuid "9cec7179-6bf8-4bad-ade3-c7515fe4fc81")
 	)
 	(label "FPGA_PR_DONE"
-		(at 66.04 21.59 270)
+		(at 66.04 20.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)

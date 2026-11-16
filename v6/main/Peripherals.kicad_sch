@@ -1549,29 +1549,9 @@
 		)
 		(uuid "4f3fc1a7-fa28-402c-90fe-387aeaac8294")
 	)
-	(text "I2C Addr: 0x1C"
-		(exclude_from_sim no)
-		(at 88.9 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5040a12c-cb18-4c10-82bc-7d2df190b0a2")
-	)
-	(text "I2C Addr: 0x10"
-		(exclude_from_sim no)
-		(at 20.32 27.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5f10eb3d-3442-4e98-b713-ab9a49d0a46f")
-	)
 	(text "I2C Addr: 0x12"
 		(exclude_from_sim no)
-		(at 23.622 69.596 0)
+		(at 20.066 27.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,32 +1569,6 @@
 			(justify left top)
 		)
 		(uuid "9ce7de46-821c-4c41-b0a7-8e2e3e709086")
-	)
-	(text "PAC1954 (2)"
-		(exclude_from_sim no)
-		(at 16.002 67.31 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a537744d-4901-46b5-8f92-79f1a1e60843")
-	)
-	(text "PAC1954 (3)"
-		(exclude_from_sim no)
-		(at 81.788 33.782 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0d8ce29-f849-4f5e-83d2-60448ef954b9")
 	)
 	(junction
 		(at 185.42 68.58)
