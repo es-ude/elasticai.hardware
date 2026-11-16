@@ -63,10 +63,10 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.1,
-          "pad_connection": 3,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.2,
-          "thermal_relief_spoke_width": 0.2
+          "thermal_relief_spoke_width": 0.4
         }
       },
       "diff_pair_dimensions": [],
@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -648,21 +648,13 @@
         "uuid": "564866ff-b654-4c06-b096-1cad86fb817b"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "U3",
     "variants": []
   },
   "sheets": [
     [
       "564866ff-b654-4c06-b096-1cad86fb817b",
       "main"
-    ],
-    [
-      "090affa8-e140-43e2-9f91-ec11e07568e5",
-      "Connectors"
-    ],
-    [
-      "b10cfba8-ff05-4930-b034-8c27966aafd6",
-      "FPGA"
     ]
   ],
   "text_variables": {},
