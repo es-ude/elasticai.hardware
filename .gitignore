@@ -4,6 +4,7 @@
 *.b#*
 *.pro
 .DS_Store
+**/.idea
 
 # KiCad artefacts
 **/*-backups

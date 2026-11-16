@@ -1,17 +1,25 @@
-# Elastic Node Hardware Platform
-This repo contains the hardware design files of our elastic node hardware for deploying deep learning architectures on embedded hardware.
+# elasticAI.hardware
+This repo contains the hardware design files for different generations of the Elastic Node Hardware (ENv). 
+This hardware is used for deploying deep learning architectures on embedded hardware and in applications.
 
-### ENv6 - Elastic Node v6
-See further detailed information in their specific [docu file](v6/readme.md).
+## ENv6 - Elastic Node v6
+Still in development. See further detailed information in their specific [docu file](v6/readme.md).
 
 ## ENv5 - Elastic Node v5
-The 5th generation of Elastic node is designed based on the 4th version, but with some improvements. The main improvements are:
-- Using Cortex-M0 MCU instead of AVR 8-bit MCU, to gain more performance and lower power consumption.
-- Using SPI as the communication interface between MCU and the FPGA to save more IO pins.
-- Simplify the power supply circuit to reduce the space and improve reliability.
-- Adding an energy meter chip to ease the energy measurement.
-- Optimize the PCB layout to reduce the PCB size.
+Actual version. See further detailed information in [docu](v5/readme.md).
 
-Before you start using the ENv5, please read the following documents accordingly:
-- [ENv5 Test Version User Manual](v5/test_version/readme.md)
-- [ENv5 Revision 1 User Manual](v5/revision_1/readme.md)
+## ENv4 - Elastic Node v4
+Designs are deprecated and not longer used.
+
+## ENv3 - Elastic Node v3
+Designs are deprecated and not longer used.
+
+## ENv2 - Elastic Node v2
+Designs are deprecated and not longer used.
+
+## ENv1 - Elastic Node v1
+Designs are deprecated and not longer used.
+
+## measurement - Measurement Equipment for R&S MXO4
+This two designs can be used for performing Frequency Response Analysis using the R&S MXO4 oscilloscope in which the Device-Under-Test (DUT) needs an input offset.
+State: Active used
