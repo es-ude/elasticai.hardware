@@ -3357,6 +3357,17 @@
 		)
 		(uuid "99016cbd-3d48-4bc7-b604-49b316191b30")
 	)
+	(text "Changes:\n- Remove FPGA_MX pins, replace residual Quad SPI signals, add resistors for Mx-config on board\n- PKK2 signals: Used from MCU to App? \n- FPGA_RESET is for programming and not for the logic. Button should be removed\n- One additional CS for access to the FPGA is necessary (and not to the flash)\n- Logic Reset Pin is necessary \n- Raname ADC1_DETECT into FPGA_DETECTED\n- Rename ADC2_DETECT into APP_DETECTED"
+		(exclude_from_sim no)
+		(at 17.78 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "af30bf54-9de6-448e-9992-09decd7ae56c")
+	)
 	(no_connect
 		(at 165.1 140.97)
 		(uuid "07a5b441-2efd-4666-b416-f4a042ffd7d5")

@@ -648,7 +648,7 @@
         "uuid": "564866ff-b654-4c06-b096-1cad86fb817b"
       }
     ],
-    "used_designators": "R301-306,R332-333,R401-409,U301-302,C301-335,S301",
+    "used_designators": "R301-306,R332-333,R401-409,C301-335,U301-302,S301",
     "variants": []
   },
   "sheets": [
