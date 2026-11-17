@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "power_con") (type "KiCad") (uri "/Users/erbsloeh/git/stimulation_genv4/0_hardware/1_main/power_con.pretty") (options "") (descr ""))
+)
