@@ -20,6 +20,9 @@ Designs are deprecated and not longer used.
 ## ENv1 - Elastic Node v1
 Designs are deprecated and not longer used.
 
+## power - Elastic Power Modules
+Designs are the actual version. See further detailed information in [docu](power/readme.md).
+
 ## measurement - Measurement Equipment for R&S MXO4
 This two designs can be used for performing Frequency Response Analysis using the R&S MXO4 oscilloscope in which the Device-Under-Test (DUT) needs an input offset.
 State: Active used

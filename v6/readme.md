@@ -5,7 +5,7 @@ For controlling the hardware from PC with Python CLI, please use the elasticAI.e
 
 ## State
 Still in development. The connectors are available in our [KiCAD library](https://github.com/es-ude/kicad-library). Available boards are:
-- [ ] Base board (USB, MCU, WLAN, ...)
+- [ ] Base board (USB, MCU, WLAN, ...) - [BOM](main/bom/ibom.html)
 - [ ] Measurement board to sense currents using Nordic PKK2
 - [ ] FPGA Board with CologneChip GateMate M1A1
 - [ ] FPGA Board with CologneChip GateMate M1A2
@@ -13,6 +13,7 @@ Still in development. The connectors are available in our [KiCAD library](https:
 - [ ] FPGA Board with AMD Spartan-7 S15
 - [ ] FPGA Board with AMD Spartan-7 S50
 - [ ] FPGA Board with AMD Artix-7 100T
+- [x] Mini Version with Lattice ICE40UP5K - [BOM](mini/bom/ibom_1v1.html)
 
 ## Changes to ENV5
 ### Improvements
