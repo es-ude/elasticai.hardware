@@ -4530,17 +4530,6 @@
 		)
 		(uuid "df3125d4-da9d-445b-b64c-ecf1a930ecc3")
 	)
-	(text "(Dirty-)JTAG\nFor FPGA"
-		(exclude_from_sim no)
-		(at 159.004 101.092 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e710099a-a695-4c5a-a235-199ddd200dd6")
-	)
 	(text "power supply voltage 3.5 - 5.3 V"
 		(exclude_from_sim no)
 		(at 189.23 83.058 0)
@@ -5008,16 +4997,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 128.27) (xy 137.16 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5a869a-3295-4a14-94d2-0fe501750905")
-	)
-	(wire
-		(pts
 			(xy 30.48 137.16) (xy 30.48 134.62)
 		)
 		(stroke
@@ -5058,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 129.54) (xy 134.62 129.54)
+			(xy 134.62 129.54) (xy 151.13 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5088,7 +5067,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 134.62 104.14)
+			(xy 146.05 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5215,16 +5194,6 @@
 			(type default)
 		)
 		(uuid "1aa81cb0-d58b-467f-abd4-775887de5a50")
-	)
-	(wire
-		(pts
-			(xy 135.89 128.27) (xy 135.89 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af46cae-48b9-43e3-b624-edeca434b50a")
 	)
 	(wire
 		(pts
@@ -5378,16 +5347,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 127) (xy 149.86 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aee6693-5d18-4ddd-8a8c-2236b445939d")
-	)
-	(wire
-		(pts
 			(xy 43.18 62.23) (xy 43.18 63.5)
 		)
 		(stroke
@@ -5456,16 +5415,6 @@
 		)
 		(uuid "30ee3728-9496-45c0-92a3-db128e3bfee5")
 	)
-	(polyline
-		(pts
-			(xy 158.75 95.25) (xy 158.7418 112.0334)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31126c3f-b51c-48f7-98c4-ec4c9d970a2a")
-	)
 	(wire
 		(pts
 			(xy 77.47 180.34) (xy 77.47 177.8)
@@ -5528,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 138.43 139.7)
+			(xy 134.62 139.7) (xy 151.13 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5606,15 +5555,15 @@
 		)
 		(uuid "41bd321f-bb98-4845-80c3-0f0c4c7b8cc8")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 158.115 95.25) (xy 159.385 95.25)
+			(xy 134.62 127) (xy 151.13 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "421abaa6-d6a3-4b9b-b108-0ae9b94f6410")
+		(uuid "425c1b6a-0068-42dc-b983-d720ee6fb486")
 	)
 	(wire
 		(pts
@@ -5648,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 124.46) (xy 134.62 124.46)
+			(xy 134.62 124.46) (xy 151.13 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5858,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 134.62 101.6)
+			(xy 138.43 101.6) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6178,16 +6127,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 123.19) (xy 135.89 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8418edef-ed05-4451-97ce-362b18960cfc")
-	)
-	(wire
-		(pts
 			(xy 102.87 50.8) (xy 99.06 50.8)
 		)
 		(stroke
@@ -6218,7 +6157,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 134.62 134.62)
+			(xy 134.62 134.62) (xy 151.13 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6378,7 +6317,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 134.62 109.22)
+			(xy 146.05 109.22) (xy 134.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6398,16 +6337,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 133.35) (xy 137.16 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b5fb757-985b-402c-bc7d-695cb7d30357")
-	)
-	(wire
-		(pts
 			(xy 88.9 167.64) (xy 92.71 167.64)
 		)
 		(stroke
@@ -6418,7 +6347,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 134.62 96.52)
+			(xy 138.43 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6468,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 134.62 99.06)
+			(xy 138.43 99.06) (xy 134.62 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6888,7 +6817,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 134.62 106.68)
+			(xy 146.05 106.68) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7006,16 +6935,6 @@
 		)
 		(uuid "d6823133-aa65-4809-9679-86e3dd39d5eb")
 	)
-	(polyline
-		(pts
-			(xy 158.75 111.76) (xy 160.02 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8203813-bead-46f4-958a-13f256d870e5")
-	)
 	(wire
 		(pts
 			(xy 134.62 50.8) (xy 137.16 50.8)
@@ -7045,16 +6964,6 @@
 			(type default)
 		)
 		(uuid "d9b5af45-5ca6-436d-abf0-9c9af5d0cd38")
-	)
-	(wire
-		(pts
-			(xy 137.16 123.19) (xy 135.89 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab0aea7-fe39-4784-9b8a-21e69f9f236c")
 	)
 	(wire
 		(pts
@@ -7198,7 +7107,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 134.62 111.76)
+			(xy 146.05 111.76) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7305,16 +7214,6 @@
 			(type default)
 		)
 		(uuid "ec9bd00d-2613-4a54-9d62-517241b24171")
-	)
-	(wire
-		(pts
-			(xy 135.89 133.35) (xy 135.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef1946e2-f91d-4831-b40e-05e64b09a35d")
 	)
 	(wire
 		(pts
@@ -7486,6 +7385,16 @@
 		)
 		(uuid "40af2066-9a17-4dc3-b29a-790e45e62585")
 	)
+	(label "MCU_Button_1"
+		(at 151.13 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e2e0da4-240d-4bcd-85ac-6933f870d8e1")
+	)
 	(label "MCU_1V1"
 		(at 52.07 39.37 0)
 		(effects
@@ -7606,16 +7515,6 @@
 		)
 		(uuid "dd6a72dd-f9b2-4357-bce2-dfd65477a927")
 	)
-	(label "MCU_Button_1"
-		(at 149.86 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df33629d-1c6b-404c-9a1c-383f3af125f2")
-	)
 	(label "JTAG_TDO_GP17"
 		(at 271.78 96.52 180)
 		(effects
@@ -7732,7 +7631,7 @@
 			)
 		)
 	)
-	(global_label "Unused_GP10"
+	(global_label "MCU-FPGA_CS"
 		(shape bidirectional)
 		(at 138.43 78.74 0)
 		(fields_autoplaced yes)
@@ -7744,7 +7643,31 @@
 		)
 		(uuid "18da78fc-bda6-4955-b78b-807320a91e97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3473 78.74 0)
+			(at 156.3151 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "JTAG_TDI_GP28"
+		(shape bidirectional)
+		(at 151.13 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b684b1f-e9ce-409a-8e2e-bcbaecce88f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.2569 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,102 +7716,6 @@
 		(uuid "207fbf2e-c440-4a9e-84e4-2bcd1c8103d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.2869 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GP46_ADC6"
-		(shape bidirectional)
-		(at 137.16 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27d27ae4-1ff1-4a20-b8ed-bd019b488e77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0212 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_CFG_2"
-		(shape bidirectional)
-		(at 137.16 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cae9dbf-e6ac-4570-ae5b-6af58c1a1f6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.747 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "JTAG_TMS_GP19"
-		(shape bidirectional)
-		(at 137.16 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2caeb5f2-f92a-4cc6-9ffd-ce4652dc75b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.073 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ExtraCFG_GP26"
-		(shape bidirectional)
-		(at 137.16 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fec6960-7a78-4eb2-af9c-f59204ed1696")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.6497 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7996,6 +7823,30 @@
 			)
 		)
 	)
+	(global_label "FPGA_CFG_1"
+		(shape bidirectional)
+		(at 146.05 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e0c954e-10dc-4017-85b9-ba944e5a2f7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.637 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MCU-FPGA_EN_OSC"
 		(shape bidirectional)
 		(at 138.43 81.28 0)
@@ -8068,30 +7919,6 @@
 			)
 		)
 	)
-	(global_label "GP47_ADC7"
-		(shape bidirectional)
-		(at 137.16 182.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a50b244-036f-4524-a9ea-8f1c42e484db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0212 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GP42_ADC2"
 		(shape bidirectional)
 		(at 137.16 170.18 0)
@@ -8129,6 +7956,30 @@
 		(uuid "5961666e-ab05-4f8d-8410-c96229d948a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.1378 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_CFG_2"
+		(shape bidirectional)
+		(at 146.05 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5eac0ba8-4db2-4053-8f27-19c60f25d6e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.637 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,9 +8063,9 @@
 			)
 		)
 	)
-	(global_label "FPGA_CFG_4"
+	(global_label "JTAG_TCK_GP26"
 		(shape bidirectional)
-		(at 137.16 133.35 0)
+		(at 151.13 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8222,9 +8073,33 @@
 			)
 			(justify left)
 		)
-		(uuid "7d8746a9-93eb-485d-8a4a-d6f2f5925b53")
+		(uuid "7b19a99f-cf1d-4e3c-be8a-83b08f4dd21e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.747 133.35 0)
+			(at 169.9221 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GP17_QSPI_IO3"
+		(shape bidirectional)
+		(at 138.43 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d87876f-d140-4bb9-9fdb-3cb498aa5cb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.9803 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8284,7 +8159,31 @@
 			)
 		)
 	)
-	(global_label "Unused{slash}GP35"
+	(global_label "JTAG_TMS_GP30"
+		(shape bidirectional)
+		(at 151.13 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82dfc6f7-1b56-496b-b80e-7050cfd6d9ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.043 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU-AP_GP35"
 		(shape bidirectional)
 		(at 138.43 149.86 0)
 		(fields_autoplaced yes)
@@ -8296,7 +8195,7 @@
 		)
 		(uuid "850be86f-34a1-4f0d-8329-a3f6dc5307c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7102 149.86 0)
+			(at 156.436 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,7 +8257,7 @@
 	)
 	(global_label "FPGA_CFG_3"
 		(shape bidirectional)
-		(at 137.16 111.76 0)
+		(at 146.05 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8366,9 +8265,9 @@
 			)
 			(justify left)
 		)
-		(uuid "88fb5717-8152-4067-883c-13f28fa0442f")
+		(uuid "8849c001-52fd-499e-9dad-a700dec5e3fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.747 111.76 0)
+			(at 161.637 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8404,9 +8303,9 @@
 			)
 		)
 	)
-	(global_label "APP_DETECT"
+	(global_label "FPGA_DETECT"
 		(shape bidirectional)
-		(at 137.16 167.64 0)
+		(at 137.16 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8414,9 +8313,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9187ccfe-27de-46ce-9641-942d76fadb3d")
+		(uuid "91ab6829-3334-4562-8da8-c605b7f65b82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6259 167.64 0)
+			(at 153.7145 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8452,7 +8351,55 @@
 			)
 		)
 	)
-	(global_label "Unused_GP0"
+	(global_label "GP16_QSPI_IO2"
+		(shape bidirectional)
+		(at 138.43 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94937653-7428-4985-85d9-2f00879b9ea3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.9803 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU-FPGA_USR-RST"
+		(shape bidirectional)
+		(at 138.43 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ea85eff-760d-41c0-b11b-d8dee3dad95c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.6651 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Unused_GP2"
 		(shape bidirectional)
 		(at 137.16 55.88 0)
 		(fields_autoplaced yes)
@@ -8513,30 +8460,6 @@
 		(uuid "ade3039c-0c61-4231-a301-4e56e10329b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.8678 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "JTAG_TDO_GP17"
-		(shape bidirectional)
-		(at 137.16 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afa68ae7-ccc6-4f66-bfc0-99c13394d9fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.0126 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +8543,7 @@
 			)
 		)
 	)
-	(global_label "Unused{slash}GP34"
+	(global_label "MCU-AP_GP34"
 		(shape bidirectional)
 		(at 138.43 147.32 0)
 		(fields_autoplaced yes)
@@ -8632,7 +8555,7 @@
 		)
 		(uuid "c46ff9d6-8796-4151-922d-3934060247ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7102 147.32 0)
+			(at 156.436 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,6 +8615,30 @@
 			)
 		)
 	)
+	(global_label "APP_DETECT"
+		(shape bidirectional)
+		(at 137.16 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc55cadf-8a67-456d-b062-f5b2972507b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6259 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VDD_MCU"
 		(shape input)
 		(at 254 33.02 90)
@@ -8705,54 +8652,6 @@
 		(uuid "cdcc5822-8a07-455b-a970-662dc6fe8979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254 21.3867 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_CFG_5"
-		(shape bidirectional)
-		(at 137.16 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d27202e5-11d2-4c50-a190-8d4495455ee6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.747 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Unused{slash}GP32"
-		(shape bidirectional)
-		(at 138.43 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3df7323-2c59-453f-8a09-e5f83750009f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7102 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,9 +8687,9 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDI_GP16"
+	(global_label "GP41_ADC1"
 		(shape bidirectional)
-		(at 137.16 96.52 0)
+		(at 137.16 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8798,9 +8697,33 @@
 			)
 			(justify left)
 		)
-		(uuid "e225d690-827d-4065-9959-81b5549855e4")
+		(uuid "dbff0bf5-c3a6-4332-8cd8-835c26cfd0db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.2869 96.52 0)
+			(at 152.0212 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "JTAG_TDO_GP27"
+		(shape bidirectional)
+		(at 151.13 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dee305d7-edc7-41e2-bb47-cdd76b572514")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.9826 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,9 +8759,9 @@
 			)
 		)
 	)
-	(global_label "JTAG_TCK_GP18"
+	(global_label "GP40_ADC0"
 		(shape bidirectional)
-		(at 137.16 101.6 0)
+		(at 137.16 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8846,9 +8769,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e8faa90b-81a1-4fc7-b780-cee79b3992e0")
+		(uuid "ea404517-cc09-4b61-8005-9710f6af072c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9521 101.6 0)
+			(at 152.0212 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,7 +8807,31 @@
 			)
 		)
 	)
-	(global_label "Unused{slash}GP33"
+	(global_label "FPGA_CFG_4"
+		(shape bidirectional)
+		(at 146.05 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f49ce357-8028-41ba-a2df-d4a62df6a2df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.637 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU-AP_GP33"
 		(shape bidirectional)
 		(at 138.43 142.24 0)
 		(fields_autoplaced yes)
@@ -8896,7 +8843,7 @@
 		)
 		(uuid "f5655254-a4ca-42a6-863e-470d1874db5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7102 142.24 0)
+			(at 156.436 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,54 +8868,6 @@
 		(uuid "f5f1b05c-a422-4dd3-a69b-01c7f3029df1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.0212 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_CFG_1"
-		(shape bidirectional)
-		(at 137.16 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f806d5fb-e4be-41fb-ae57-d38750116b6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.747 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_DETECT"
-		(shape bidirectional)
-		(at 137.16 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9184588-5157-4e69-8247-7167e7ff7141")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7145 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

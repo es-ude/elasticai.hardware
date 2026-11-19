@@ -713,7 +713,7 @@
         "uuid": "c353698e-fca1-4ed3-95bc-4f5142868012"
       }
     ],
-    "used_designators": "J302,U302",
+    "used_designators": "B401,J302,U302,#PWR414-419,#PWR430-432",
     "variants": []
   },
   "sheets": [
