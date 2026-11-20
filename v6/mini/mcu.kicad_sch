@@ -3644,16 +3644,6 @@
 		)
 		(uuid "c5436ab3-ea3d-4d93-8543-937d61c77d2f")
 	)
-	(text "spi1"
-		(exclude_from_sim no)
-		(at 208.28 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0d85e46-7b2c-4587-a642-17c2bb3b6b79")
-	)
 	(junction
 		(at 77.47 50.8)
 		(diameter 0)
@@ -4078,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 186.69 91.44)
+			(xy 175.26 91.44) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4818,7 +4808,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 96.52) (xy 186.69 96.52)
+			(xy 175.26 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 93.98) (xy 186.69 93.98)
+			(xy 175.26 93.98) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5188,7 +5178,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 185.42 88.9)
+			(xy 175.26 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5346,16 +5336,6 @@
 		)
 		(uuid "ececd51f-4908-45cb-888b-da96a990efed")
 	)
-	(polyline
-		(pts
-			(xy 205.232 87.63) (xy 205.232 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f082d7d6-25bf-4dfc-947a-2b3033e99f7e")
-	)
 	(wire
 		(pts
 			(xy 118.11 39.37) (xy 118.11 40.64)
@@ -5474,9 +5454,9 @@
 			)
 		)
 	)
-	(global_label "SPI_SCLK"
-		(shape output)
-		(at 186.69 93.98 0)
+	(global_label "FPGA_GPIO3"
+		(shape bidirectional)
+		(at 179.07 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5486,7 +5466,7 @@
 		)
 		(uuid "41873370-7379-4a12-a0a2-783d09b36b51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.5047 93.98 0)
+			(at 194.5361 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5570,9 +5550,9 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI"
-		(shape output)
-		(at 186.69 96.52 0)
+	(global_label "FPGA_GPIO4"
+		(shape bidirectional)
+		(at 179.07 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5582,7 +5562,7 @@
 		)
 		(uuid "530ad9c8-6544-4b9d-8f02-f427b5678a5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3233 96.52 0)
+			(at 194.5361 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5576,7 @@
 	)
 	(global_label "FPGA_~{CS}"
 		(shape output)
-		(at 186.69 91.44 0)
+		(at 180.34 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5606,7 +5586,7 @@
 		)
 		(uuid "5530bb65-3363-4374-9048-19041d4a4074")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8395 91.44 0)
+			(at 191.4895 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5642,9 +5622,9 @@
 			)
 		)
 	)
-	(global_label "SPI_MISO"
-		(shape input)
-		(at 185.42 88.9 0)
+	(global_label "FPGA_GPIO2"
+		(shape bidirectional)
+		(at 179.07 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5654,7 +5634,7 @@
 		)
 		(uuid "5ee9aa4d-55c0-4c9c-ac42-f15e1a40d14e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.0533 88.9 0)
+			(at 194.5361 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5738,7 +5718,7 @@
 			)
 		)
 	)
-	(global_label "FPGA_GPIO2"
+	(global_label "FPGA_GPIO5"
 		(shape bidirectional)
 		(at 179.07 68.58 0)
 		(fields_autoplaced yes)

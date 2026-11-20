@@ -3036,7 +3036,7 @@
 		)
 		(uuid "3da8bda1-c68c-4e43-a837-da522862b860")
 	)
-	(text "Note: FPGA configuration using SPI Master Mode\n- SPI_SI receives data from external SPI memory\n- SPI_SO outputs the command data to external SPI memory"
+	(text "Note for shared SPI bus (MCU <-> FPGA <-> Flash): \n- Flashing: FPGA disabled, MCU in Master Mode\n- During FPGA configuration: MCU disabled, FPGA is in SPI Master Mode\n- After FPGA configuration: FPGA pins are user-IO, MCU goes into SPI Master mode\n"
 		(exclude_from_sim no)
 		(at 178.054 167.64 0)
 		(effects
@@ -3047,6 +3047,16 @@
 		)
 		(uuid "734ff8ab-362d-4b9a-8fdb-330b1824fcd4")
 	)
+	(text "SPI_SCLK"
+		(exclude_from_sim no)
+		(at 157.988 153.416 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ce70fc2-5ab9-4665-98e5-2a5ff958ed90")
+	)
 	(text "SPI_MOSI"
 		(exclude_from_sim no)
 		(at 152.146 153.416 90)
@@ -3056,6 +3066,16 @@
 			)
 		)
 		(uuid "d12cd2f5-0d18-4ade-a70c-73e42f017b6b")
+	)
+	(text "FLASH_CS"
+		(exclude_from_sim no)
+		(at 160.528 153.162 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1ba1b4f-0c7f-4d75-98d2-ca1445d75f01")
 	)
 	(junction
 		(at 160.02 125.73)
@@ -4231,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 97.79) (xy 147.32 97.79)
+			(xy 135.89 97.79) (xy 146.05 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5220,9 +5240,9 @@
 		)
 		(uuid "fed25380-f1ba-4af3-9f84-5b770f37f367")
 	)
-	(global_label "SPI_MISO"
-		(shape output)
-		(at 147.32 97.79 0)
+	(global_label "FPGA_GPIO2"
+		(shape bidirectional)
+		(at 146.05 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5232,7 +5252,7 @@
 		)
 		(uuid "09a2c626-6f49-4169-be4a-cabf83b1c5e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9533 97.79 0)
+			(at 161.5161 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,8 +5408,8 @@
 			)
 		)
 	)
-	(global_label "SPI_SCLK"
-		(shape input)
+	(global_label "FPGA_GPIO3"
+		(shape bidirectional)
 		(at 146.05 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5400,7 +5420,7 @@
 		)
 		(uuid "7dc6b7b2-686c-4d4f-b35b-e25902be8f74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8647 105.41 0)
+			(at 161.5161 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5624,7 @@
 			)
 		)
 	)
-	(global_label "FPGA_GPIO2"
+	(global_label "FPGA_GPIO5"
 		(shape bidirectional)
 		(at 78.74 87.63 180)
 		(fields_autoplaced yes)
@@ -5628,8 +5648,8 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI"
-		(shape input)
+	(global_label "FPGA_GPIO4"
+		(shape bidirectional)
 		(at 146.05 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5640,7 +5660,7 @@
 		)
 		(uuid "f4a86ec1-c14e-42ce-a273-90a84e328675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6833 107.95 0)
+			(at 161.5161 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
