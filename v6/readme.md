@@ -15,6 +15,9 @@ Still in development. The connectors are available in our [KiCAD library](https:
 - [ ] FPGA Board with AMD Artix-7 100T
 - [x] Mini Version with Lattice ICE40UP5K - [BOM](mini/bom/ibom_1v1.html)
 
+## Concept of ENv6.mini
+![Concept draft of the ENv6.mini](0_docu/env6_mini_overview.svg)
+
 ## Changes to ENV5
 ### Improvements
 - Removing the ESP32 chip and replace with RPi Radio Module
@@ -90,7 +93,7 @@ For the worst-case tolerance of both resistors plus ±16 LSB, the minimum gap be
 ## Configuration of the Connector IOs
 The following Figure shows the symbol of the connector header (left) and their layout (right) used in KiCAD. 
 You find different types of symbol in the KiCAD library which have a common IO placement (base board, FPGA shield, application).
-![Connector IO of the base board](connector_io.png)
+![Connector IO of the base board](0_docu/env6_connector_io.png)
 The headers are grouped into three segments:
 - power (voltage: right, ground: left) - Access up to five voltages (V_SYS = System Raw Voltage, V_FPGA_CORE = FPGA Core Voltage, V_FPGA_AUX = Aux Power Supply, V_FPGA_BANK = FPGA Bank Voltage, V_APP = Additional LDO output with programmable output voltage (0.8 ... 3.6 V @ 300 mA)).
 - Application Header (down) - Configurable MCU (x6) / FPGA (x12) GPIOs for application + V_MCU for IO translation + Detection pins for FPGA and Application
