@@ -1,0 +1,371 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1720" height="1180" viewBox="0 0 1720 1180" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<title>ENv6 base board connector pin assignment</title>
+<style>.bg{fill:#ffffff;stroke:#d0d7de}.tx{fill:#1f2328}.tx2{fill:#59636e}@media (prefers-color-scheme: dark){.bg{fill:#0d1117;stroke:#30363d}.tx{fill:#e6edf3}.tx2{fill:#9da7b3}}</style>
+<rect class="bg" x="0.5" y="0.5" width="1719" height="1179" rx="10" stroke-width="1"/>
+<rect x="363.0" y="198.0" width="34" height="34" rx="6" fill="#dcd8fb" stroke="#534ab7" stroke-width="1.5"/>
+<text x="380" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A31</text>
+<rect x="363.0" y="242.0" width="34" height="34" rx="6" fill="#dcd8fb" stroke="#534ab7" stroke-width="1.5"/>
+<text x="380" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A32</text>
+<text transform="translate(384,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">JTAG_TMS (GP30)</text>
+<text transform="translate(384,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">JTAG_TDI (GP28)</text>
+<rect x="407.0" y="198.0" width="34" height="34" rx="6" fill="#dcd8fb" stroke="#534ab7" stroke-width="1.5"/>
+<text x="424" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A29</text>
+<rect x="407.0" y="242.0" width="34" height="34" rx="6" fill="#dcd8fb" stroke="#534ab7" stroke-width="1.5"/>
+<text x="424" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A30</text>
+<text transform="translate(428,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">JTAG_TDO (GP27)</text>
+<text transform="translate(428,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">JTAG_TCK (GP26)</text>
+<rect x="451.0" y="198.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="468" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A27</text>
+<rect x="451.0" y="242.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="468" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A28</text>
+<text transform="translate(472,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA_CFG_4 (GP22)</text>
+<text transform="translate(472,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA_CFG_3 (GP21)</text>
+<rect x="495.0" y="198.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="512" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A25</text>
+<rect x="495.0" y="242.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="512" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A26</text>
+<text transform="translate(516,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA_CFG_2 (GP20)</text>
+<text transform="translate(516,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA_CFG_1 (GP19)</text>
+<rect x="539.0" y="198.0" width="34" height="34" rx="6" fill="#ffd0e0" stroke="#b0245c" stroke-width="1.5"/>
+<text x="556" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A23</text>
+<rect x="539.0" y="242.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="556" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A24</text>
+<text transform="translate(560,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">VDD_MCU</text>
+<text transform="translate(560,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA_USR-RST (GP18)</text>
+<rect x="583.0" y="198.0" width="34" height="34" rx="6" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="600" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A21</text>
+<rect x="583.0" y="242.0" width="34" height="34" rx="6" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="600" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A22</text>
+<text transform="translate(604,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">QSPI_IO3 (GP17)</text>
+<text transform="translate(604,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">QSPI_IO2 (GP16)</text>
+<rect x="627.0" y="198.0" width="34" height="34" rx="6" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="644" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A19</text>
+<rect x="627.0" y="242.0" width="34" height="34" rx="6" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="644" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A20</text>
+<text transform="translate(648,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">SPI1_TX (GP15)</text>
+<text transform="translate(648,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">SPI1_SCK (GP14)</text>
+<rect x="671.0" y="198.0" width="34" height="34" rx="6" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="688" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A17</text>
+<rect x="671.0" y="242.0" width="34" height="34" rx="6" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="688" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A18</text>
+<text transform="translate(692,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">SPI1_CS (GP13)</text>
+<text transform="translate(692,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">SPI1_RX (GP12)</text>
+<rect x="715.0" y="198.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="732" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A15</text>
+<rect x="715.0" y="242.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="732" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A16</text>
+<text transform="translate(736,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GND</text>
+<text transform="translate(736,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GND</text>
+<rect x="759.0" y="198.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="776" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A13</text>
+<rect x="759.0" y="242.0" width="34" height="34" rx="6" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="776" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A14</text>
+<text transform="translate(780,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA_EN_OSC (GP11)</text>
+<text transform="translate(780,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA_CS (GP10)</text>
+<rect x="803.0" y="198.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="820" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A11</text>
+<rect x="803.0" y="242.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="820" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A12</text>
+<text transform="translate(824,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GP9 (unused)</text>
+<text transform="translate(824,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GP8 (unused)</text>
+<rect x="847.0" y="198.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="864" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A9</text>
+<rect x="847.0" y="242.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="864" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A10</text>
+<text transform="translate(868,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GP7 (unused)</text>
+<text transform="translate(868,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GP6 (unused)</text>
+<rect x="891.0" y="198.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="908" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A7</text>
+<rect x="891.0" y="242.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="908" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A8</text>
+<text transform="translate(912,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GP5 (unused)</text>
+<text transform="translate(912,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GP4 (unused)</text>
+<rect x="935.0" y="198.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="952" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A5</text>
+<rect x="935.0" y="242.0" width="34" height="34" rx="6" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="952" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A6</text>
+<text transform="translate(956,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GP3 (unused)</text>
+<text transform="translate(956,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GP2 (unused)</text>
+<rect x="979.0" y="198.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="996" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A3</text>
+<rect x="979.0" y="242.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="996" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A4</text>
+<text transform="translate(1000,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GND</text>
+<text transform="translate(1000,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GND</text>
+<rect x="1023.0" y="198.0" width="34" height="34" rx="6" fill="#cfe3fb" stroke="#1f6fc4" stroke-width="1.5"/>
+<text x="1040" y="216" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A1</text>
+<rect x="1023.0" y="242.0" width="34" height="34" rx="6" fill="#cfe3fb" stroke="#1f6fc4" stroke-width="1.5"/>
+<text x="1040" y="260" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">A2</text>
+<text transform="translate(1044,191) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">I2C0_SCL (GP1)</text>
+<text transform="translate(1044,283) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">I2C0_SDA (GP0)</text>
+<rect x="363.0" y="898.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="380" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B31</text>
+<rect x="363.0" y="942.0" width="34" height="34" rx="6" fill="#ffd0e0" stroke="#b0245c" stroke-width="1.5"/>
+<text x="380" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B32</text>
+<text transform="translate(384,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GP33 (app)</text>
+<text transform="translate(384,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">VDD_MCU</text>
+<rect x="407.0" y="898.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="424" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B29</text>
+<rect x="407.0" y="942.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="424" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B30</text>
+<text transform="translate(428,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GP35 (app)</text>
+<text transform="translate(428,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GP34 (app)</text>
+<rect x="451.0" y="898.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="468" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B27</text>
+<rect x="451.0" y="942.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="468" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B28</text>
+<text transform="translate(472,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">ADC1 (GP41)</text>
+<text transform="translate(472,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">ADC0 (GP40)</text>
+<rect x="495.0" y="898.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="512" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B25</text>
+<rect x="495.0" y="942.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="512" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B26</text>
+<text transform="translate(516,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">ADC3 (GP43)</text>
+<text transform="translate(516,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">ADC2 (GP42)</text>
+<rect x="539.0" y="898.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="556" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B23</text>
+<rect x="539.0" y="942.0" width="34" height="34" rx="6" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="556" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B24</text>
+<text transform="translate(560,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">ADC5 (GP45)</text>
+<text transform="translate(560,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">ADC4 (GP44)</text>
+<rect x="583.0" y="898.0" width="34" height="34" rx="6" fill="#ffc8c8" stroke="#b32626" stroke-width="1.5"/>
+<text x="600" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B21</text>
+<rect x="583.0" y="942.0" width="34" height="34" rx="6" fill="#ffc8c8" stroke="#b32626" stroke-width="1.5"/>
+<text x="600" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B22</text>
+<text transform="translate(604,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">APP_DETECT (GP47)</text>
+<text transform="translate(604,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA_DETECT (GP46)</text>
+<rect x="627.0" y="898.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="644" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B19</text>
+<rect x="627.0" y="942.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="644" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B20</text>
+<text transform="translate(648,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GND</text>
+<text transform="translate(648,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GND</text>
+<rect x="671.0" y="898.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="688" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B17</text>
+<rect x="671.0" y="942.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="688" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B18</text>
+<text transform="translate(692,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA IO</text>
+<text transform="translate(692,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA IO</text>
+<rect x="715.0" y="898.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="732" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B15</text>
+<rect x="715.0" y="942.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="732" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B16</text>
+<text transform="translate(736,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA IO</text>
+<text transform="translate(736,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA IO</text>
+<rect x="759.0" y="898.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="776" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B13</text>
+<rect x="759.0" y="942.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="776" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B14</text>
+<text transform="translate(780,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA IO</text>
+<text transform="translate(780,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA IO</text>
+<rect x="803.0" y="898.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="820" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B11</text>
+<rect x="803.0" y="942.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="820" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B12</text>
+<text transform="translate(824,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA IO</text>
+<text transform="translate(824,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA IO</text>
+<rect x="847.0" y="898.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="864" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B9</text>
+<rect x="847.0" y="942.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="864" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B10</text>
+<text transform="translate(868,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA IO</text>
+<text transform="translate(868,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA IO</text>
+<rect x="891.0" y="898.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="908" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B7</text>
+<rect x="891.0" y="942.0" width="34" height="34" rx="6" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="908" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B8</text>
+<text transform="translate(912,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">FPGA IO</text>
+<text transform="translate(912,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">FPGA IO</text>
+<rect x="935.0" y="898.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="952" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B5</text>
+<rect x="935.0" y="942.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="952" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B6</text>
+<text transform="translate(956,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">GND</text>
+<text transform="translate(956,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">GND</text>
+<rect x="979.0" y="898.0" width="34" height="34" rx="6" fill="#fde9c8" stroke="#ba7517" stroke-width="1.5"/>
+<text x="996" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B3</text>
+<rect x="979.0" y="942.0" width="34" height="34" rx="6" fill="#fde9c8" stroke="#ba7517" stroke-width="1.5"/>
+<text x="996" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B4</text>
+<text transform="translate(1000,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">VSYS</text>
+<text transform="translate(1000,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">VSYS</text>
+<rect x="1023.0" y="898.0" width="34" height="34" rx="6" fill="#fde9c8" stroke="#ba7517" stroke-width="1.5"/>
+<text x="1040" y="916" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B1</text>
+<rect x="1023.0" y="942.0" width="34" height="34" rx="6" fill="#fde9c8" stroke="#ba7517" stroke-width="1.5"/>
+<text x="1040" y="960" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">B2</text>
+<text transform="translate(1044,891) rotate(-90)" class="tx" font-size="12.5" text-anchor="start">VSYS</text>
+<text transform="translate(1044,983) rotate(-90)" class="tx" font-size="12.5" text-anchor="end">VSYS</text>
+<text x="1100" y="222" font-size="20" font-weight="600" class="tx">MCU/FPGA header</text>
+<text x="1100" y="246" font-size="20" font-weight="600" class="tx">(A1 … A32)</text>
+<text x="1100" y="922" font-size="20" font-weight="600" class="tx">Application header</text>
+<text x="1100" y="946" font-size="20" font-weight="600" class="tx">(B1 … B32)</text>
+<rect x="1453.0" y="343.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1470" y="361" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C1</text>
+<rect x="1497.0" y="343.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1514" y="361" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C2</text>
+<text x="1446" y="361" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">GND</text>
+<text x="1538" y="361" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">GND</text>
+<rect x="1453.0" y="383.0" width="34" height="34" rx="6" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="1470" y="401" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C3</text>
+<rect x="1497.0" y="383.0" width="34" height="34" rx="6" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="1514" y="401" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C4</text>
+<text x="1446" y="401" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU1</text>
+<text x="1538" y="401" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU1</text>
+<rect x="1453.0" y="423.0" width="34" height="34" rx="6" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="1470" y="441" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C5</text>
+<rect x="1497.0" y="423.0" width="34" height="34" rx="6" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="1514" y="441" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C6</text>
+<text x="1446" y="441" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU1</text>
+<text x="1538" y="441" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU1</text>
+<rect x="1453.0" y="463.0" width="34" height="34" rx="6" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="1470" y="481" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C7</text>
+<rect x="1497.0" y="463.0" width="34" height="34" rx="6" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="1514" y="481" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C8</text>
+<text x="1446" y="481" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU1</text>
+<text x="1538" y="481" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU1</text>
+<rect x="1453.0" y="503.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1470" y="521" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C9</text>
+<rect x="1497.0" y="503.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1514" y="521" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C10</text>
+<text x="1446" y="521" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">GND</text>
+<text x="1538" y="521" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">GND</text>
+<rect x="1453.0" y="543.0" width="34" height="34" rx="6" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="1470" y="561" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C11</text>
+<rect x="1497.0" y="543.0" width="34" height="34" rx="6" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="1514" y="561" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C12</text>
+<text x="1446" y="561" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU2</text>
+<text x="1538" y="561" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU2</text>
+<rect x="1453.0" y="583.0" width="34" height="34" rx="6" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="1470" y="601" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C13</text>
+<rect x="1497.0" y="583.0" width="34" height="34" rx="6" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="1514" y="601" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C14</text>
+<text x="1446" y="601" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU2</text>
+<text x="1538" y="601" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU2</text>
+<rect x="1453.0" y="623.0" width="34" height="34" rx="6" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="1470" y="641" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C15</text>
+<rect x="1497.0" y="623.0" width="34" height="34" rx="6" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="1514" y="641" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C16</text>
+<text x="1446" y="641" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU2</text>
+<text x="1538" y="641" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU2</text>
+<rect x="1453.0" y="663.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1470" y="681" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C17</text>
+<rect x="1497.0" y="663.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1514" y="681" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C18</text>
+<text x="1446" y="681" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">GND</text>
+<text x="1538" y="681" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">GND</text>
+<rect x="1453.0" y="703.0" width="34" height="34" rx="6" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="1470" y="721" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C19</text>
+<rect x="1497.0" y="703.0" width="34" height="34" rx="6" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="1514" y="721" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C20</text>
+<text x="1446" y="721" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU4</text>
+<text x="1538" y="721" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU4</text>
+<rect x="1453.0" y="743.0" width="34" height="34" rx="6" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="1470" y="761" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C21</text>
+<rect x="1497.0" y="743.0" width="34" height="34" rx="6" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="1514" y="761" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C22</text>
+<text x="1446" y="761" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU4</text>
+<text x="1538" y="761" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU4</text>
+<rect x="1453.0" y="783.0" width="34" height="34" rx="6" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="1470" y="801" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C23</text>
+<rect x="1497.0" y="783.0" width="34" height="34" rx="6" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="1514" y="801" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C24</text>
+<text x="1446" y="801" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU4</text>
+<text x="1538" y="801" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU4</text>
+<rect x="1453.0" y="823.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1470" y="841" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C25</text>
+<rect x="1497.0" y="823.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="1514" y="841" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C26</text>
+<text x="1446" y="841" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">GND</text>
+<text x="1538" y="841" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">GND</text>
+<rect x="1453.0" y="863.0" width="34" height="34" rx="6" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="1470" y="881" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C27</text>
+<rect x="1497.0" y="863.0" width="34" height="34" rx="6" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="1514" y="881" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C28</text>
+<text x="1446" y="881" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU3</text>
+<text x="1538" y="881" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU3</text>
+<rect x="1453.0" y="903.0" width="34" height="34" rx="6" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="1470" y="921" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C29</text>
+<rect x="1497.0" y="903.0" width="34" height="34" rx="6" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="1514" y="921" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C30</text>
+<text x="1446" y="921" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU3</text>
+<text x="1538" y="921" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU3</text>
+<rect x="1453.0" y="943.0" width="34" height="34" rx="6" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="1470" y="961" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C31</text>
+<rect x="1497.0" y="943.0" width="34" height="34" rx="6" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="1514" y="961" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">C32</text>
+<text x="1446" y="961" class="tx" font-size="12.5" text-anchor="end" dominant-baseline="central">PSU3</text>
+<text x="1538" y="961" class="tx" font-size="12.5" text-anchor="start" dominant-baseline="central">PSU3</text>
+<text x="1492.0" y="316" font-size="20" font-weight="600" class="tx" text-anchor="middle">Power header</text>
+<text x="1492.0" y="336" font-size="20" font-weight="600" class="tx" text-anchor="middle">(C1 … C32)</text>
+<rect x="53.0" y="313.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="331" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D1</text>
+<rect x="97.0" y="313.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="331" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D2</text>
+<rect x="53.0" y="353.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="371" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D3</text>
+<rect x="97.0" y="353.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="371" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D4</text>
+<rect x="53.0" y="393.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="411" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D5</text>
+<rect x="97.0" y="393.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="411" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D6</text>
+<rect x="53.0" y="433.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="451" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D7</text>
+<rect x="97.0" y="433.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="451" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">D8</text>
+<text x="70" y="282" font-size="18" font-weight="600" class="tx">GND header D</text>
+<text x="70" y="302" font-size="14" class="tx2">(D1 … D8)</text>
+<rect x="53.0" y="623.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="641" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E1</text>
+<rect x="97.0" y="623.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="641" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E2</text>
+<rect x="53.0" y="663.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="681" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E3</text>
+<rect x="97.0" y="663.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="681" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E4</text>
+<rect x="53.0" y="703.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="721" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E5</text>
+<rect x="97.0" y="703.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="721" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E6</text>
+<rect x="53.0" y="743.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="70" y="761" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E7</text>
+<rect x="97.0" y="743.0" width="34" height="34" rx="6" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="114" y="761" font-size="11" font-weight="600" class="tx" text-anchor="middle" dominant-baseline="central">E8</text>
+<text x="70" y="592" font-size="18" font-weight="600" class="tx">GND header E</text>
+<text x="70" y="612" font-size="14" class="tx2">(E1 … E8)</text>
+<text x="400" y="448" font-size="22" font-weight="700" class="tx">ENv6 base board connector (B401)</text>
+<text x="400" y="472" font-size="13" class="tx2">Pin assignment generated from main/connector.kicad_sch</text>
+<text x="400" y="490" font-size="13" class="tx2">Footprint ENv6_Custom_Footprints:BaseBoard_ENv6, top view; numbers are pad names, text is net (MCU pin)</text>
+<text x="400" y="508" font-size="13" class="tx2">B21 … B32: signals of the MCU. B7 … B18: FPGA IOs, provided by the FPGA board (not connected on the base board).</text>
+<rect x="400" y="535" width="24" height="22" rx="5" fill="#e3e3df" stroke="#5f5e5a" stroke-width="1.5"/>
+<text x="434" y="547" font-size="14" class="tx" dominant-baseline="central">GND</text>
+<rect x="400" y="561" width="24" height="22" rx="5" fill="#fde9c8" stroke="#ba7517" stroke-width="1.5"/>
+<text x="434" y="573" font-size="14" class="tx" dominant-baseline="central">VSYS</text>
+<rect x="400" y="587" width="24" height="22" rx="5" fill="#fcd9d0" stroke="#c0452b" stroke-width="1.5"/>
+<text x="434" y="599" font-size="14" class="tx" dominant-baseline="central">PSU1</text>
+<rect x="400" y="613" width="24" height="22" rx="5" fill="#f9e4a6" stroke="#a88100" stroke-width="1.5"/>
+<text x="434" y="625" font-size="14" class="tx" dominant-baseline="central">PSU2</text>
+<rect x="400" y="639" width="24" height="22" rx="5" fill="#e3ccf2" stroke="#7b3fa3" stroke-width="1.5"/>
+<text x="434" y="651" font-size="14" class="tx" dominant-baseline="central">PSU3</text>
+<rect x="400" y="665" width="24" height="22" rx="5" fill="#d6ecb6" stroke="#4c7a1a" stroke-width="1.5"/>
+<text x="434" y="677" font-size="14" class="tx" dominant-baseline="central">PSU4</text>
+<rect x="400" y="691" width="24" height="22" rx="5" fill="#ffd0e0" stroke="#b0245c" stroke-width="1.5"/>
+<text x="434" y="703" font-size="14" class="tx" dominant-baseline="central">VDD_MCU</text>
+<rect x="400" y="717" width="24" height="22" rx="5" fill="#cfe3fb" stroke="#1f6fc4" stroke-width="1.5"/>
+<text x="434" y="729" font-size="14" class="tx" dominant-baseline="central">I2C0</text>
+<rect x="610" y="535" width="24" height="22" rx="5" fill="#bfeee2" stroke="#0f6e56" stroke-width="1.5"/>
+<text x="644" y="547" font-size="14" class="tx" dominant-baseline="central">SPI1 / QSPI</text>
+<rect x="610" y="561" width="24" height="22" rx="5" fill="#dcd8fb" stroke="#534ab7" stroke-width="1.5"/>
+<text x="644" y="573" font-size="14" class="tx" dominant-baseline="central">JTAG</text>
+<rect x="610" y="587" width="24" height="22" rx="5" fill="#d4f0c0" stroke="#3b8a1a" stroke-width="1.5"/>
+<text x="644" y="599" font-size="14" class="tx" dominant-baseline="central">CFG / control</text>
+<rect x="610" y="613" width="24" height="22" rx="5" fill="#ececec" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="644" y="625" font-size="14" class="tx" dominant-baseline="central">Unused GPIO</text>
+<rect x="610" y="639" width="24" height="22" rx="5" fill="#ffe0b3" stroke="#c26a00" stroke-width="1.5"/>
+<text x="644" y="651" font-size="14" class="tx" dominant-baseline="central">MCU GPIO / ADC</text>
+<rect x="610" y="665" width="24" height="22" rx="5" fill="#c9eef5" stroke="#0b7285" stroke-width="1.5"/>
+<text x="644" y="677" font-size="14" class="tx" dominant-baseline="central">FPGA IO (via FPGA board)</text>
+<rect x="610" y="691" width="24" height="22" rx="5" fill="#ffc8c8" stroke="#b32626" stroke-width="1.5"/>
+<text x="644" y="703" font-size="14" class="tx" dominant-baseline="central">Detection</text>
+<rect x="610" y="717" width="24" height="22" rx="5" fill="#ffffff" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="3 2"/>
+<text x="644" y="729" font-size="14" class="tx" dominant-baseline="central">not connected</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxMzZmMzRmNC0wNjVmLTRjNmItODY1YS1kMzc0YmEzOGUyNGMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJWMEXDw+RswvQ22ynp+MGcAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0ZTE4YzU4Mi05YzNhLTQ0MjEtYmM1OC1hOGI5ZDMyODE0MDJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNofZ6SCwXwlEu+PT+huXFqxgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggZnvLb+6qWaXksLvdFwIHbTQAxva5wIqblGFwASwW/AGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLKLBM6j8WjO+jJilTbdVOsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIC12TR+MDrdYiBM5X2WbA4TN/0nEdVhDd2IBR3OxgjbFZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GaVlZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjEzNmYzNGY0LTA2NWYtNGM2Yi04NjVhLWQzNzRiYTM4ZTI0Yy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjdkMmM4Y2RmLTMxNzQtNGNiYS1hY2MwLWYwMDY3ZDQ0ZDM3Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBme8tv7qpZpeSwu90XAgdtNADG9rnAipuUYXABLBb8AaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggDKvtSaOxbrwJgxA0kGPWCtAXeZ56LRcASlicg6K/iLeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggLzdlfG5CbACpLLdO/zGLwym3kS8ZvMoX5HiOccuUzkJ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQC7qTxOLGXE7+I5IRNj/3rAzkDjjV9AwhUcj54N6V3mGRmL8km5iJZ9r6R6fWlw5YaIdBs4brLotIVYjmqydOn0=</c2pa:manifest></metadata></svg>

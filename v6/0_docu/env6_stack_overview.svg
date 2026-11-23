@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="640" viewBox="0 0 680 640" role="img" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<title>ENv6 stack overview</title>
+<desc>The ENv6 base board with RP2354B MCU, power management and current sensing connects to a swappable FPGA board and an optional application board via the MCU/FPGA header, the application header and the power header.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}
+.tx{fill:#1f2328}.tx2{fill:#59636e}
+.pb{fill:#EEEDFE;stroke:#534AB7}.pt{fill:#3C3489}.ps{fill:#534AB7}
+.tb{fill:#E1F5EE;stroke:#0F6E56}.tt{fill:#085041}.ts{fill:#0F6E56}
+.gb{fill:#F1EFE8;stroke:#5F5E5A}.gt{fill:#2C2C2A}.gs{fill:#5F5E5A}
+.ls{stroke:#378ADD}.lc{stroke:#4C9A2A}.la{stroke:#BA7517}
+.ds{fill:#378ADD}.da{fill:#BA7517}
+.ms{stroke:#378ADD}.mc{stroke:#4C9A2A}.ma{stroke:#BA7517}
+@media (prefers-color-scheme: dark){
+.bg{fill:#0d1117;stroke:#30363d}
+.tx{fill:#e6edf3}.tx2{fill:#9da7b3}
+.pb{fill:#3C3489;stroke:#AFA9EC}.pt{fill:#EEEDFE}.ps{fill:#CECBF6}
+.tb{fill:#085041;stroke:#5DCAA5}.tt{fill:#E1F5EE}.ts{fill:#9FE1CB}
+.gb{fill:#2f2f2d;stroke:#B4B2A9}.gt{fill:#F1EFE8}.gs{fill:#D3D1C7}
+.ls{stroke:#85B7EB}.lc{stroke:#97C459}.la{stroke:#EF9F27}
+.ds{fill:#85B7EB}.da{fill:#EF9F27}
+.ms{stroke:#85B7EB}.mc{stroke:#97C459}.ma{stroke:#EF9F27}
+}
+</style>
+<defs>
+<marker id="ms" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="ms" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ma" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="ma" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="mc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="mc" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect class="bg" x="0.5" y="0.5" width="679" height="639" rx="10" stroke-width="1"/>
+<rect class="ls" x="20" y="40" width="250" height="440" rx="12" fill="none" stroke-width="0.75" stroke-dasharray="5 4"/>
+<text class="tx2" x="30" y="58" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central">Base board</text>
+<rect class="gb" x="35" y="70" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="145.0" y="85" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">USB-C · Li-ion</text>
+<text class="gs" x="145.0" y="101" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">VBUS, battery charger</text>
+<rect class="gb" x="35" y="118" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="145.0" y="133" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">Raspberry Pi radio</text>
+<text class="gs" x="145.0" y="149" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">WLAN</text>
+<rect class="gb" x="35" y="166" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="145.0" y="181" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">microSD · WS2812B</text>
+<text class="gs" x="145.0" y="197" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">SPI0, status LED</text>
+<rect class="pb" x="35" y="214" width="220" height="150" rx="10" stroke-width="0.75"/>
+<text class="pt" x="145.0" y="289.0" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">RP2354B</text>
+<text class="ps" x="145.0" y="307.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">MCU</text>
+<text class="ps" x="145.0" y="323.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">SPI1 · JTAG · I2C0</text>
+<text class="ps" x="145.0" y="339.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">CFG, GPIO, ADC detect</text>
+<rect class="gb" x="35" y="372" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="145.0" y="387" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">PAC1954</text>
+<text class="gs" x="145.0" y="403" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">4-channel current sense</text>
+<rect class="gb" x="35" y="420" width="220" height="44" rx="6" stroke-width="0.75"/>
+<text class="gt" x="145.0" y="435" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">Power management</text>
+<text class="gs" x="145.0" y="451" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">BQ25188, LP873300, LDO</text>
+<rect class="ls" x="410" y="40" width="250" height="270" rx="12" fill="none" stroke-width="0.75" stroke-dasharray="5 4"/>
+<text class="tx2" x="650" y="58" font-size="12" font-weight="400" text-anchor="end" dominant-baseline="central">FPGA board (swappable)</text>
+<rect class="tb" x="425" y="72" width="220" height="120" rx="10" stroke-width="0.75"/>
+<text class="tt" x="535.0" y="132.0" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">FPGA</text>
+<text class="ts" x="535.0" y="150.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">Lattice · CologneChip</text>
+<text class="ts" x="535.0" y="166.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">AMD Spartan-7 · Artix-7</text>
+<rect class="gb" x="425" y="200" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="535.0" y="215" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">Config flash · oscillator</text>
+<text class="gs" x="535.0" y="231" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">flash, clock source</text>
+<rect class="gb" x="425" y="248" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="535.0" y="263" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">ID resistor</text>
+<text class="gs" x="535.0" y="279" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">FPGA_DETECT</text>
+<rect class="ls" x="410" y="340" width="250" height="140" rx="12" fill="none" stroke-width="0.75" stroke-dasharray="5 4"/>
+<text class="tx2" x="650" y="358" font-size="12" font-weight="400" text-anchor="end" dominant-baseline="central">Application board (optional)</text>
+<rect class="gb" x="425" y="372" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="535.0" y="387" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">Application hardware</text>
+<text class="gs" x="535.0" y="403" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">sensors, actuators, PPK2</text>
+<rect class="gb" x="425" y="420" width="220" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="535.0" y="435" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">ID resistor</text>
+<text class="gs" x="535.0" y="451" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">APP_DETECT</text>
+<path class="ls" d="M257 100 H408" fill="none" stroke-width="2.5" marker-start="url(#ms)" marker-end="url(#ms)"/>
+<text class="tx" x="333" y="90" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">SPI1, JTAG</text>
+<text class="tx2" x="333" y="112" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">flash + user logic</text>
+<path class="ls" d="M257 160 H408" fill="none" stroke-width="2.5" marker-start="url(#ms)" marker-end="url(#ms)"/>
+<text class="tx" x="333" y="150" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">I2C0, GPIO</text>
+<text class="tx2" x="333" y="172" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">GP2–GP9</text>
+<path class="lc" d="M257 220 H408" fill="none" stroke-width="2" marker-start="url(#mc)" marker-end="url(#mc)"/>
+<text class="tx" x="333" y="210" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">CFG 1–4</text>
+<text class="tx2" x="333" y="232" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">EN_OSC, USR-RST</text>
+<path class="lc" d="M408 268 H257" fill="none" stroke-width="2" marker-end="url(#mc)"/>
+<text class="tx" x="333" y="258" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">FPGA_DETECT</text>
+<text class="tx2" x="333" y="280" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">GP46 · ADC6</text>
+<path class="ls" d="M257 392 H408" fill="none" stroke-width="2.5" marker-start="url(#ms)" marker-end="url(#ms)"/>
+<text class="tx" x="333" y="382" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">MCU IO, FPGA IO</text>
+<text class="tx2" x="333" y="404" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">application header</text>
+<path class="lc" d="M408 440 H257" fill="none" stroke-width="2" marker-end="url(#mc)"/>
+<text class="tx" x="333" y="430" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">APP_DETECT</text>
+<text class="tx2" x="333" y="452" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">GP47 · ADC7</text>
+<rect class="la" x="20" y="500" width="640" height="100" rx="12" fill="none" stroke-width="0.75" stroke-dasharray="5 4"/>
+<text class="tx2" x="650" y="518" font-size="12" font-weight="400" text-anchor="end" dominant-baseline="central">Power header</text>
+<rect class="gb" x="35" y="530" width="112" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="91.0" y="545" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">VSYS</text>
+<text class="gs" x="91.0" y="561" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">B1–B4</text>
+<rect class="gb" x="155" y="530" width="112" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="211.0" y="545" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">PSU1</text>
+<text class="gs" x="211.0" y="561" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">C3–C8</text>
+<rect class="gb" x="275" y="530" width="112" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="331.0" y="545" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">PSU2</text>
+<text class="gs" x="331.0" y="561" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">C11–C16</text>
+<rect class="gb" x="395" y="530" width="112" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="451.0" y="545" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">PSU3</text>
+<text class="gs" x="451.0" y="561" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">C27–C32</text>
+<rect class="gb" x="515" y="530" width="112" height="40" rx="6" stroke-width="0.75"/>
+<text class="gt" x="571.0" y="545" font-size="14" font-weight="500" text-anchor="middle" dominant-baseline="central">PSU4</text>
+<text class="gs" x="571.0" y="561" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central">C19–C24</text>
+<path class="ls" d="M40 622 H70" stroke-width="2.5"/>
+<text class="tx2" x="78" y="622" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central">Data bus</text>
+<path class="lc" d="M170 622 H200" stroke-width="2"/>
+<text class="tx2" x="208" y="622" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central">Control / detection line</text>
+<path class="la" d="M380 622 H410" stroke-width="2.5"/>
+<text class="tx2" x="418" y="622" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central">Power</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5YTg4MjJjNS0zYjZhLTQ1NjMtODk0ZS0zMTg3N2Q3YWY3NjIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaBS7UznI8lrGzoc8YPOyOlcAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4M2U1NDBlZC04ODNkLTQ5ZGEtYWRhNC04NTFmMjExYWNlYmJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoTjhLYFaBbzCLjKAsy2YYVQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg7xbvdmUbdmfVZIUd57SEnF74DxbA0+zdpU8aQ0dD8fWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJ7ORE33AQSy+ne9qXb0bOwAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIG5mHgiV4oxq6MVK5kKBrynOBvdLuE+rJxqXDyYKRAgtZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTAQZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjlhODgyMmM1LTNiNmEtNDU2My04OTRlLTMxODc3ZDdhZjc2Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY1YTAzZGE0LTZlOTQtNDlmNS05NjQ5LWVlMzhhM2I2MjlmZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDvFu92ZRt2Z9VkhR3ntIScXvgPFsDT7N2lTxpDR0Px9aJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg0aoSzicND2x0QSH91azhMQxEAzC/c46Hcf2Soz8CdqiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg14Xbzkg174xDdQ8nzr1j9tsxSRj55H9wYFsM6OgHlx50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKFZwAB77NDYeHRbCvNbTbQ8VdAIPPoQjs8DzlXsWqKrETqdNUH2xuAO+qt4g5KvuUlFBg/dtGhyQ+WqP3PLnbU=</c2pa:manifest></metadata></svg>
