@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -61,11 +61,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "FPGABoard_GateMate_1.kicad_prl",
+    "filename": "main.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -87,7 +89,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       156,
@@ -98,6 +102,8 @@
       106,
       103,
       81,
+      103,
+      103,
       103,
       103
     ],

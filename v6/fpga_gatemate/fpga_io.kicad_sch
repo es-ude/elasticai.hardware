@@ -16355,7 +16355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a0571e-cc63-402c-8b9f-8aa480ed6334")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 251.46 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16417,7 +16417,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)

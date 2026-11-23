@@ -6581,7 +6581,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "memory:IS25LP064A"
+		(symbol "memory:IS25LP064D"
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -6598,7 +6598,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "IS25LP064A"
+			(property "Value" "IS25LP064D-JKLE"
 				(at 0 10.668 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6620,7 +6620,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.issi.com/WW/pdf/25LP064A.pdf"
+			(property "Datasheet" "https://www.issi.com/WW/pdf/25LP-WP064D.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6631,7 +6631,7 @@
 					)
 				)
 			)
-			(property "Description" "64-Mbit SPI-NOR Flash"
+			(property "Description" "64-Mbit SPI-NOR Flash, 2.3-3.6 V, WSON-8 6x5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6642,7 +6642,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "WSON-8_EP_8x6_Pitch1.27mm"
+			(property "ki_fp_filters" "WSON-8-1EP_6x5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6653,7 +6653,7 @@
 					)
 				)
 			)
-			(symbol "IS25LP064A_1_0"
+			(symbol "IS25LP064D_1_0"
 				(pin bidirectional line
 					(at 15.24 -5.08 180)
 					(length 2.54)
@@ -6818,7 +6818,7 @@
 					)
 				)
 			)
-			(symbol "IS25LP064A_1_1"
+			(symbol "IS25LP064D_1_1"
 				(rectangle
 					(start -12.7 10.16)
 					(end 12.7 -7.62)
@@ -9512,7 +9512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25d6e783-3da9-4d6e-a772-913198f23fd3")
-		(property "Reference" "R24"
+		(property "Reference" "R31"
 			(at 90.932 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +9575,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R24")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -9592,7 +9592,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "2766fe14-5bf9-4bf1-ade8-b3f0ecc60396")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 69.342 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9655,7 +9655,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10718,7 +10718,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "4e47e189-8b1a-4420-94dc-224d63a5bd89")
-		(property "Reference" "R11"
+		(property "Reference" "R18"
 			(at 61.722 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10781,7 +10781,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10875,7 +10875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57c01501-2986-4e91-ba54-6113b2dba982")
-		(property "Reference" "C72"
+		(property "Reference" "C75"
 			(at 89.535 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +10939,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "C72")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -11033,7 +11033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72d8f6c8-7e62-41d0-85fe-672594a54427")
-		(property "Reference" "C69"
+		(property "Reference" "C72"
 			(at 226.695 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11097,7 +11097,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "C69")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -11196,7 +11196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "memory:IS25LP064A")
+		(lib_id "memory:IS25LP064D")
 		(at 140.97 133.35 0)
 		(mirror y)
 		(unit 1)
@@ -11218,7 +11218,7 @@
 				)
 			)
 		)
-		(property "Value" "IS25LP064A"
+		(property "Value" "IS25LP064D-JKLE"
 			(at 140.97 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11239,7 +11239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.issi.com/WW/pdf/25LP064A.pdf"
+		(property "Datasheet" "https://www.issi.com/WW/pdf/25LP-WP064D.pdf"
 			(at 140.97 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11250,7 +11250,7 @@
 				)
 			)
 		)
-		(property "Description" "64-Mbit SPI-NOR Flash"
+		(property "Description" "64-Mbit SPI-NOR Flash, 2.3-3.6 V, WSON-8 6x5"
 			(at 140.97 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11308,7 +11308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ea69083-2482-4817-ba9e-b31b76358ad5")
-		(property "Reference" "C71"
+		(property "Reference" "C74"
 			(at 78.105 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11372,7 +11372,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "C71")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -11389,7 +11389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "803b954e-5449-483b-a1c8-d0cc4b855c1f")
-		(property "Reference" "R19"
+		(property "Reference" "R26"
 			(at 241.3 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11452,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R19")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11546,7 +11546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f257687-dabb-4a7b-b2f3-4c396327d3d0")
-		(property "Reference" "C74"
+		(property "Reference" "C77"
 			(at 160.655 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11610,7 +11610,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "C74")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -11627,7 +11627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "921bfce3-52e6-4795-81ef-45817c847c1f")
-		(property "Reference" "R15"
+		(property "Reference" "R22"
 			(at 61.722 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11690,7 +11690,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R15")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11707,7 +11707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2b902e6-13b0-4cc5-b796-5f77d7d5c408")
-		(property "Reference" "R20"
+		(property "Reference" "R27"
 			(at 60.452 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11770,7 +11770,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R20")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11787,7 +11787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad71654f-7d0d-4753-b138-477aa5589319")
-		(property "Reference" "C73"
+		(property "Reference" "C76"
 			(at 100.965 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11851,7 +11851,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "C73")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -11868,7 +11868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1394d0c-fd52-4d14-8959-e58a2839ec66")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 75.692 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11931,7 +11931,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11948,7 +11948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd6f8f0e-01e9-4f67-a79a-469ead9fe518")
-		(property "Reference" "R17"
+		(property "Reference" "R24"
 			(at 76.962 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12011,7 +12011,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R17")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12028,7 +12028,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c5d4edc4-3e30-4a14-a82f-32b0117dc6ac")
-		(property "Reference" "R14"
+		(property "Reference" "R21"
 			(at 84.582 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,7 +12091,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R14")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12108,7 +12108,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "cb6742db-3b06-44a1-bf6e-62aaa9b27193")
-		(property "Reference" "R13"
+		(property "Reference" "R20"
 			(at 76.962 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12171,7 +12171,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R13")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12188,7 +12188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0c7165c-18a6-40c9-b1d4-3b0825200e9c")
-		(property "Reference" "C70"
+		(property "Reference" "C73"
 			(at 238.125 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12252,7 +12252,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "C70")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -12269,7 +12269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1acf018-3ec5-491f-a168-a723d616322b")
-		(property "Reference" "R21"
+		(property "Reference" "R28"
 			(at 68.072 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12332,7 +12332,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R21")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12349,7 +12349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfe66f92-9ca6-4c0d-b57c-538a32f52032")
-		(property "Reference" "R18"
+		(property "Reference" "R25"
 			(at 84.582 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12412,7 +12412,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R18")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12429,7 +12429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6def828-b828-4945-9465-dbba5ce871b8")
-		(property "Reference" "R23"
+		(property "Reference" "R30"
 			(at 83.312 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12492,7 +12492,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R23")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -13632,7 +13632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f912770d-34a0-407b-a7c3-12ecca861203")
-		(property "Reference" "R16"
+		(property "Reference" "R23"
 			(at 69.342 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13695,7 +13695,7 @@
 		(instances
 			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/7eafa692-194c-419c-a07a-1b9770d0663f"
-					(reference "R16")
+					(reference "R23")
 					(unit 1)
 				)
 			)

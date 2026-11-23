@@ -22,16 +22,6 @@
 		)
 		(uuid "7a0f17e4-c2c1-4080-9854-5e88586c55ee")
 	)
-	(text "V Outputs from MCU"
-		(exclude_from_sim no)
-		(at 59.182 36.322 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c8b1ba3a-0daa-4225-9d7a-7e3be570781d")
-	)
 	(no_connect
 		(at 71.12 40.64)
 		(uuid "bdd29e35-1434-4952-a813-3213ecb55d5b")
@@ -356,7 +346,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "7eafa692-194c-419c-a07a-1b9770d0663f")
-		(property "Sheetname" "FPGA_Config"
+		(property "Sheetname" "FPGA Config"
 			(at 81.28 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
