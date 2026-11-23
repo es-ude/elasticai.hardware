@@ -851,16 +851,16 @@
       {
         "filename": "digital_board_v1.kicad_sch",
         "name": "digital_board_v1",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "5ab81275-8e87-4458-a12a-b80c278e5884"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
     [
       "5ab81275-8e87-4458-a12a-b80c278e5884",
-      "Root"
+      "digital_board_v1"
     ],
     [
       "2b674874-298c-45a6-9504-56b9f0c3176d",

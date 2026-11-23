@@ -9,6 +9,7 @@
 # KiCad artefacts
 **/*-backups
 **/fp-info-cache
+**/krt_*
 **/*.lck
 **/.history
 **/*.zip
