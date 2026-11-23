@@ -146,10 +146,10 @@ The base board connects to the other boards with four headers (KiCad symbol `ENv
 | A22 | QSPI_IO2         | GP16    | Quad-SPI data line 2                                                          |
 | A23 | VDD_MCU          |         | MCU I/O supply (3.3 V) as reference for driving IO signals (not for powering) |
 | A24 | MCU-FPGA_USR-RST | GP18    | User reset towards the FPGA                                                   |
-| A25 | FPGA_CFG_2       | GP20    | Configuration/status line 2 (function defined by the FPGA board)              |
-| A26 | FPGA_CFG_1       | GP19    | Configuration/status line 1                                                   |
-| A27 | FPGA_CFG_4       | GP22    | Configuration/status line 4                                                   |
-| A28 | FPGA_CFG_3       | GP21    | Configuration/status line 3                                                   |
+| A25 | FPGA_CFG_2       | GP20    | Configration Feedback with State (e.g. `DONE`)                                |
+| A26 | FPGA_CFG_1       | GP19    | Configuration Reset to control the FPGA                                       |
+| A27 | FPGA_CFG_4       | GP22    | Configuration for further control (like `Power-On-Reset` in CCGM1Ax)          |
+| A28 | FPGA_CFG_3       | GP21    | Configuration Control Line (like `FAILED` in CCGM1Ax, or `INIT`in AMDs FPGA)  |
 | A29 | JTAG_TDO         | GP27    | JTAG test data out (from the FPGA)                                            |
 | A30 | JTAG_TCK         | GP26    | JTAG test clock                                                               |
 | A31 | JTAG_TMS         | GP30    | JTAG test mode select                                                         |

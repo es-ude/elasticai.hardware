@@ -13,7 +13,7 @@ FPGA board (shield, rev 1.0, 4-layer PCB) for the ENv6 base board. FPGA board ID
 - ID resistor R2 (1 kΩ) on `FPGA_DETECT`
 - Pull-ups (R3 … R7, 10 kΩ to `VDD`) on the flash lines `WP`, `HOLD`, `CS` and on `FPGA_PR_~{RST}`, `FPGA_PR_DONE`
 
-## Supply
+## Power Supply
 
 | Rail   | Pins      | Net    | Use                                                  |
 |--------|-----------|--------|------------------------------------------------------|
