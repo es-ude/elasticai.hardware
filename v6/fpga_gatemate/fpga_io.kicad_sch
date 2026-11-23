@@ -4,345 +4,42 @@
 	(generator_version "10.0")
 	(uuid "f0b751bb-9851-4355-b8f3-5038a5ccc085")
 	(paper "A4")
+	(title_block
+		(title "FPGA Shield for Cologne Chip GateMate A1/2")
+		(date "2026-11-23")
+		(rev "1.0")
+		(company "UDE-IES")
+	)
 	(lib_symbols
-		(symbol "AMJMAFB-100.0000T:AMJMAFB-100.0000T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -0.762 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AMJMAFB-100.0000T"
-				(at -10.16 8.382 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AMJMAFB-100.0000T:XTAL_AMJMAFB-100.0000T"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Abracon Corporation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.89 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "Package"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AMJMAFB-100.0000T/Abracon/view-part/?ref=eda"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "04/07/2021"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMJMAFB-100.0000T/Abracon/view-part/?ref=snap"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "AMJMAFB-100.0000T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Oscillator MEMS 100MHz ±25ppm (Stability) CMOS 55% 1.8V/2.5V/3.3V 4-Pin VFLGA SMD T/R"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Abracon"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_PN" "AMJMAFB-100.0000T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "AMJMAFB-100.0000T_0_0"
-				(rectangle
-					(start -8.89 7.62)
-					(end 8.89 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -13.97 5.08 0)
-					(length 5.08)
-					(name "OE/STDBY"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 0 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 2.54 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 5.08 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FPGA_CologneChip_GateMate:CCGM1A1"
-			(exclude_from_sim no)
+		(symbol "fpga:CCGM1A1"
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -12.7 8.89 0)
+				(at 0 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify bottom)
 				)
 			)
 			(property "Value" "CCGM1A1"
-				(at 11.43 8.89 0)
+				(at 0 1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-				(at -5.08 16.51 0)
+			(property "Footprint" "custom_library:BGA-324_15.0x15.0mm_Layout18x18_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD"
+				(at 0 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -353,7 +50,7 @@
 				)
 			)
 			(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-				(at 0 7.62 0)
+				(at 5.08 -9.652 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -364,7 +61,7 @@
 				)
 			)
 			(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-				(at 0 0 0)
+				(at 5.08 -17.272 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -519,8 +216,8 @@
 			)
 			(symbol "CCGM1A1_2_1"
 				(rectangle
-					(start 24.13 21.59)
-					(end -24.13 -21.59)
+					(start 24.13 48.26)
+					(end -24.13 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -530,7 +227,7 @@
 					)
 				)
 				(text "CONFIGURATION"
-					(at -11.43 6.35 0)
+					(at -11.43 33.02 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -538,7 +235,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -7.62 180)
+					(at 27.94 21.59 180)
 					(length 3.81)
 					(name "IO_WA_A8/~{SPI_CS}"
 						(effects
@@ -556,7 +253,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -10.16 180)
+					(at 27.94 24.13 180)
 					(length 3.81)
 					(name "IO_WA_B8/SPI_CLK"
 						(effects
@@ -574,7 +271,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 25.4 270)
+					(at 0 52.07 270)
 					(length 3.81)
 					(name "VDD_WA"
 						(effects
@@ -592,7 +289,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 5.08 180)
+					(at 27.94 31.75 180)
 					(length 3.81)
 					(name "IO_WA_A7/SPI_D1"
 						(effects
@@ -610,7 +307,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 7.62 180)
+					(at 27.94 34.29 180)
 					(length 3.81)
 					(name "IO_WA_B7/SPI_D0"
 						(effects
@@ -628,7 +325,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 25.4 270)
+					(at 0 52.07 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WA"
@@ -647,7 +344,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 25.4 270)
+					(at 0 52.07 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WA"
@@ -666,7 +363,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 0 180)
+					(at 27.94 26.67 180)
 					(length 3.81)
 					(name "IO_WA_A6/SPI_D3"
 						(effects
@@ -684,7 +381,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 2.54 180)
+					(at 27.94 29.21 180)
 					(length 3.81)
 					(name "IO_WA_B6/SPI_D2"
 						(effects
@@ -702,7 +399,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 2.54 0)
+					(at -27.94 29.21 0)
 					(length 3.81)
 					(name "JTAG_TCK/IO_WA_A5"
 						(effects
@@ -720,7 +417,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 -15.24 180)
+					(at 27.94 11.43 180)
 					(length 3.81)
 					(name "IO_WA_B5/SPI_FWD"
 						(effects
@@ -738,7 +435,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 17.78 0)
+					(at -27.94 44.45 0)
 					(length 3.81)
 					(name "CFG_MD0/IO_WA_A0"
 						(effects
@@ -756,7 +453,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 25.4 270)
+					(at 0 52.07 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WA"
@@ -775,7 +472,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -2.54 0)
+					(at -27.94 24.13 0)
 					(length 3.81)
 					(name "JTAG_TDI/IO_WA_A4"
 						(effects
@@ -793,7 +490,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 0 0)
+					(at -27.94 26.67 0)
 					(length 3.81)
 					(name "JTAG_TMS/IO_WA_B4"
 						(effects
@@ -811,7 +508,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 15.24 0)
+					(at -27.94 41.91 0)
 					(length 3.81)
 					(name "CFG_MD1/IO_WA_B0"
 						(effects
@@ -829,7 +526,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -12.7 0)
+					(at -27.94 13.97 0)
 					(length 3.81)
 					(name "POR_EN/IO_WA_A3"
 						(effects
@@ -847,7 +544,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -5.08 0)
+					(at -27.94 21.59 0)
 					(length 3.81)
 					(name "JTAG_TDO/IO_WA_B3"
 						(effects
@@ -865,7 +562,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 25.4 270)
+					(at 0 52.07 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WA"
@@ -884,7 +581,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 12.7 0)
+					(at -27.94 39.37 0)
 					(length 3.81)
 					(name "CFG_MD2/IO_WA_A1"
 						(effects
@@ -902,7 +599,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 17.78 180)
+					(at 27.94 44.45 180)
 					(length 3.81)
 					(name "IO_WA_A2/~{CFG_FAILED}"
 						(effects
@@ -920,7 +617,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 15.24 180)
+					(at 27.94 41.91 180)
 					(length 3.81)
 					(name "IO_WA_B2/CFG_DONE"
 						(effects
@@ -938,7 +635,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 10.16 0)
+					(at -27.94 36.83 0)
 					(length 3.81)
 					(name "CFG_MD3/IO_WA_B1"
 						(effects
@@ -958,8 +655,8 @@
 			)
 			(symbol "CCGM1A1_3_1"
 				(rectangle
-					(start -13.97 -26.67)
-					(end 13.97 26.67)
+					(start -13.97 5.08)
+					(end 13.97 58.42)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -969,7 +666,7 @@
 					)
 				)
 				(text "IO North"
-					(at 0 2.54 0)
+					(at 0 34.29 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -977,7 +674,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 22.86 0)
+					(at -17.78 54.61 0)
 					(length 3.81)
 					(name "IO_NA_A0"
 						(effects
@@ -995,7 +692,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 17.78 0)
+					(at -17.78 49.53 0)
 					(length 3.81)
 					(name "IO_NA_A1"
 						(effects
@@ -1013,7 +710,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_NA"
 						(effects
@@ -1031,7 +728,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 0 0)
+					(at -17.78 31.75 0)
 					(length 3.81)
 					(name "IO_NA_A4"
 						(effects
@@ -1049,7 +746,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -15.24 0)
+					(at -17.78 16.51 0)
 					(length 3.81)
 					(name "IO_NA_A7"
 						(effects
@@ -1067,7 +764,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 20.32 180)
+					(at 17.78 52.07 180)
 					(length 3.81)
 					(name "IO_NB_B0"
 						(effects
@@ -1085,7 +782,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 41.91 180)
 					(length 3.81)
 					(name "IO_NB_B2"
 						(effects
@@ -1103,7 +800,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 17.78 29.21 180)
 					(length 3.81)
 					(name "IO_NB_B4"
 						(effects
@@ -1121,7 +818,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -17.78 180)
+					(at 17.78 13.97 180)
 					(length 3.81)
 					(name "IO_NB_B7"
 						(effects
@@ -1139,7 +836,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 20.32 0)
+					(at -17.78 52.07 0)
 					(length 3.81)
 					(name "IO_NA_B0"
 						(effects
@@ -1157,7 +854,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 15.24 0)
+					(at -17.78 46.99 0)
 					(length 3.81)
 					(name "IO_NA_B1"
 						(effects
@@ -1175,7 +872,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 12.7 0)
+					(at -17.78 44.45 0)
 					(length 3.81)
 					(name "IO_NA_A2"
 						(effects
@@ -1193,7 +890,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -2.54 0)
+					(at -17.78 29.21 0)
 					(length 3.81)
 					(name "IO_NA_B4"
 						(effects
@@ -1211,7 +908,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NA"
@@ -1230,7 +927,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -17.78 0)
+					(at -17.78 13.97 0)
 					(length 3.81)
 					(name "IO_NA_B7"
 						(effects
@@ -1248,7 +945,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 22.86 180)
+					(at 17.78 54.61 180)
 					(length 3.81)
 					(name "IO_NB_A0"
 						(effects
@@ -1266,7 +963,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_NB"
 						(effects
@@ -1284,7 +981,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at 17.78 44.45 180)
 					(length 3.81)
 					(name "IO_NB_A2"
 						(effects
@@ -1302,7 +999,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 0 180)
+					(at 17.78 31.75 180)
 					(length 3.81)
 					(name "IO_NB_A4"
 						(effects
@@ -1320,7 +1017,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NB"
@@ -1339,7 +1036,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -15.24 180)
+					(at 17.78 16.51 180)
 					(length 3.81)
 					(name "IO_NB_A7"
 						(effects
@@ -1357,7 +1054,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 10.16 0)
+					(at -17.78 41.91 0)
 					(length 3.81)
 					(name "IO_NA_B2"
 						(effects
@@ -1375,7 +1072,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 7.62 0)
+					(at -17.78 39.37 0)
 					(length 3.81)
 					(name "IO_NA_A3"
 						(effects
@@ -1393,7 +1090,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -5.08 0)
+					(at -17.78 26.67 0)
 					(length 3.81)
 					(name "IO_NA_A5"
 						(effects
@@ -1411,7 +1108,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -10.16 0)
+					(at -17.78 21.59 0)
 					(length 3.81)
 					(name "IO_NA_A6"
 						(effects
@@ -1429,7 +1126,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -20.32 0)
+					(at -17.78 11.43 0)
 					(length 3.81)
 					(name "IO_NA_A8"
 						(effects
@@ -1447,7 +1144,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 15.24 180)
+					(at 17.78 46.99 180)
 					(length 3.81)
 					(name "IO_NB_B1"
 						(effects
@@ -1465,7 +1162,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 17.78 36.83 180)
 					(length 3.81)
 					(name "IO_NB_B3"
 						(effects
@@ -1483,7 +1180,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -7.62 180)
+					(at 17.78 24.13 180)
 					(length 3.81)
 					(name "IO_NB_B5"
 						(effects
@@ -1501,7 +1198,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -12.7 180)
+					(at 17.78 19.05 180)
 					(length 3.81)
 					(name "IO_NB_B6"
 						(effects
@@ -1519,7 +1216,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -22.86 180)
+					(at 17.78 8.89 180)
 					(length 3.81)
 					(name "IO_NB_B8"
 						(effects
@@ -1537,7 +1234,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 5.08 0)
+					(at -17.78 36.83 0)
 					(length 3.81)
 					(name "IO_NA_B3"
 						(effects
@@ -1555,7 +1252,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -7.62 0)
+					(at -17.78 24.13 0)
 					(length 3.81)
 					(name "IO_NA_B5"
 						(effects
@@ -1573,7 +1270,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -12.7 0)
+					(at -17.78 19.05 0)
 					(length 3.81)
 					(name "IO_NA_B6"
 						(effects
@@ -1591,7 +1288,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -22.86 0)
+					(at -17.78 8.89 0)
 					(length 3.81)
 					(name "IO_NA_B8"
 						(effects
@@ -1609,7 +1306,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 17.78 180)
+					(at 17.78 49.53 180)
 					(length 3.81)
 					(name "IO_NB_A1"
 						(effects
@@ -1627,7 +1324,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 7.62 180)
+					(at 17.78 39.37 180)
 					(length 3.81)
 					(name "IO_NB_A3"
 						(effects
@@ -1645,7 +1342,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -5.08 180)
+					(at 17.78 26.67 180)
 					(length 3.81)
 					(name "IO_NB_A5"
 						(effects
@@ -1663,7 +1360,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 17.78 21.59 180)
 					(length 3.81)
 					(name "IO_NB_A6"
 						(effects
@@ -1681,7 +1378,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -20.32 180)
+					(at 17.78 11.43 180)
 					(length 3.81)
 					(name "IO_NB_A8"
 						(effects
@@ -1699,7 +1396,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NA"
@@ -1718,7 +1415,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NA"
@@ -1737,7 +1434,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NB"
@@ -1756,7 +1453,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NB"
@@ -1775,7 +1472,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NA"
@@ -1794,7 +1491,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_NB"
@@ -1815,8 +1512,8 @@
 			)
 			(symbol "CCGM1A1_4_1"
 				(rectangle
-					(start -13.97 -26.67)
-					(end 13.97 26.67)
+					(start -13.97 58.42)
+					(end 13.97 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1826,7 +1523,7 @@
 					)
 				)
 				(text "IO East"
-					(at 0 2.54 0)
+					(at 0 34.29 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1834,7 +1531,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -22.86 180)
+					(at 17.78 8.89 180)
 					(length 3.81)
 					(name "IO_EB_B8"
 						(effects
@@ -1852,7 +1549,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_EB"
 						(effects
@@ -1870,7 +1567,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -7.62 180)
+					(at 17.78 24.13 180)
 					(length 3.81)
 					(name "IO_EB_B5"
 						(effects
@@ -1888,7 +1585,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -20.32 180)
+					(at 17.78 11.43 180)
 					(length 3.81)
 					(name "IO_EB_A8"
 						(effects
@@ -1906,7 +1603,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -5.08 180)
+					(at 17.78 26.67 180)
 					(length 3.81)
 					(name "IO_EB_A5"
 						(effects
@@ -1924,7 +1621,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EB"
@@ -1943,7 +1640,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -17.78 180)
+					(at 17.78 13.97 180)
 					(length 3.81)
 					(name "IO_EB_B7"
 						(effects
@@ -1961,7 +1658,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -12.7 180)
+					(at 17.78 19.05 180)
 					(length 3.81)
 					(name "IO_EB_B6"
 						(effects
@@ -1979,7 +1676,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 17.78 29.21 180)
 					(length 3.81)
 					(name "IO_EB_B4"
 						(effects
@@ -1997,7 +1694,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 0 180)
+					(at 17.78 31.75 180)
 					(length 3.81)
 					(name "IO_EB_A4"
 						(effects
@@ -2015,7 +1712,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -15.24 180)
+					(at 17.78 16.51 180)
 					(length 3.81)
 					(name "IO_EB_A7"
 						(effects
@@ -2033,7 +1730,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 17.78 21.59 180)
 					(length 3.81)
 					(name "IO_EB_A6"
 						(effects
@@ -2051,7 +1748,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 41.91 180)
 					(length 3.81)
 					(name "IO_EB_B2"
 						(effects
@@ -2069,7 +1766,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at 17.78 44.45 180)
 					(length 3.81)
 					(name "IO_EB_A2"
 						(effects
@@ -2087,7 +1784,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EB"
@@ -2106,7 +1803,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 17.78 36.83 180)
 					(length 3.81)
 					(name "IO_EB_B3"
 						(effects
@@ -2124,7 +1821,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 7.62 180)
+					(at 17.78 39.37 180)
 					(length 3.81)
 					(name "IO_EB_A3"
 						(effects
@@ -2142,7 +1839,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EB"
@@ -2161,7 +1858,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EB"
@@ -2180,7 +1877,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 15.24 180)
+					(at 17.78 46.99 180)
 					(length 3.81)
 					(name "IO_EB_B1"
 						(effects
@@ -2198,7 +1895,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 17.78 180)
+					(at 17.78 49.53 180)
 					(length 3.81)
 					(name "IO_EB_A1"
 						(effects
@@ -2216,7 +1913,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 20.32 180)
+					(at 17.78 52.07 180)
 					(length 3.81)
 					(name "IO_EB_B0"
 						(effects
@@ -2234,7 +1931,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 22.86 180)
+					(at 17.78 54.61 180)
 					(length 3.81)
 					(name "IO_EB_A0"
 						(effects
@@ -2252,7 +1949,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_EA"
 						(effects
@@ -2270,7 +1967,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -22.86 0)
+					(at -17.78 8.89 0)
 					(length 3.81)
 					(name "IO_EA_B8"
 						(effects
@@ -2288,7 +1985,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -20.32 0)
+					(at -17.78 11.43 0)
 					(length 3.81)
 					(name "IO_EA_A8"
 						(effects
@@ -2306,7 +2003,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -17.78 0)
+					(at -17.78 13.97 0)
 					(length 3.81)
 					(name "IO_EA_B7"
 						(effects
@@ -2324,7 +2021,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -15.24 0)
+					(at -17.78 16.51 0)
 					(length 3.81)
 					(name "IO_EA_A7"
 						(effects
@@ -2342,7 +2039,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -12.7 0)
+					(at -17.78 19.05 0)
 					(length 3.81)
 					(name "IO_EA_B6"
 						(effects
@@ -2360,7 +2057,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -10.16 0)
+					(at -17.78 21.59 0)
 					(length 3.81)
 					(name "IO_EA_A6"
 						(effects
@@ -2378,7 +2075,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EA"
@@ -2397,7 +2094,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EA"
@@ -2416,7 +2113,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -7.62 0)
+					(at -17.78 24.13 0)
 					(length 3.81)
 					(name "IO_EA_B5"
 						(effects
@@ -2434,7 +2131,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -5.08 0)
+					(at -17.78 26.67 0)
 					(length 3.81)
 					(name "IO_EA_A5"
 						(effects
@@ -2452,7 +2149,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -2.54 0)
+					(at -17.78 29.21 0)
 					(length 3.81)
 					(name "IO_EA_B4"
 						(effects
@@ -2470,7 +2167,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 0 0)
+					(at -17.78 31.75 0)
 					(length 3.81)
 					(name "IO_EA_A4"
 						(effects
@@ -2488,7 +2185,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 5.08 0)
+					(at -17.78 36.83 0)
 					(length 3.81)
 					(name "IO_EA_B3"
 						(effects
@@ -2506,7 +2203,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 7.62 0)
+					(at -17.78 39.37 0)
 					(length 3.81)
 					(name "IO_EA_A3"
 						(effects
@@ -2524,7 +2221,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 10.16 0)
+					(at -17.78 41.91 0)
 					(length 3.81)
 					(name "IO_EA_B2"
 						(effects
@@ -2542,7 +2239,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 12.7 0)
+					(at -17.78 44.45 0)
 					(length 3.81)
 					(name "IO_EA_A2"
 						(effects
@@ -2560,7 +2257,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EA"
@@ -2579,7 +2276,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 15.24 0)
+					(at -17.78 46.99 0)
 					(length 3.81)
 					(name "IO_EA_B1"
 						(effects
@@ -2597,7 +2294,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 17.78 0)
+					(at -17.78 49.53 0)
 					(length 3.81)
 					(name "IO_EA_A1"
 						(effects
@@ -2615,7 +2312,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_EA"
@@ -2634,7 +2331,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 20.32 0)
+					(at -17.78 52.07 0)
 					(length 3.81)
 					(name "IO_EA_B0"
 						(effects
@@ -2652,7 +2349,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 22.86 0)
+					(at -17.78 54.61 0)
 					(length 3.81)
 					(name "IO_EA_A0"
 						(effects
@@ -2672,8 +2369,8 @@
 			)
 			(symbol "CCGM1A1_5_1"
 				(rectangle
-					(start -13.97 -26.67)
-					(end 13.97 26.67)
+					(start -13.97 5.08)
+					(end 13.97 58.42)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2683,7 +2380,7 @@
 					)
 				)
 				(text "IO South"
-					(at 0 2.54 0)
+					(at 0 34.29 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2691,7 +2388,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 7.62 180)
+					(at 17.78 39.37 180)
 					(length 3.81)
 					(name "IO_SB_A3"
 						(effects
@@ -2709,7 +2406,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 17.78 36.83 180)
 					(length 3.81)
 					(name "IO_SB_B3"
 						(effects
@@ -2727,7 +2424,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_SB"
 						(effects
@@ -2745,7 +2442,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SB"
@@ -2764,7 +2461,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -20.32 180)
+					(at 17.78 11.43 180)
 					(length 3.81)
 					(name "CLK0/IO_SB_A8"
 						(effects
@@ -2782,7 +2479,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -22.86 180)
+					(at 17.78 8.89 180)
 					(length 3.81)
 					(name "IO_SB_B8"
 						(effects
@@ -2800,7 +2497,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SB"
@@ -2819,7 +2516,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_SA"
 						(effects
@@ -2837,7 +2534,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SA"
@@ -2856,7 +2553,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SA"
@@ -2875,7 +2572,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 0 180)
+					(at 17.78 31.75 180)
 					(length 3.81)
 					(name "IO_SB_A4"
 						(effects
@@ -2893,7 +2590,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -15.24 180)
+					(at 17.78 16.51 180)
 					(length 3.81)
 					(name "CLK1/IO_SB_A7"
 						(effects
@@ -2911,7 +2608,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -17.78 180)
+					(at 17.78 13.97 180)
 					(length 3.81)
 					(name "IO_SB_B7"
 						(effects
@@ -2929,7 +2626,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 17.78 21.59 180)
 					(length 3.81)
 					(name "CLK2/IO_SB_A6"
 						(effects
@@ -2947,7 +2644,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -12.7 180)
+					(at 17.78 19.05 180)
 					(length 3.81)
 					(name "IO_SB_B6"
 						(effects
@@ -2965,7 +2662,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at 17.78 44.45 180)
 					(length 3.81)
 					(name "IO_SB_A2"
 						(effects
@@ -2983,7 +2680,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 41.91 180)
 					(length 3.81)
 					(name "IO_SB_B2"
 						(effects
@@ -3001,7 +2698,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 17.78 0)
+					(at -17.78 49.53 0)
 					(length 3.81)
 					(name "IO_SA_A1"
 						(effects
@@ -3019,7 +2716,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 12.7 0)
+					(at -17.78 44.45 0)
 					(length 3.81)
 					(name "IO_SA_A2"
 						(effects
@@ -3037,7 +2734,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 0 0)
+					(at -17.78 31.75 0)
 					(length 3.81)
 					(name "IO_SA_A4"
 						(effects
@@ -3055,7 +2752,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -10.16 0)
+					(at -17.78 21.59 0)
 					(length 3.81)
 					(name "IO_SA_A6"
 						(effects
@@ -3073,7 +2770,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -15.24 0)
+					(at -17.78 16.51 0)
 					(length 3.81)
 					(name "IO_SA_A7"
 						(effects
@@ -3091,7 +2788,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 17.78 29.21 180)
 					(length 3.81)
 					(name "IO_SB_B4"
 						(effects
@@ -3109,7 +2806,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -5.08 180)
+					(at 17.78 26.67 180)
 					(length 3.81)
 					(name "CLK3/IO_SB_A5"
 						(effects
@@ -3127,7 +2824,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -7.62 180)
+					(at 17.78 24.13 180)
 					(length 3.81)
 					(name "IO_SB_B5"
 						(effects
@@ -3145,7 +2842,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SB"
@@ -3164,7 +2861,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 17.78 180)
+					(at 17.78 49.53 180)
 					(length 3.81)
 					(name "IO_SB_A1"
 						(effects
@@ -3182,7 +2879,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 15.24 180)
+					(at 17.78 46.99 180)
 					(length 3.81)
 					(name "IO_SB_B1"
 						(effects
@@ -3200,7 +2897,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 15.24 0)
+					(at -17.78 46.99 0)
 					(length 3.81)
 					(name "IO_SA_B1"
 						(effects
@@ -3218,7 +2915,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 10.16 0)
+					(at -17.78 41.91 0)
 					(length 3.81)
 					(name "IO_SA_B2"
 						(effects
@@ -3236,7 +2933,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -2.54 0)
+					(at -17.78 29.21 0)
 					(length 3.81)
 					(name "IO_SA_B4"
 						(effects
@@ -3254,7 +2951,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -12.7 0)
+					(at -17.78 19.05 0)
 					(length 3.81)
 					(name "IO_SA_B6"
 						(effects
@@ -3272,7 +2969,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -17.78 0)
+					(at -17.78 13.97 0)
 					(length 3.81)
 					(name "IO_SA_B7"
 						(effects
@@ -3290,7 +2987,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SB"
@@ -3309,7 +3006,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 22.86 0)
+					(at -17.78 54.61 0)
 					(length 3.81)
 					(name "IO_SA_A0"
 						(effects
@@ -3327,7 +3024,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SA"
@@ -3346,7 +3043,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 7.62 0)
+					(at -17.78 39.37 0)
 					(length 3.81)
 					(name "IO_SA_A3"
 						(effects
@@ -3364,7 +3061,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -5.08 0)
+					(at -17.78 26.67 0)
 					(length 3.81)
 					(name "IO_SA_A5"
 						(effects
@@ -3382,7 +3079,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SA"
@@ -3401,7 +3098,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -20.32 0)
+					(at -17.78 11.43 0)
 					(length 3.81)
 					(name "IO_SA_A8"
 						(effects
@@ -3419,7 +3116,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 22.86 180)
+					(at 17.78 54.61 180)
 					(length 3.81)
 					(name "IO_SB_A0"
 						(effects
@@ -3437,7 +3134,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 20.32 180)
+					(at 17.78 52.07 180)
 					(length 3.81)
 					(name "IO_SB_B0"
 						(effects
@@ -3455,7 +3152,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 20.32 0)
+					(at -17.78 52.07 0)
 					(length 3.81)
 					(name "IO_SA_B0"
 						(effects
@@ -3473,7 +3170,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 5.08 0)
+					(at -17.78 36.83 0)
 					(length 3.81)
 					(name "IO_SA_B3"
 						(effects
@@ -3491,7 +3188,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -7.62 0)
+					(at -17.78 24.13 0)
 					(length 3.81)
 					(name "IO_SA_B5"
 						(effects
@@ -3509,7 +3206,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -22.86 0)
+					(at -17.78 8.89 0)
 					(length 3.81)
 					(name "IO_SA_B8"
 						(effects
@@ -3529,8 +3226,8 @@
 			)
 			(symbol "CCGM1A1_6_1"
 				(rectangle
-					(start -13.97 -26.67)
-					(end 13.97 26.67)
+					(start -13.97 5.08)
+					(end 13.97 58.42)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3540,7 +3237,7 @@
 					)
 				)
 				(text "IO West"
-					(at 0 2.54 0)
+					(at 0 34.29 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3548,7 +3245,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_WC"
 						(effects
@@ -3566,7 +3263,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -20.32 180)
+					(at 17.78 11.43 180)
 					(length 3.81)
 					(name "IO_WC_A8"
 						(effects
@@ -3584,7 +3281,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -22.86 180)
+					(at 17.78 8.89 180)
 					(length 3.81)
 					(name "IO_WC_B8"
 						(effects
@@ -3602,7 +3299,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WC"
@@ -3621,7 +3318,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -15.24 180)
+					(at 17.78 16.51 180)
 					(length 3.81)
 					(name "IO_WC_A7"
 						(effects
@@ -3639,7 +3336,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -17.78 180)
+					(at 17.78 13.97 180)
 					(length 3.81)
 					(name "IO_WC_B7"
 						(effects
@@ -3657,7 +3354,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -5.08 180)
+					(at 17.78 26.67 180)
 					(length 3.81)
 					(name "IO_WC_A5"
 						(effects
@@ -3675,7 +3372,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -7.62 180)
+					(at 17.78 24.13 180)
 					(length 3.81)
 					(name "IO_WC_B5"
 						(effects
@@ -3693,7 +3390,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 17.78 21.59 180)
 					(length 3.81)
 					(name "IO_WC_A6"
 						(effects
@@ -3711,7 +3408,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -12.7 180)
+					(at 17.78 19.05 180)
 					(length 3.81)
 					(name "IO_WC_B6"
 						(effects
@@ -3729,7 +3426,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WC"
@@ -3748,7 +3445,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 7.62 180)
+					(at 17.78 39.37 180)
 					(length 3.81)
 					(name "IO_WC_A3"
 						(effects
@@ -3766,7 +3463,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 17.78 36.83 180)
 					(length 3.81)
 					(name "IO_WC_B3"
 						(effects
@@ -3784,7 +3481,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 0 180)
+					(at 17.78 31.75 180)
 					(length 3.81)
 					(name "IO_WC_A4"
 						(effects
@@ -3802,7 +3499,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 17.78 29.21 180)
 					(length 3.81)
 					(name "IO_WC_B4"
 						(effects
@@ -3820,7 +3517,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WC"
@@ -3839,7 +3536,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at 17.78 44.45 180)
 					(length 3.81)
 					(name "IO_WC_A2"
 						(effects
@@ -3857,7 +3554,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 41.91 180)
 					(length 3.81)
 					(name "IO_WC_B2"
 						(effects
@@ -3875,7 +3572,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 30.48 270)
+					(at 2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WC"
@@ -3894,7 +3591,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 22.86 180)
+					(at 17.78 54.61 180)
 					(length 3.81)
 					(name "IO_WC_A0"
 						(effects
@@ -3912,7 +3609,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 20.32 180)
+					(at 17.78 52.07 180)
 					(length 3.81)
 					(name "IO_WC_B0"
 						(effects
@@ -3930,7 +3627,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 17.78 180)
+					(at 17.78 49.53 180)
 					(length 3.81)
 					(name "IO_WC_A1"
 						(effects
@@ -3948,7 +3645,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 15.24 180)
+					(at 17.78 46.99 180)
 					(length 3.81)
 					(name "IO_WC_B1"
 						(effects
@@ -3966,7 +3663,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -15.24 0)
+					(at -17.78 16.51 0)
 					(length 3.81)
 					(name "IO_WB_A7"
 						(effects
@@ -3984,7 +3681,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -17.78 0)
+					(at -17.78 13.97 0)
 					(length 3.81)
 					(name "IO_WB_B7"
 						(effects
@@ -4002,7 +3699,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -20.32 0)
+					(at -17.78 11.43 0)
 					(length 3.81)
 					(name "IO_WB_A8"
 						(effects
@@ -4020,7 +3717,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -22.86 0)
+					(at -17.78 8.89 0)
 					(length 3.81)
 					(name "IO_WB_B8"
 						(effects
@@ -4038,7 +3735,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(name "VDD_WB"
 						(effects
@@ -4056,7 +3753,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WB"
@@ -4075,7 +3772,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -10.16 0)
+					(at -17.78 21.59 0)
 					(length 3.81)
 					(name "IO_WB_A6"
 						(effects
@@ -4093,7 +3790,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -12.7 0)
+					(at -17.78 19.05 0)
 					(length 3.81)
 					(name "IO_WB_B6"
 						(effects
@@ -4111,7 +3808,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -5.08 0)
+					(at -17.78 26.67 0)
 					(length 3.81)
 					(name "IO_WB_A5"
 						(effects
@@ -4129,7 +3826,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -7.62 0)
+					(at -17.78 24.13 0)
 					(length 3.81)
 					(name "IO_WB_B5"
 						(effects
@@ -4147,7 +3844,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 0 0)
+					(at -17.78 31.75 0)
 					(length 3.81)
 					(name "IO_WB_A4"
 						(effects
@@ -4165,7 +3862,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -2.54 0)
+					(at -17.78 29.21 0)
 					(length 3.81)
 					(name "IO_WB_B4"
 						(effects
@@ -4183,7 +3880,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WB"
@@ -4202,7 +3899,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 7.62 0)
+					(at -17.78 39.37 0)
 					(length 3.81)
 					(name "IO_WB_A3"
 						(effects
@@ -4220,7 +3917,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 5.08 0)
+					(at -17.78 36.83 0)
 					(length 3.81)
 					(name "IO_WB_B3"
 						(effects
@@ -4238,7 +3935,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 12.7 0)
+					(at -17.78 44.45 0)
 					(length 3.81)
 					(name "IO_WB_A2"
 						(effects
@@ -4256,7 +3953,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 10.16 0)
+					(at -17.78 41.91 0)
 					(length 3.81)
 					(name "IO_WB_B2"
 						(effects
@@ -4274,7 +3971,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WB"
@@ -4293,7 +3990,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 17.78 0)
+					(at -17.78 49.53 0)
 					(length 3.81)
 					(name "IO_WB_A1"
 						(effects
@@ -4311,7 +4008,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 15.24 0)
+					(at -17.78 46.99 0)
 					(length 3.81)
 					(name "IO_WB_B1"
 						(effects
@@ -4329,7 +4026,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 30.48 270)
+					(at -2.54 62.23 270)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_WB"
@@ -4348,7 +4045,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 22.86 0)
+					(at -17.78 54.61 0)
 					(length 3.81)
 					(name "IO_WB_A0"
 						(effects
@@ -4366,7 +4063,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 20.32 0)
+					(at -17.78 52.07 0)
 					(length 3.81)
 					(name "IO_WB_B0"
 						(effects
@@ -4386,8 +4083,8 @@
 			)
 			(symbol "CCGM1A1_7_1"
 				(rectangle
-					(start -10.16 11.43)
-					(end 10.16 -11.43)
+					(start -11.43 -20.32)
+					(end 11.43 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4397,7 +4094,7 @@
 					)
 				)
 				(text "Power"
-					(at 2.54 -3.81 0)
+					(at 3.81 -7.62 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4406,7 +4103,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -4424,7 +4121,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4443,7 +4140,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4462,7 +4159,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4481,7 +4178,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4500,7 +4197,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4519,7 +4216,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4538,7 +4235,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4557,7 +4254,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4576,7 +4273,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4595,7 +4292,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4614,7 +4311,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4633,7 +4330,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4652,7 +4349,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4671,7 +4368,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4690,7 +4387,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4709,7 +4406,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(name "VDD"
 						(effects
@@ -4727,7 +4424,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4746,7 +4443,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4765,7 +4462,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4784,7 +4481,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4803,7 +4500,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -4822,7 +4519,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4841,7 +4538,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -4860,7 +4557,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4879,7 +4576,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -4898,7 +4595,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4917,7 +4614,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -4936,7 +4633,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4955,7 +4652,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -4974,7 +4671,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -4993,7 +4690,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5012,7 +4709,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5031,7 +4728,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5050,7 +4747,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5069,7 +4766,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5088,7 +4785,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5107,7 +4804,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5126,7 +4823,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5145,7 +4842,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5164,7 +4861,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5183,7 +4880,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5202,7 +4899,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5221,7 +4918,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5240,7 +4937,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5259,7 +4956,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5278,7 +4975,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5297,7 +4994,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5316,7 +5013,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5335,7 +5032,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5354,7 +5051,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5373,7 +5070,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5392,7 +5089,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5411,7 +5108,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5430,7 +5127,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5449,7 +5146,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5468,7 +5165,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5487,7 +5184,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5506,7 +5203,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5525,7 +5222,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5544,7 +5241,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5563,7 +5260,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5582,7 +5279,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5601,7 +5298,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5620,7 +5317,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5639,7 +5336,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5658,7 +5355,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5677,7 +5374,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5696,7 +5393,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5715,7 +5412,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5734,7 +5431,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5753,7 +5450,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5772,7 +5469,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5791,7 +5488,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5810,7 +5507,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5829,7 +5526,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5848,7 +5545,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5867,7 +5564,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5886,7 +5583,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5905,7 +5602,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5924,7 +5621,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5943,7 +5640,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -5962,7 +5659,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 270)
+					(at -15.24 -2.54 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD"
@@ -5981,7 +5678,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6000,7 +5697,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 -7.62 180)
+					(at 7.62 0 270)
 					(length 3.81)
 					(hide yes)
 					(name "NC"
@@ -6019,7 +5716,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6038,7 +5735,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6057,7 +5754,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6076,7 +5773,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6095,7 +5792,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 15.24 270)
+					(at -15.24 -7.62 0)
 					(length 3.81)
 					(name "VDD_PLL"
 						(effects
@@ -6113,7 +5810,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6132,7 +5829,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6151,7 +5848,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6170,7 +5867,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6189,7 +5886,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 15.24 270)
+					(at -15.24 -12.7 0)
 					(length 3.81)
 					(name "VDD_SER_PLL"
 						(effects
@@ -6207,7 +5904,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6226,7 +5923,7 @@
 					)
 				)
 				(pin power_in line
-					(at -7.62 15.24 270)
+					(at -15.24 -17.78 0)
 					(length 3.81)
 					(name "VDD_SER"
 						(effects
@@ -6244,7 +5941,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6263,7 +5960,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6282,7 +5979,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6301,7 +5998,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6320,7 +6017,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6339,7 +6036,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6358,7 +6055,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6377,7 +6074,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6396,7 +6093,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 15.24 270)
+					(at -15.24 -17.78 0)
 					(length 3.81)
 					(hide yes)
 					(name "VDD_SER"
@@ -6415,7 +6112,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 90)
+					(at 15.24 -10.16 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -6436,8 +6133,8 @@
 			)
 			(symbol "CCGM1A1_8_1"
 				(rectangle
-					(start -11.43 8.89)
-					(end 11.43 -8.89)
+					(start -11.43 22.86)
+					(end 11.43 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -6447,7 +6144,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 2.54 0)
+					(at -15.24 16.51 0)
 					(length 3.81)
 					(name "SER_CLK"
 						(effects
@@ -6465,7 +6162,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 -2.54 0)
+					(at -15.24 11.43 0)
 					(length 3.81)
 					(name "SER_CLK_N"
 						(effects
@@ -6483,7 +6180,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 12.7 270)
+					(at 0 26.67 270)
 					(length 3.81)
 					(name "VDD_CLK"
 						(effects
@@ -6501,7 +6198,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 2.54 180)
+					(at 15.24 16.51 180)
 					(length 3.81)
 					(name "~{RESET}"
 						(effects
@@ -6519,7 +6216,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -2.54 180)
+					(at 15.24 11.43 180)
 					(length 3.81)
 					(name "POR_ADJ"
 						(effects
@@ -6617,17 +6314,6 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "C0402_0_1"
 				(polyline
 					(pts
@@ -6677,6 +6363,196 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "passive:LED_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_0603"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0603_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6950,15 +6826,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Add a testpad"
+	(text "Just as fallback solution\nif SPI pins are not user-logic\nafter configuration"
 		(exclude_from_sim no)
-		(at 148.59 188.976 0)
+		(at 43.688 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "7f9970d5-586b-4f03-b19f-54b6d467571e")
+		(uuid "5f8a708f-9e05-4428-969a-51407466dfd2")
 	)
 	(junction
 		(at 177.8 27.94)
@@ -6971,12 +6848,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e6bae20-2463-4dfd-905d-c288ff6e1753")
-	)
-	(junction
-		(at 27.94 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ea9a76d-6f42-4e73-9e37-cdd176dc3a41")
 	)
 	(junction
 		(at 240.03 102.87)
@@ -7153,12 +7024,6 @@
 		(uuid "b711cde0-fdcb-4181-8270-333339a722e3")
 	)
 	(junction
-		(at 125.73 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9c810e1-680b-44e0-9d83-c7fb2de4f1b0")
-	)
-	(junction
 		(at 124.46 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7257,10 +7122,6 @@
 		(uuid "1348c601-8479-4218-9666-ff95b4f33674")
 	)
 	(no_connect
-		(at 220.98 133.35)
-		(uuid "175f8fc1-15c1-40ab-8b8e-44dedd56c32b")
-	)
-	(no_connect
 		(at 220.98 40.64)
 		(uuid "18e22b75-60e7-4866-9408-aef89e155392")
 	)
@@ -7269,8 +7130,8 @@
 		(uuid "1ad71ce2-09ec-4784-b7c4-35a7270fbd82")
 	)
 	(no_connect
-		(at 69.85 118.11)
-		(uuid "1ca264d9-e539-4305-a8ea-806e3a9c8411")
+		(at 105.41 110.49)
+		(uuid "1bf89b6e-2ce7-4428-ad24-c2417ccdcd3b")
 	)
 	(no_connect
 		(at 68.58 48.26)
@@ -7287,10 +7148,6 @@
 	(no_connect
 		(at 185.42 38.1)
 		(uuid "2c3c9447-0e71-4cd1-a19c-7b8e80d87743")
-	)
-	(no_connect
-		(at 69.85 120.65)
-		(uuid "2f42b35d-90df-49a1-83c0-2a82dc66b0f6")
 	)
 	(no_connect
 		(at 185.42 125.73)
@@ -7405,6 +7262,10 @@
 		(uuid "68e27d53-2283-407e-a467-64c7832f78c3")
 	)
 	(no_connect
+		(at 69.85 138.43)
+		(uuid "691289f6-9766-4038-b042-9e6b230ffc92")
+	)
+	(no_connect
 		(at 68.58 78.74)
 		(uuid "6e903719-32a5-41b0-8f7d-69c61ea4f84b")
 	)
@@ -7415,10 +7276,6 @@
 	(no_connect
 		(at 68.58 35.56)
 		(uuid "71f347f3-1450-432a-8868-770564b96195")
-	)
-	(no_connect
-		(at 220.98 135.89)
-		(uuid "75a5d740-dcb0-4854-9999-5b50d8a10f65")
 	)
 	(no_connect
 		(at 220.98 146.05)
@@ -7485,6 +7342,10 @@
 		(uuid "9b053428-ee44-433d-995f-ae1c28a6fe37")
 	)
 	(no_connect
+		(at 105.41 128.27)
+		(uuid "9e2a6db7-95c6-42f3-8bc9-65ee4f7ab225")
+	)
+	(no_connect
 		(at 68.58 63.5)
 		(uuid "9ec4c1bf-ab41-4640-8002-dc27a5a1439c")
 	)
@@ -7541,10 +7402,6 @@
 		(uuid "ac6f0e4d-c307-4264-984f-a1bf6a6b3d08")
 	)
 	(no_connect
-		(at 220.98 156.21)
-		(uuid "b2f62a91-766c-4c99-8e77-55f2571de37f")
-	)
-	(no_connect
 		(at 185.42 53.34)
 		(uuid "b36021cd-a835-4be2-b582-d4952af44d96")
 	)
@@ -7577,16 +7434,8 @@
 		(uuid "c357d4a9-b5ff-44d7-af89-c354be0265c9")
 	)
 	(no_connect
-		(at 69.85 143.51)
-		(uuid "c70a863d-86ac-4f80-be82-f6140b18a522")
-	)
-	(no_connect
 		(at 68.58 38.1)
 		(uuid "ca108f6f-f4a3-4ced-a145-d57b68286ce5")
-	)
-	(no_connect
-		(at 220.98 140.97)
-		(uuid "cc88f9a7-41f3-4b0c-be03-dc6c0b8514dc")
 	)
 	(no_connect
 		(at 68.58 58.42)
@@ -7621,10 +7470,6 @@
 		(uuid "d9214990-5b49-4369-a770-8e751660643c")
 	)
 	(no_connect
-		(at 220.98 138.43)
-		(uuid "dd4637d1-88d0-4653-8691-bbed4875fbfe")
-	)
-	(no_connect
 		(at 220.98 71.12)
 		(uuid "dfe288fb-0a14-43f6-ae50-96da416ab90c")
 	)
@@ -7657,10 +7502,6 @@
 		(uuid "ed7c9466-4cbd-4d5e-a47b-028066e7fb88")
 	)
 	(no_connect
-		(at 69.85 123.19)
-		(uuid "f0f5f173-01b0-4534-844c-2c4b1e446ac8")
-	)
-	(no_connect
 		(at 220.98 68.58)
 		(uuid "f1fbe4ae-2730-4c27-ab31-3f2aa7ec0fce")
 	)
@@ -7688,15 +7529,23 @@
 		(at 185.42 76.2)
 		(uuid "fc220510-d7f8-444b-81d2-684324e9fc76")
 	)
+	(no_connect
+		(at 105.41 113.03)
+		(uuid "fd7ace0b-5a6a-4a81-baad-bd22a681e2f8")
+	)
+	(no_connect
+		(at 105.41 125.73)
+		(uuid "fdf49ab8-8706-4123-9297-adc6ef38bef9")
+	)
 	(wire
 		(pts
-			(xy 125.73 171.45) (xy 120.65 171.45)
+			(xy 222.25 113.03) (xy 220.98 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03db2bf3-09f8-431d-9d0b-08bf32c97634")
+		(uuid "06ea47a3-9d76-49b8-8e5b-6f97667d8038")
 	)
 	(wire
 		(pts
@@ -7717,16 +7566,6 @@
 			(type default)
 		)
 		(uuid "0bc0d492-cc72-499a-bfc9-3119ad0c3413")
-	)
-	(wire
-		(pts
-			(xy 134.62 171.45) (xy 125.73 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0feee1c4-1222-4038-8000-2c7c1cdbe1b7")
 	)
 	(wire
 		(pts
@@ -7760,13 +7599,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 181.61) (xy 27.94 184.15)
+			(xy 106.68 138.43) (xy 105.41 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "124eaee8-4ff5-413a-ad72-be3cc3bd291d")
+		(uuid "1529138f-b18b-4d97-a6fe-72b7bab73dc1")
 	)
 	(wire
 		(pts
@@ -7810,17 +7649,37 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 171.45) (xy 125.73 172.72)
+			(xy 222.25 128.27) (xy 220.98 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22a2dd34-ddd4-4a98-8654-3a2a9a665e56")
+		(uuid "214f71d1-05ce-48a0-b516-040af4984e12")
 	)
 	(wire
 		(pts
-			(xy 220.98 153.67) (xy 234.95 153.67)
+			(xy 68.58 140.97) (xy 69.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2361999c-ac49-4d56-8fbd-5aa77ce6bad5")
+	)
+	(wire
+		(pts
+			(xy 222.25 115.57) (xy 220.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295041d3-5a44-44f5-a885-fce761a6f6ae")
+	)
+	(wire
+		(pts
+			(xy 220.98 153.67) (xy 222.25 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7840,6 +7699,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 133.35) (xy 222.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2407f7-dcbe-425b-b9ec-d7d2fc0a6dee")
+	)
+	(wire
+		(pts
 			(xy 50.8 101.6) (xy 50.8 102.87)
 		)
 		(stroke
@@ -7847,6 +7716,16 @@
 			(type default)
 		)
 		(uuid "333261f0-9792-4cfa-8c8e-a3eb14240207")
+	)
+	(wire
+		(pts
+			(xy 106.68 148.59) (xy 105.41 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363acbb3-c106-4196-8fa6-69bb25e8e166")
 	)
 	(wire
 		(pts
@@ -7877,16 +7756,6 @@
 			(type default)
 		)
 		(uuid "3d51efcc-83fb-4ee9-89d2-73ac9e367873")
-	)
-	(wire
-		(pts
-			(xy 125.73 181.61) (xy 138.43 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4ec89c-fcd8-412a-926e-d6b59d13f474")
 	)
 	(wire
 		(pts
@@ -7937,6 +7806,16 @@
 			(type default)
 		)
 		(uuid "409dda32-d6a0-4655-9c40-56abb8cff0d7")
+	)
+	(wire
+		(pts
+			(xy 106.68 156.21) (xy 105.41 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41948cc3-9d4e-4517-945c-fbe41e784730")
 	)
 	(wire
 		(pts
@@ -8010,16 +7889,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 176.53) (xy 27.94 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e59f6e7-422f-4862-8c3e-f06a61c7d3b7")
-	)
-	(wire
-		(pts
 			(xy 111.76 17.78) (xy 123.19 17.78)
 		)
 		(stroke
@@ -8070,6 +7939,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 143.51) (xy 105.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e5728d-be7e-4b1c-bd7a-ce9376079ec3")
+	)
+	(wire
+		(pts
 			(xy 72.39 17.78) (xy 72.39 19.05)
 		)
 		(stroke
@@ -8087,6 +7966,16 @@
 			(type default)
 		)
 		(uuid "56cbce8e-8a17-4baf-98db-d58c171c03a5")
+	)
+	(polyline
+		(pts
+			(xy 44.45 116.84) (xy 44.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5713e8ed-2465-4441-a8ee-9f3a4f27a181")
 	)
 	(wire
 		(pts
@@ -8107,6 +7996,26 @@
 			(type default)
 		)
 		(uuid "58d86cbd-6259-496a-9c79-4e75f73ef284")
+	)
+	(wire
+		(pts
+			(xy 222.25 123.19) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a955d01-6ce1-4f25-9127-055b8aabf318")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 69.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9e5ba0-b35c-4a62-a8dd-e19ec04cd4fa")
 	)
 	(wire
 		(pts
@@ -8140,6 +8049,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 118.11) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608a6db7-4b3e-44df-a2e5-f0ba9197620e")
+	)
+	(wire
+		(pts
 			(xy 166.37 26.67) (xy 166.37 27.94)
 		)
 		(stroke
@@ -8160,6 +8079,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 110.49) (xy 220.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6246a826-8a79-4b91-a50c-31d3e82043ee")
+	)
+	(wire
+		(pts
 			(xy 228.6 17.78) (xy 240.03 17.78)
 		)
 		(stroke
@@ -8167,16 +8096,6 @@
 			(type default)
 		)
 		(uuid "63db9fe7-d6e3-4f02-ab66-40f616cf4c0d")
-	)
-	(wire
-		(pts
-			(xy 36.83 181.61) (xy 40.64 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e9a8f4-7bfb-437d-84a2-e4f79c774f3b")
 	)
 	(wire
 		(pts
@@ -8220,6 +8139,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 156.21) (xy 266.7 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcbdc3d-8c21-4178-a92d-2752c21956ee")
+	)
+	(wire
+		(pts
 			(xy 123.19 17.78) (xy 123.19 19.05)
 		)
 		(stroke
@@ -8237,6 +8166,36 @@
 			(type default)
 		)
 		(uuid "6c98ca99-31b1-47f6-8885-a9fd6c299b12")
+	)
+	(wire
+		(pts
+			(xy 106.68 151.13) (xy 105.41 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dee2507-9bf5-4253-8785-015cd2c9b986")
+	)
+	(wire
+		(pts
+			(xy 220.98 135.89) (xy 222.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e3b5a8-6d4c-410b-a9a9-ff6c06feab18")
+	)
+	(wire
+		(pts
+			(xy 68.58 128.27) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750b6b08-ca53-4c92-a917-6721cce4d339")
 	)
 	(wire
 		(pts
@@ -8277,6 +8236,16 @@
 			(type default)
 		)
 		(uuid "7ac67d30-05a8-4b69-aab4-c7b630e53977")
+	)
+	(wire
+		(pts
+			(xy 106.68 146.05) (xy 105.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad18761-3521-421f-bfcc-0063ab38dc40")
 	)
 	(wire
 		(pts
@@ -8350,6 +8319,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 153.67) (xy 105.41 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8760eade-409d-453b-b377-e9655530a2ab")
+	)
+	(wire
+		(pts
 			(xy 124.46 92.71) (xy 132.08 92.71)
 		)
 		(stroke
@@ -8368,15 +8347,15 @@
 		)
 		(uuid "886d81c4-f161-452f-b4a8-3b29a86a88be")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 120.65 186.69) (xy 132.08 186.69)
+			(xy 146.05 12.7) (xy 146.05 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bf0951e-12fb-44d3-9b6c-59f4e7eddaae")
+		(uuid "901935cc-37f5-43cf-867f-bbc7919053ec")
 	)
 	(wire
 		(pts
@@ -8397,16 +8376,6 @@
 			(type default)
 		)
 		(uuid "933265aa-6715-47da-8a1c-040fb8f414a3")
-	)
-	(wire
-		(pts
-			(xy 27.94 184.15) (xy 29.21 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95cf20b2-229a-4f52-b3f4-fcac1598fe1c")
 	)
 	(wire
 		(pts
@@ -8440,6 +8409,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 156.21) (xy 256.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9973bb48-2ebd-435e-ae1c-d7be92ececbf")
+	)
+	(wire
+		(pts
 			(xy 228.6 26.67) (xy 228.6 27.94)
 		)
 		(stroke
@@ -8447,6 +8426,16 @@
 			(type default)
 		)
 		(uuid "9a994dea-6cf0-4817-8a00-96d8e4d6e614")
+	)
+	(wire
+		(pts
+			(xy 220.98 140.97) (xy 222.25 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9baa9459-9060-4a59-b71e-0a13bfa89a5c")
 	)
 	(wire
 		(pts
@@ -8470,13 +8459,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 180.34) (xy 125.73 181.61)
+			(xy 68.58 120.65) (xy 69.85 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4c360f4-3dc1-40ae-8f46-1203dfe12ca0")
+		(uuid "a3eb87ee-ed21-4166-9438-f9540ed2f7ab")
+	)
+	(wire
+		(pts
+			(xy 220.98 138.43) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a504d117-85ea-4d72-a01f-01c3f9649165")
+	)
+	(wire
+		(pts
+			(xy 106.68 140.97) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5427173-075e-4866-aef9-65ca6171d143")
 	)
 	(wire
 		(pts
@@ -8537,6 +8546,16 @@
 			(type default)
 		)
 		(uuid "ab125895-8843-49ca-8fee-f1b0e8e3a394")
+	)
+	(wire
+		(pts
+			(xy 220.98 156.21) (xy 247.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9682f8-097d-4b7f-9786-3273a468b387")
 	)
 	(wire
 		(pts
@@ -8610,16 +8629,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 181.61) (xy 29.21 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb905ee9-5d57-48e0-b6c0-7296633c6bb2")
-	)
-	(wire
-		(pts
 			(xy 166.37 17.78) (xy 158.75 17.78)
 		)
 		(stroke
@@ -8650,13 +8659,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 171.45) (xy 120.65 184.15)
+			(xy 68.58 143.51) (xy 69.85 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc18ea66-985b-4661-bd07-da2b8a7b3d84")
+		(uuid "c72cb499-0e1f-4a56-87ff-3e11b3e20fec")
+	)
+	(wire
+		(pts
+			(xy 68.58 125.73) (xy 69.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3cc0ac-70fe-4b83-907c-b4929d5e71de")
+	)
+	(wire
+		(pts
+			(xy 222.25 120.65) (xy 220.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8c87b9-5bec-4338-baa8-676d3a5e0b57")
 	)
 	(wire
 		(pts
@@ -8690,16 +8719,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 189.23) (xy 125.73 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf904cfb-a458-4fdc-8878-56db494c6ffb")
-	)
-	(wire
-		(pts
 			(xy 123.19 26.67) (xy 123.19 27.94)
 		)
 		(stroke
@@ -8717,6 +8736,16 @@
 			(type default)
 		)
 		(uuid "d5a78874-2210-49a7-bb3c-c2823bb67328")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 220.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63bcc34-5981-4fd5-81d9-d1993a607600")
 	)
 	(wire
 		(pts
@@ -8870,16 +8899,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 184.15) (xy 40.64 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1836bfc-d9b4-466e-83db-b09fa422b717")
-	)
-	(wire
-		(pts
 			(xy 217.17 27.94) (xy 228.6 27.94)
 		)
 		(stroke
@@ -8958,29 +8977,19 @@
 		)
 		(uuid "fd51ff23-e50f-4379-b764-18e8297331ee")
 	)
-	(label "FPGA_CLK0"
-		(at 234.95 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 222.25 125.73) (xy 220.98 125.73)
 		)
-		(uuid "013d791f-3afa-4e97-b055-815d2aef0951")
-	)
-	(label "FPGA_CLK0"
-		(at 132.08 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "2cd3cfa4-2ac8-4de1-baaf-8dbb0b35c177")
+		(uuid "fe173de2-9494-426c-a835-ffec3293409a")
 	)
 	(global_label "FPGA-MCU_GP3"
 		(shape bidirectional)
-		(at 105.41 156.21 0)
+		(at 106.68 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8990,7 +8999,7 @@
 		)
 		(uuid "01a62188-20df-4269-a587-ed0e14dfa564")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 156.21 0)
+			(at 125.8351 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9004,7 +9013,7 @@
 	)
 	(global_label "FPGA_AB_A6"
 		(shape bidirectional)
-		(at 220.98 115.57 0)
+		(at 222.25 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9014,7 +9023,7 @@
 		)
 		(uuid "1e1a65bf-dbe3-4c8f-9ee5-e4a7d794f680")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 115.57 0)
+			(at 237.6556 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,9 +9035,81 @@
 			)
 		)
 	)
+	(global_label "FPGA_SYS_CLK"
+		(shape input)
+		(at 222.25 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b08897a-2d6b-4e71-b6e8-405086c650f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.9633 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A_FPGA_~{CS}"
+		(shape input)
+		(at 68.58 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f747cff-4b97-4149-a790-fbb93f4beab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.3743 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "A_GP14{slash}SPI1_SCK"
+		(shape input)
+		(at 68.58 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3229a8d2-e872-4be6-8a7e-f47fbf161864")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.2382 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FPGA_AB_A1"
 		(shape bidirectional)
-		(at 220.98 128.27 0)
+		(at 222.25 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9038,7 +9119,7 @@
 		)
 		(uuid "32953984-d71f-4a43-a29c-ad195b4f91d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 128.27 0)
+			(at 237.6556 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9052,7 +9133,7 @@
 	)
 	(global_label "FPGA-MCU_GP5"
 		(shape bidirectional)
-		(at 105.41 151.13 0)
+		(at 106.68 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9062,7 +9143,7 @@
 		)
 		(uuid "33ecd00a-605e-42ba-ae29-febd99ebbbcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 151.13 0)
+			(at 125.8351 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9074,57 +9155,9 @@
 			)
 		)
 	)
-	(global_label "A_CFG_FAILED_N"
-		(shape input)
-		(at 69.85 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "378fc541-f7fa-48b6-b429-8463289a5a99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.6852 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "A_POR_EN"
-		(shape output)
-		(at 69.85 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39df94bc-e8dc-42a2-ba8d-61cb2505bdd0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.491 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "FPGA-MCU_GP6"
 		(shape bidirectional)
-		(at 105.41 148.59 0)
+		(at 106.68 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9134,7 +9167,7 @@
 		)
 		(uuid "3a7d76ee-eaff-4866-b8af-2518d88a753f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 148.59 0)
+			(at 125.8351 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9146,19 +9179,19 @@
 			)
 		)
 	)
-	(global_label "A_GP1{slash}I2C0_SCL"
+	(global_label "A_SPI1_QSPI_D2"
 		(shape bidirectional)
-		(at 105.41 125.73 0)
+		(at 68.58 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "4481e784-a845-4620-907c-da3638abaecc")
+		(uuid "4219fcb4-cb97-4087-82ed-ba071b7a3ddc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4117 125.73 0)
+			(at 49.304 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9166,37 +9199,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A_FPGA_RST"
-		(shape bidirectional)
-		(at 105.41 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ef83edc-dc5e-4a93-81b6-27a066c23db8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6946 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "FPGA-MCU_GP10"
 		(shape bidirectional)
-		(at 105.41 138.43 0)
+		(at 106.68 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9206,7 +9215,7 @@
 		)
 		(uuid "51250b10-3662-4bfa-882b-9d1fb8c3905a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.7746 138.43 0)
+			(at 127.0446 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9218,19 +9227,19 @@
 			)
 		)
 	)
-	(global_label "A_GP0{slash}I2C0_SDA"
+	(global_label "A_GP12{slash}SPI1_RX"
 		(shape bidirectional)
-		(at 40.64 181.61 0)
+		(at 68.58 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "53a33e95-1135-400b-b3e6-0bd60c51b73c")
+		(uuid "6274b5d5-e0fe-4f6f-afba-786f4df2983a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7022 181.61 0)
+			(at 48.3969 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,13 +9247,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "FPGA_AB_A5"
 		(shape bidirectional)
-		(at 220.98 118.11 0)
+		(at 222.25 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9254,7 +9263,7 @@
 		)
 		(uuid "6adf56ca-96c0-42d7-92f2-10571dc49250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 118.11 0)
+			(at 237.6556 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,7 +9277,7 @@
 	)
 	(global_label "FPGA_AB_A3"
 		(shape bidirectional)
-		(at 220.98 123.19 0)
+		(at 222.25 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9278,7 +9287,7 @@
 		)
 		(uuid "6b28d7ce-42cd-4627-ba84-0c6ca8b81f69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 123.19 0)
+			(at 237.6556 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,9 +9299,33 @@
 			)
 		)
 	)
+	(global_label "A_FPGA_USR_~{RST}"
+		(shape input)
+		(at 68.58 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fdcc387-07cc-41ab-821b-cd1c1e791cc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.6291 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FPGA-MCU_GP8"
 		(shape bidirectional)
-		(at 105.41 143.51 0)
+		(at 106.68 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9302,7 +9335,7 @@
 		)
 		(uuid "74bc3f52-95fc-40af-aa9d-3fbcf46bc041")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 143.51 0)
+			(at 125.8351 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,9 +9347,9 @@
 			)
 		)
 	)
-	(global_label "A_MCU-FPGA_EN_OSC"
+	(global_label "A_GP15{slash}SPI1_TX"
 		(shape bidirectional)
-		(at 92.71 184.15 180)
+		(at 68.58 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9324,9 +9357,9 @@
 			)
 			(justify right)
 		)
-		(uuid "82283fe7-3af8-40f3-a42a-77fca1684b77")
+		(uuid "78c05cdb-97e5-4408-80ee-135067063e09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.9911 184.15 0)
+			(at 48.6993 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9340,7 +9373,7 @@
 	)
 	(global_label "FPGA_AB_A4"
 		(shape bidirectional)
-		(at 220.98 120.65 0)
+		(at 222.25 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9350,7 +9383,7 @@
 		)
 		(uuid "83f5f9d8-fe52-4c11-b5bf-ba4e435243f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 120.65 0)
+			(at 237.6556 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9362,33 +9395,9 @@
 			)
 		)
 	)
-	(global_label "A_CFG_DONE"
-		(shape input)
-		(at 69.85 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "902077b2-13fa-4ac9-80d0-0f4937f043be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.1324 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "A_GP1{slash}I2C0_SCL"
+	(global_label "FPGA_AB_A10"
 		(shape bidirectional)
-		(at 40.64 184.15 0)
+		(at 222.25 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9396,33 +9405,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9096bc03-ed29-4b34-8f38-0f7f6ea395e6")
+		(uuid "871474c8-52b0-4599-909e-e116a058e15b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6417 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A_GP0{slash}I2C0_SDA"
-		(shape bidirectional)
-		(at 105.41 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "928e85e0-c093-4b68-bf15-2a00a2d3495c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4722 128.27 0)
+			(at 238.8651 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9421,7 @@
 	)
 	(global_label "FPGA_AB_A8"
 		(shape bidirectional)
-		(at 220.98 110.49 0)
+		(at 222.25 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9446,7 +9431,7 @@
 		)
 		(uuid "92fb1086-c07f-4362-8f96-1c89349ce892")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 110.49 0)
+			(at 237.6556 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9458,57 +9443,9 @@
 			)
 		)
 	)
-	(global_label "A_MCU-FPGA_EN_OSC"
+	(global_label "A_SPI1_QSPI_D3"
 		(shape bidirectional)
-		(at 105.41 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5d8ec96-c85d-4935-9822-ee48315c97b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1289 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FPGA_AB_A7"
-		(shape bidirectional)
-		(at 220.98 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc63b318-bd74-4aba-89d0-7004a782ffaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "A_CFG_Extra"
-		(shape output)
-		(at 69.85 125.73 180)
+		(at 68.58 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9516,9 +9453,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ccd04911-5d34-4de7-91a2-51a49937f256")
+		(uuid "a7b6a132-f858-4f2b-b95f-9b8d3e25bbb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.3744 125.73 0)
+			(at 49.304 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9530,9 +9467,57 @@
 			)
 		)
 	)
+	(global_label "FPGA_AB_A7"
+		(shape bidirectional)
+		(at 222.25 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc63b318-bd74-4aba-89d0-7004a782ffaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.6556 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_AB_A12"
+		(shape bidirectional)
+		(at 222.25 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf428a22-3413-4343-8701-87f0f103d2d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.8651 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "FPGA-MCU_GP4"
 		(shape bidirectional)
-		(at 105.41 153.67 0)
+		(at 106.68 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9542,7 +9527,31 @@
 		)
 		(uuid "d2aa94f4-a57b-4d7a-89fa-29d0c33341c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 153.67 0)
+			(at 125.8351 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_AB_A11"
+		(shape bidirectional)
+		(at 222.25 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8ed12b8-6a94-4bd8-be70-581a4b85141f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.8651 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9556,7 +9565,7 @@
 	)
 	(global_label "FPGA-MCU_GP7"
 		(shape bidirectional)
-		(at 105.41 146.05 0)
+		(at 106.68 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9566,7 +9575,7 @@
 		)
 		(uuid "daf69a46-25d1-4031-8fbb-76a2f4cb3342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 146.05 0)
+			(at 125.8351 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9580,7 +9589,7 @@
 	)
 	(global_label "FPGA-MCU_GP9"
 		(shape bidirectional)
-		(at 105.41 140.97 0)
+		(at 106.68 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9590,7 +9599,7 @@
 		)
 		(uuid "eab77554-da48-4d6a-872d-379d8b9d8181")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5651 140.97 0)
+			(at 125.8351 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +9613,7 @@
 	)
 	(global_label "FPGA_AB_A2"
 		(shape bidirectional)
-		(at 220.98 125.73 0)
+		(at 222.25 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9614,7 +9623,31 @@
 		)
 		(uuid "f0a8e145-7c0d-46ba-a4c2-c9f91b662b28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3856 125.73 0)
+			(at 237.6556 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_AB_A9"
+		(shape bidirectional)
+		(at 222.25 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4ebce2c-990e-4216-b1aa-e54166ca5696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.6556 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,17 +9727,6 @@
 	)
 	(hierarchical_label "VDD_IO"
 		(shape input)
-		(at 134.62 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f2149db-610e-4f4b-a652-a2a243a92bdb")
-	)
-	(hierarchical_label "VDD_IO"
-		(shape input)
 		(at 41.91 17.78 180)
 		(effects
 			(font
@@ -9713,17 +9735,6 @@
 			(justify right)
 		)
 		(uuid "a6b29861-4580-4bb5-844f-91a6dc8a5362")
-	)
-	(hierarchical_label "VDD_IO"
-		(shape input)
-		(at 27.94 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c76c9796-a0ea-4a48-aaae-fc21cb45106a")
 	)
 	(hierarchical_label "VDD_IO"
 		(shape input)
@@ -9748,7 +9759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03653d26-11fc-4d55-be41-26cc67f3a19a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR031"
 			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9806,9 +9817,9 @@
 			(uuid "4e6656d7-df43-4a7f-9b79-8558e36568f7")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR020")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9825,18 +9836,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0528c0a5-b390-4cec-b3b9-b0fde813710e")
-		(property "Reference" "C39"
-			(at 114.808 21.59 0)
+		(property "Reference" "C15"
+			(at 111.125 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 114.808 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9887,9 +9898,9 @@
 			(uuid "81e5bca5-3265-44af-952c-c4f348a6c900")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C39")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9906,18 +9917,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07300da1-51a7-4a85-b9fb-3da824c791e9")
-		(property "Reference" "C40"
-			(at 126.238 21.59 0)
+		(property "Reference" "C16"
+			(at 122.555 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 126.238 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,37 +9979,38 @@
 			(uuid "ece56cee-2085-4dbd-a098-e52f2a288950")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C40")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_CologneChip_GateMate:CCGM1A1")
-		(at 203.2 58.42 0)
+		(lib_id "fpga:CCGM1A1")
+		(at 203.2 90.17 0)
 		(unit 4)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07963d30-fba4-441e-880c-95fab4b47c3c")
-		(property "Reference" "U1"
-			(at 203.2 86.614 0)
+		(property "Reference" "U6"
+			(at 203.2 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "CCGM1A1"
-			(at 203.2 89.154 0)
+			(at 203.454 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10007,8 +10019,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-			(at 198.12 41.91 0)
+		(property "Footprint" "custom_library:BGA-324_15.0x15.0mm_Layout18x18_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD"
+			(at 203.2 92.202 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,7 +10031,7 @@
 			)
 		)
 		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-			(at 203.2 50.8 0)
+			(at 208.28 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10030,7 +10042,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at 203.2 58.42 0)
+			(at 208.28 107.442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11013,9 +11025,9 @@
 			(uuid "b4e621dc-d481-491e-b4d8-f11fb8a690a1")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "U1")
+					(reference "U6")
 					(unit 4)
 				)
 			)
@@ -11023,7 +11035,8 @@
 	)
 	(symbol
 		(lib_id "passive:C0402")
-		(at 113.03 97.79 180)
+		(at 177.8 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11031,20 +11044,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "106d9e44-5ddc-422b-b214-c85a1d5c963d")
-		(property "Reference" "C57"
-			(at 116.078 96.52 0)
+		(uuid "0e991335-129e-425c-aa79-a2c6dc9ae131")
+		(property "Reference" "C30"
+			(at 178.435 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 116.078 99.06 0)
+		(property "Value" "1u"
+			(at 174.752 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11055,7 +11068,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 112.0648 93.98 0)
+			(at 178.7652 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +11079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 97.79 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +11090,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 97.79 0)
+			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11088,15 +11101,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "827561d8-6cb0-41db-8ba9-818820172ffb")
+			(uuid "990020cb-b740-4a16-8cbc-9ea69b34302b")
 		)
 		(pin "2"
-			(uuid "cf89779f-140b-44ef-ab93-1d6782af1e2d")
+			(uuid "f0baf9b7-491d-45f1-afa4-05fd7403241e")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C57")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11113,18 +11126,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11db32fe-d496-4f50-9bdb-ab04ca831504")
-		(property "Reference" "C44"
-			(at 220.218 21.59 0)
+		(property "Reference" "C20"
+			(at 216.535 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 220.218 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11175,9 +11188,9 @@
 			(uuid "fabcfe7d-95e0-4375-a188-44ef35a38b50")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C44")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11185,88 +11198,7 @@
 	)
 	(symbol
 		(lib_id "passive:C0402")
-		(at 217.17 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "274af646-9b57-4b91-8019-42ecaa11c820")
-		(property "Reference" "C50"
-			(at 220.218 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 220.218 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 216.2048 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d45f61d8-91c1-4612-abef-df31e13dac28")
-		)
-		(pin "2"
-			(uuid "bf5c6a02-79cc-4b15-9fdd-3a7414f4b89a")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 166.37 97.79 0)
+		(at 113.03 97.79 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11275,20 +11207,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "27a8e0fb-c170-4098-a1fd-cffbd8a6b1cd")
-		(property "Reference" "C47"
-			(at 163.322 96.52 0)
+		(uuid "1ab21a0b-a499-466a-8cff-0e26850da600")
+		(property "Reference" "C27"
+			(at 113.665 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 163.322 99.06 0)
+		(property "Value" "1u"
+			(at 109.982 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11299,7 +11231,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.3352 93.98 0)
+			(at 113.9952 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11310,7 +11242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 97.79 0)
+			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11321,7 +11253,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 97.79 0)
+			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11332,15 +11264,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a3dae2f-3007-478b-8395-58f79ab84dfd")
+			(uuid "c8ce7d7f-da10-4c6b-a45a-4e52a80179d4")
 		)
 		(pin "2"
-			(uuid "5adba30f-a691-48e5-b203-ebb85f9b37b8")
+			(uuid "cb710814-48de-4c34-8623-295df8da1031")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C47")
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 101.6 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b587381-6058-49c4-a78e-a6abf75a002f")
+		(property "Reference" "C26"
+			(at 102.235 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 98.552 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 102.5652 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69e13a12-949f-44fd-a045-62314d080833")
+		)
+		(pin "2"
+			(uuid "d9f9a986-8344-446e-ae23-f7a6e25a4e54")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11358,7 +11372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f6cb701-270f-4ae7-b202-b928eed92f1b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR027"
 			(at 41.91 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11416,252 +11430,9 @@
 			(uuid "0e48d4c0-7a80-4232-a86c-31335a795059")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AMJMAFB-100.0000T:AMJMAFB-100.0000T")
-		(at 106.68 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dd17da5-261f-403a-9431-d2e2694b9e5e")
-		(property "Reference" "Y1"
-			(at 106.68 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMJMAFB-100.0000T"
-			(at 106.68 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AMJMAFB-100.0000T:XTAL_AMJMAFB-100.0000T"
-			(at 105.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Abracon Corporation"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.89 mm"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AMJMAFB-100.0000T/Abracon/view-part/?ref=eda"
-			(at 105.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 105.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "04/07/2021"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMJMAFB-100.0000T/Abracon/view-part/?ref=snap"
-			(at 105.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "AMJMAFB-100.0000T"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Oscillator MEMS 100MHz ±25ppm (Stability) CMOS 55% 1.8V/2.5V/3.3V 4-Pin VFLGA SMD T/R"
-			(at 105.41 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Abracon"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "AMJMAFB-100.0000T"
-			(at 106.68 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "9bd390bd-4b36-4fa0-99ce-d6d232cd0136")
-		)
-		(pin "4"
-			(uuid "0f24e7e3-c4d3-4f4a-8c62-f16bd3f8f97e")
-		)
-		(pin "3"
-			(uuid "b5bdf532-4f8a-4c69-8967-3fca119bfdcd")
-		)
-		(pin "1"
-			(uuid "c16a5e5a-55c0-492d-abe6-6bf7fc0a399b")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "Y1")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11679,18 +11450,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43280c2b-c7a9-4e4b-84be-2d9eaa10e8d3")
-		(property "Reference" "C42"
-			(at 174.752 21.59 0)
+		(property "Reference" "C18"
+			(at 178.435 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 174.752 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11741,9 +11512,9 @@
 			(uuid "9f8e3215-cbd4-49a5-8788-158aeb8d12e2")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C42")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11761,18 +11532,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4738c1b8-18ff-418f-b0be-435e44d6a546")
-		(property "Reference" "C41"
-			(at 163.322 21.59 0)
+		(property "Reference" "C17"
+			(at 167.005 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 163.322 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11823,49 +11594,48 @@
 			(uuid "a4ce951e-c31a-4c38-b6d5-5c3b906443a7")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C41")
+					(reference "C17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "passive:R0402")
-		(at 33.02 184.15 270)
+		(lib_id "power:GND")
+		(at 266.7 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "49391394-af70-4d21-accd-afc4ff7d3d26")
-		(property "Reference" "R4"
-			(at 31.75 186.436 90)
+		(uuid "48a2a6c3-3c3b-4e5b-8f31-16951ebc2764")
+		(property "Reference" "#PWR035"
+			(at 273.05 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5k1"
-			(at 31.75 188.976 90)
+		(property "Value" "GND"
+			(at 270.764 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 33.02 182.372 90)
+		(property "Footprint" ""
+			(at 266.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +11646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 184.15 0)
+			(at 266.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,8 +11656,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 33.02 184.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11896,17 +11666,96 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "629c2dfb-d2c2-4d16-8fde-cff351f7d2b8")
 		)
 		(pin "1"
-			(uuid "5d03f837-2e4b-40c9-b8f8-3762733a0f63")
+			(uuid "8dcad59f-bfed-422a-8aa9-23cf4f11230a")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "R4")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 62.23 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a32707b-fe89-49a7-bf46-f184abcfdb9b")
+		(property "Reference" "C24"
+			(at 62.865 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 59.182 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.1952 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d79afc2-1187-44ab-9c8a-965e9e5960b3")
+		)
+		(pin "2"
+			(uuid "12940bad-58b3-44d7-8d53-52f7ef897345")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -11923,7 +11772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51097ec9-61af-406b-b844-ab2c89259c28")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR034"
 			(at 247.65 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11981,90 +11830,9 @@
 			(uuid "1799f244-6cc3-48fb-b9b3-104822de54a6")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 125.73 176.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51888831-e04c-40c8-818c-65cc530e99f8")
-		(property "Reference" "C67"
-			(at 128.778 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 128.778 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.7648 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15fcd95d-e21e-4c92-bee2-eff6534ded95")
-		)
-		(pin "2"
-			(uuid "9e8f5e52-ae3a-428c-b63f-4572504b647a")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C67")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12081,7 +11849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52edfb7a-a011-4aff-963d-1fe2785efef4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR032"
 			(at 132.08 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12139,248 +11907,9 @@
 			(uuid "04f61220-44d5-41d7-a4c9-24a0f1dc222b")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 124.46 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5cc8bd38-c1b8-4f83-b911-bab49a279e31")
-		(property "Reference" "C58"
-			(at 127.508 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 127.508 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 123.4948 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68b010fc-4a0c-4e37-a28a-c4cc67aa03f8")
-		)
-		(pin "2"
-			(uuid "7a2fa8f5-97bf-4a99-bcef-5be723f7c44a")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:R0402")
-		(at 33.02 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e0fc978-e2bb-479e-9e21-34ca58878476")
-		(property "Reference" "R5"
-			(at 31.75 176.784 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k1"
-			(at 31.75 179.324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 33.02 183.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5abc6da0-8e50-4745-b777-c2129d118435")
-		)
-		(pin "1"
-			(uuid "7d871e13-f3f4-453d-b288-2e87c044bf3f")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63898bec-9b2a-4afd-a4fb-77206b361b03")
-		(property "Reference" "#PWR035"
-			(at 125.73 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 193.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ef080a6-86be-48f5-840c-be9916731f9c")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR035")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12398,18 +11927,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6710bdd5-921f-44ad-9302-c2fca958c60e")
-		(property "Reference" "C37"
-			(at 46.482 21.59 0)
+		(property "Reference" "C11"
+			(at 50.165 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 46.482 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12460,167 +11989,9 @@
 			(uuid "2236a587-f70f-4c25-a755-65aa2858bfc0")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 240.03 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ca54e82-2f7d-40b3-9a17-6cea46beea13")
-		(property "Reference" "C52"
-			(at 243.078 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 243.078 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 239.0648 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f39a916f-1f6b-4383-9fa0-ae692b61db5a")
-		)
-		(pin "2"
-			(uuid "4b7e36c4-4f2b-4d90-a8fd-793834bbfcc1")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7059e9ba-5a35-409e-81d1-9a2edcdd9505")
-		(property "Reference" "#PWR034"
-			(at 138.43 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 185.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01629913-4a82-47ff-98a7-0e49a78c066c")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR034")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12637,18 +12008,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7298dc72-5c90-47a8-98a8-4a102288a83f")
-		(property "Reference" "C38"
-			(at 103.378 21.59 0)
+		(property "Reference" "C14"
+			(at 99.695 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 103.378 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12699,37 +12070,38 @@
 			(uuid "5262f99a-4b90-4333-a841-a6d697a2f3dd")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C38")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_CologneChip_GateMate:CCGM1A1")
-		(at 87.63 133.35 0)
+		(lib_id "fpga:CCGM1A1")
+		(at 87.63 165.1 0)
 		(unit 6)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b471670-244c-4d4c-a181-d924da13e33d")
-		(property "Reference" "U1"
-			(at 87.63 161.544 0)
+		(property "Reference" "U6"
+			(at 86.614 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "CCGM1A1"
-			(at 87.63 164.084 0)
+			(at 87.63 195.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12738,8 +12110,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-			(at 82.55 116.84 0)
+		(property "Footprint" "custom_library:BGA-324_15.0x15.0mm_Layout18x18_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD"
+			(at 87.63 167.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12750,7 +12122,7 @@
 			)
 		)
 		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-			(at 87.63 125.73 0)
+			(at 92.71 174.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12761,7 +12133,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at 87.63 133.35 0)
+			(at 92.71 182.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13744,91 +13116,10 @@
 			(uuid "b4e621dc-d481-491e-b4d8-f11fb8a690a2")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "U1")
+					(reference "U6")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 101.6 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83a211f4-2a68-48d3-bd59-59983d9e699b")
-		(property "Reference" "C56"
-			(at 104.648 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 104.648 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.6348 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bf993c8-7704-4c87-b9f6-d59baa1281a2")
-		)
-		(pin "2"
-			(uuid "a8683b1d-bf5c-437d-beb4-9a5bc2b127a6")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C56")
-					(unit 1)
 				)
 			)
 		)
@@ -13845,7 +13136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83a447a2-5c67-48f1-aeaa-2f4c873766ef")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR033"
 			(at 158.75 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -13903,37 +13194,38 @@
 			(uuid "fc59475a-0b06-4901-b082-ae11ac7d1632")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR018")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_CologneChip_GateMate:CCGM1A1")
-		(at 86.36 58.42 0)
+		(lib_id "fpga:CCGM1A1")
+		(at 86.36 90.17 0)
 		(unit 3)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c462e5d-a90f-462f-bc9e-9f2ae672cb11")
-		(property "Reference" "U1"
-			(at 86.36 86.614 0)
+		(property "Reference" "U6"
+			(at 86.36 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "CCGM1A1"
-			(at 86.36 89.154 0)
+			(at 86.36 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13942,8 +13234,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-			(at 81.28 41.91 0)
+		(property "Footprint" "custom_library:BGA-324_15.0x15.0mm_Layout18x18_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD"
+			(at 86.36 92.202 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13954,7 +13246,7 @@
 			)
 		)
 		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-			(at 86.36 50.8 0)
+			(at 91.44 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13965,7 +13257,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at 86.36 58.42 0)
+			(at 91.44 107.442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14948,255 +14240,10 @@
 			(uuid "b4e621dc-d481-491e-b4d8-f11fb8a690a3")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "U1")
+					(reference "U6")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 228.6 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8de50a3c-8c9e-4d30-a694-0f3d14b13500")
-		(property "Reference" "C51"
-			(at 231.648 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 231.648 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.6348 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2eeff9f4-1aed-41b2-8ef5-3f3291d250c7")
-		)
-		(pin "2"
-			(uuid "808fa616-0daf-472a-90ce-d8ec5788dec5")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 73.66 97.79 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ded5e10-aac1-4847-9cff-6563a6037e33")
-		(property "Reference" "C55"
-			(at 70.612 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 70.612 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.6252 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 73.66 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17d6aa6b-a6a6-46ec-b7d4-7a68871656a9")
-		)
-		(pin "2"
-			(uuid "0955a764-9523-4d6f-827b-20639c8853b4")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 62.23 97.79 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e0bef02-a6ad-428f-9420-8d3960e0958d")
-		(property "Reference" "C54"
-			(at 59.182 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 59.182 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.1952 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cf77cd1-e2f1-423a-949c-416ddff2e0eb")
-		)
-		(pin "2"
-			(uuid "3810b9dd-eb65-49b1-8a3f-f6ff01663637")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C54")
-					(unit 1)
 				)
 			)
 		)
@@ -15212,7 +14259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eb5bc9f-79bf-4ffe-8092-3005ce29aa97")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR030"
 			(at 247.65 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15270,9 +14317,9 @@
 			(uuid "f2a94793-714b-4915-8ff8-ddf9b13dd394")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR017")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15290,18 +14337,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93363f02-fbb8-43af-b7d3-8d1780088542")
-		(property "Reference" "C35"
-			(at 69.342 21.59 0)
+		(property "Reference" "C13"
+			(at 73.025 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 69.342 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,9 +14399,173 @@
 			(uuid "b3e8621c-25fa-4688-ab16-d3e8baa05bd5")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C35")
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 189.23 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95c78cd8-c1df-4e89-b483-762d5b84f5fe")
+		(property "Reference" "C31"
+			(at 189.865 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 186.182 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 190.1952 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e5174be-f5b7-4b6c-8ab3-c652f2b77704")
+		)
+		(pin "2"
+			(uuid "ef70cb28-fa90-470c-a3a5-28031aa82a05")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 217.17 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "976a40a6-a4f3-4402-8d4c-613ac57b560c")
+		(property "Reference" "C32"
+			(at 217.805 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 214.122 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 218.1352 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "506230f0-8e3e-4cd7-95f4-15fe95af977f")
+		)
+		(pin "2"
+			(uuid "b77146d5-6044-45d3-a6e0-a8c53778d064")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -15372,7 +14583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9da0e807-a166-41f1-a396-6d118745f40b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR029"
 			(at 158.75 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15430,9 +14641,9 @@
 			(uuid "a89fa94b-c48f-4551-a0b7-968adad87330")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR016")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15450,18 +14661,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0de5b48-da40-42a3-8289-86f82b7354f9")
-		(property "Reference" "C43"
-			(at 186.182 21.59 0)
+		(property "Reference" "C19"
+			(at 189.865 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 186.182 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15512,91 +14723,9 @@
 			(uuid "c7d0b9e9-73b0-473b-949a-8683feaaca4e")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "passive:C0402")
-		(at 177.8 97.79 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1b1b15c-2e24-4fb4-ae44-878de958e1e4")
-		(property "Reference" "C48"
-			(at 174.752 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 174.752 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 178.7652 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a9c516d-32a2-4431-8460-ba924d985089")
-		)
-		(pin "2"
-			(uuid "b48a8a2c-db07-4eb0-85d9-fc6790798010")
-		)
-		(instances
-			(project "FPGABoard_GateMate_1"
-				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C48")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15614,18 +14743,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4dbc2b1-de65-46b1-9b9d-54d76a1ba2f2")
-		(property "Reference" "C36"
-			(at 57.912 21.59 0)
+		(property "Reference" "C12"
+			(at 61.595 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 57.912 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15676,37 +14805,38 @@
 			(uuid "00ac344b-1f7f-44a6-9816-87b7aaae6807")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C36")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FPGA_CologneChip_GateMate:CCGM1A1")
-		(at 203.2 133.35 0)
+		(lib_id "fpga:CCGM1A1")
+		(at 203.2 165.1 0)
 		(unit 5)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab7188b8-e8e9-441f-b8ed-ca07b3c64737")
-		(property "Reference" "U1"
-			(at 203.2 161.544 0)
+		(property "Reference" "U6"
+			(at 203.2 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "CCGM1A1"
-			(at 203.2 164.084 0)
+			(at 203.2 195.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15715,8 +14845,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-			(at 198.12 116.84 0)
+		(property "Footprint" "custom_library:BGA-324_15.0x15.0mm_Layout18x18_P0.8mm_Ball0.5mm_Pad0.4mm_NSMD"
+			(at 203.2 167.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15727,7 +14857,7 @@
 			)
 		)
 		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-			(at 203.2 125.73 0)
+			(at 208.28 174.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15738,7 +14868,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at 203.2 133.35 0)
+			(at 208.28 182.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16721,9 +15851,9 @@
 			(uuid "b4e621dc-d481-491e-b4d8-f11fb8a690a4")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "U1")
+					(reference "U6")
 					(unit 5)
 				)
 			)
@@ -16731,7 +15861,7 @@
 	)
 	(symbol
 		(lib_id "passive:C0402")
-		(at 50.8 97.79 0)
+		(at 124.46 97.79 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16740,20 +15870,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aedc3957-6dab-4fe1-bb9a-8a2976cf1f31")
-		(property "Reference" "C53"
-			(at 47.752 96.52 0)
+		(uuid "b6e9f106-0d2b-4ddb-b153-bca34a737c7c")
+		(property "Reference" "C28"
+			(at 125.095 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 47.752 99.06 0)
+		(property "Value" "1u"
+			(at 121.412 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16764,7 +15894,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 51.7652 93.98 0)
+			(at 125.4252 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16775,7 +15905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 97.79 0)
+			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16786,7 +15916,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 97.79 0)
+			(at 124.46 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16797,15 +15927,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a188991-1cf4-4469-be9a-36f6e2843df4")
+			(uuid "9ccc33ad-73ba-4995-86ac-ef557a25a6b7")
 		)
 		(pin "2"
-			(uuid "5ec8b121-ec9a-4ec0-b786-a9a74fce5f8f")
+			(uuid "20e1df6b-fb58-4bd8-9061-424ef7cfb3d1")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C53")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -16822,18 +15952,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b92a986b-3845-40dd-8101-50fea36bb990")
-		(property "Reference" "C45"
-			(at 231.648 21.59 0)
+		(property "Reference" "C21"
+			(at 227.965 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 231.648 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16884,9 +16014,253 @@
 			(uuid "c0114c14-ce95-4f03-b07f-768ede32879f")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C45")
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 73.66 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be58bc04-2b2c-4050-b81c-8227233c901f")
+		(property "Reference" "C25"
+			(at 74.295 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 70.612 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 74.6252 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2561d452-ef15-446d-90bc-958e0cd15404")
+		)
+		(pin "2"
+			(uuid "0b2d0e74-d813-4897-8671-5eb2f52ea254")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:LED_0603")
+		(at 260.35 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46d9392-2b7e-4c9b-8e1a-e8f6401b7cc4")
+		(property "Reference" "D1"
+			(at 261.9375 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_0603"
+			(at 261.9375 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 260.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 260.35 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c384ac7-e3c5-4626-89b1-194cbf599a56")
+		)
+		(pin "1"
+			(uuid "1ee97551-f2fb-475f-b5e0-2b8f66df01a3")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 240.03 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb406db9-ceaa-4555-8219-242b14b59c2c")
+		(property "Reference" "C34"
+			(at 240.665 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 236.982 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 240.9952 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0e13e3c-fd52-465f-ae41-cdadcb45ca35")
+		)
+		(pin "2"
+			(uuid "38513ddc-b65f-431f-904b-d6acbe563641")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -16903,7 +16277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a87816-e29d-4ea2-aa99-7d922dcf5032")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR028"
 			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16961,18 +16335,17 @@
 			(uuid "eb434a1a-97e6-41ce-a875-867dadc17db1")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "#PWR015")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "passive:C0402")
-		(at 189.23 97.79 0)
-		(mirror x)
+		(lib_id "passive:R0402")
+		(at 251.46 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16980,31 +16353,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d3929607-3826-40ae-b9c8-ae3fa6fdbc8a")
-		(property "Reference" "C49"
-			(at 186.182 96.52 0)
+		(fields_autoplaced yes)
+		(uuid "d7a0571e-cc63-402c-8b9f-8aa480ed6334")
+		(property "Reference" "R4"
+			(at 251.46 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 186.182 99.06 0)
+		(property "Value" "750R"
+			(at 251.46 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 190.1952 93.98 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 251.46 157.988 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17015,7 +16387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 97.79 0)
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17025,8 +16397,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 97.79 0)
+		(property "Description" "Resistor"
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17037,15 +16409,179 @@
 			)
 		)
 		(pin "1"
-			(uuid "a956edce-7438-41fc-8ad3-e98d53c24393")
+			(uuid "42ab383c-e162-4641-859f-5c8594d068eb")
 		)
 		(pin "2"
-			(uuid "b496ddde-c867-45a2-b8ae-8c9535b135b0")
+			(uuid "0e9aab2a-19f2-481d-88cd-9a2ce4a07a4b")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C49")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 166.37 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd50b5dc-13a3-440a-a0e3-5da7c315ba2e")
+		(property "Reference" "C29"
+			(at 167.005 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 163.322 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 167.3352 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e34428d0-ee5e-458f-9829-e52082a4228a")
+		)
+		(pin "2"
+			(uuid "a61e9aab-2e83-4f56-8c2d-0eefdde91556")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 228.6 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e19d405b-f5c6-4ea7-b71a-0ce29bdf33fb")
+		(property "Reference" "C33"
+			(at 229.235 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 225.552 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 229.5652 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bb514e8-2d6f-4406-b58f-bf0e2f683558")
+		)
+		(pin "2"
+			(uuid "a1c26079-fd7f-45e3-a860-f4cc5ee6a462")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -17062,18 +16598,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1965e6d-cdcb-4c38-a254-31bd9ac52224")
-		(property "Reference" "C46"
-			(at 243.078 21.59 0)
+		(property "Reference" "C22"
+			(at 239.395 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 243.078 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17124,9 +16660,91 @@
 			(uuid "51a4f510-7373-42ba-b586-7f5502d50c80")
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
-					(reference "C46")
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "passive:C0402")
+		(at 50.8 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1f71562-2d96-491b-8ce8-662e7f57c766")
+		(property "Reference" "C23"
+			(at 51.435 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 47.752 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 51.7652 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d59d799-3510-4322-9640-4bca4f9ca102")
+		)
+		(pin "2"
+			(uuid "41a3f485-b474-49c8-8d09-5222e9f630b7")
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129/d2acf127-4018-4eed-b057-fb0392b768f0"
+					(reference "C23")
 					(unit 1)
 				)
 			)

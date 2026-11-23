@@ -4,27 +4,23 @@
 	(generator_version "10.0")
 	(uuid "c7d8d43d-63a2-4580-87e3-23da67ff2129")
 	(paper "A4")
-	(lib_symbols)
-	(text "Notes:\n- Make all caps common (0.1u, 1u, 2.2u --> 1u or 10u)\n- Add the resistor circuit to auto-detect the selected fpga board"
-		(exclude_from_sim no)
-		(at 177.546 166.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "177cb69b-ff44-460d-8262-403b3ccfe0c0")
+	(title_block
+		(title "FPGA Shield for Cologne Chip GateMate A1/2")
+		(date "2026-11-23")
+		(rev "1.0")
+		(company "UDE-IES")
 	)
-	(text "General: Add testpads for specific signals which will not be moved to other boards"
+	(lib_symbols)
+	(text "GateMate Ax Voltages\n"
 		(exclude_from_sim no)
-		(at 179.578 36.83 0)
+		(at 128.778 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(uuid "706f5adb-7c81-464d-a081-4f5cb6383079")
+		(uuid "7a0f17e4-c2c1-4080-9854-5e88586c55ee")
 	)
 	(text "V Outputs from MCU"
 		(exclude_from_sim no)
@@ -66,13 +62,33 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 33.02) (xy 71.12 33.02)
+			(xy 64.77 71.12) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f898c6-2635-4d68-bd39-c53520c08d1a")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 81.28 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e4f134c-ce36-40a0-bbdd-89be19c85a74")
+	)
+	(wire
+		(pts
+			(xy 74.93 71.12) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877cfb40-fb6f-482f-b1d0-d8e248022b12")
 	)
 	(wire
 		(pts
@@ -84,6 +100,186 @@
 		)
 		(uuid "97a2257b-bb8c-4ddc-88eb-3986077c4d2f")
 	)
+	(wire
+		(pts
+			(xy 81.28 95.25) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1487099-41ee-4f5a-bc3f-82b2317a16f6")
+	)
+	(wire
+		(pts
+			(xy 81.28 74.93) (xy 74.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cd81bf-39a4-4e65-9922-0855b13b591b")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 6.35 16.51)
+		(row_heights 2.54 2.54 2.54 2.54)
+		(uuid "5b7b2be7-d95d-4ef8-a6ba-3d8fcc1b9143")
+		(cells
+			(table_cell "v1 "
+				(exclude_from_sim no)
+				(at 128.905 50.165 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4914a385-38ac-4732-8cbc-cf2000e53ed3")
+			)
+			(table_cell "1.0/1.1 V"
+				(exclude_from_sim no)
+				(at 135.255 50.165 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e77f1a6d-84ac-4046-b91a-0b6d98c51a5f")
+			)
+			(table_cell "v2"
+				(exclude_from_sim no)
+				(at 128.905 52.705 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bd9f8cb2-417b-4e3c-b546-2d0d62544998")
+			)
+			(table_cell "2.5 V"
+				(exclude_from_sim no)
+				(at 135.255 52.705 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e4545bfa-55fe-49e0-bb6c-c79fa3ad1ef4")
+			)
+			(table_cell "v3"
+				(exclude_from_sim no)
+				(at 128.905 55.245 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fe5b3880-44c9-4607-ab4a-45b04c9be410")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 135.255 55.245 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3940c653-023b-4b1d-a719-474202faf486")
+			)
+			(table_cell "v4"
+				(exclude_from_sim no)
+				(at 128.905 57.785 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fbdbfcc3-1df4-427e-82be-333ab09ba057")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 135.255 57.785 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f9227179-79c2-48ca-9a87-7827fa13cc0e")
+			)
+		)
+	)
 	(label "2V5"
 		(at 71.12 33.02 180)
 		(effects
@@ -93,6 +289,46 @@
 			(justify right bottom)
 		)
 		(uuid "30429b9e-681b-49f5-8e79-b2f2caa4069d")
+	)
+	(label "2V5"
+		(at 71.12 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4af7b2a5-3032-49ac-9c05-67aeea4ceac1")
+	)
+	(label "2V5"
+		(at 74.93 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "561dacb0-c3f4-459c-894f-4974550008ef")
+	)
+	(label "2V5"
+		(at 74.93 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60d400bb-7de6-4a6f-a645-afbca1449bb5")
+	)
+	(label "1V0"
+		(at 74.93 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66ab0e4b-a4d8-4f7f-b919-693727e53669")
 	)
 	(label "1V0"
 		(at 71.12 29.21 180)
@@ -131,7 +367,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FPGA_Config.kicad_sch"
+		(property "Sheetfile" "fpga_config.kicad_sch"
 			(at 81.28 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142,17 +378,27 @@
 				(justify left top)
 			)
 		)
+		(pin "VDD_IO" input
+			(at 81.28 33.02 180)
+			(uuid "c119390d-1464-41bc-9bd7-5cffec367f31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
-					(page "3")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 97.79 86.36)
-		(size 49.53 40.64)
+		(at 81.28 67.945)
+		(size 39.37 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -166,8 +412,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548")
-		(property "Sheetname" "FPGA_Power"
-			(at 97.79 85.6484 0)
+		(property "Sheetname" "FPGA Power"
+			(at 81.28 67.2334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -177,8 +423,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FPGA_Power.kicad_sch"
-			(at 97.79 127.5846 0)
+		(property "Sheetfile" "fpga_power.kicad_sch"
+			(at 81.28 85.0396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -188,8 +434,28 @@
 				(justify left top)
 			)
 		)
+		(pin "VDD_CORE" input
+			(at 81.28 71.12 180)
+			(uuid "5dfdee3b-3566-416b-8e1e-bee7d29793dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_IO" input
+			(at 81.28 74.93 180)
+			(uuid "7374c195-9658-4081-8613-d867daa5590a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
 					(page "5")
 				)
@@ -197,8 +463,64 @@
 		)
 	)
 	(sheet
-		(at 44.45 86.36)
-		(size 43.18 40.64)
+		(at 81.28 92.075)
+		(size 40.005 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bf072b7d-40b2-482f-af77-e6f086b16cad")
+		(property "Sheetname" "Translator"
+			(at 81.28 91.3634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "translation.kicad_sch"
+			(at 81.28 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V2" input
+			(at 81.28 95.25 180)
+			(uuid "d92be173-bb1f-4e30-9962-58e5632f5d4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 67.945)
+		(size 39.37 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -212,8 +534,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d2acf127-4018-4eed-b057-fb0392b768f0")
-		(property "Sheetname" "FPGA_IO_Banks"
-			(at 44.45 85.6484 0)
+		(property "Sheetname" "FPGA IO"
+			(at 25.4 67.2334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -223,8 +545,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FPGA_IO_Banks.kicad_sch"
-			(at 44.45 127.5846 0)
+		(property "Sheetfile" "fpga_io.kicad_sch"
+			(at 25.4 85.0396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -234,8 +556,18 @@
 				(justify left top)
 			)
 		)
+		(pin "VDD_IO" input
+			(at 64.77 71.12 0)
+			(uuid "d4186863-7d7c-4af4-aa37-9fada12e5f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
 					(page "4")
 				)
@@ -269,7 +601,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Connectors.kicad_sch"
+		(property "Sheetfile" "connectors.kicad_sch"
 			(at 25.4 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -280,7 +612,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V1" input
+		(pin "V1" output
 			(at 64.77 29.21 0)
 			(uuid "507b4901-2ee7-4999-b50a-77fee043817a")
 			(effects
@@ -290,7 +622,7 @@
 				(justify right)
 			)
 		)
-		(pin "V4" input
+		(pin "V4" output
 			(at 64.77 40.64 0)
 			(uuid "c6f83125-2ca3-4f69-9811-5de631608fe6")
 			(effects
@@ -300,7 +632,7 @@
 				(justify right)
 			)
 		)
-		(pin "V2" input
+		(pin "V2" output
 			(at 64.77 33.02 0)
 			(uuid "911c6f9e-3b41-42c3-8972-16e94005b9e1")
 			(effects
@@ -310,7 +642,7 @@
 				(justify right)
 			)
 		)
-		(pin "V3" input
+		(pin "V3" output
 			(at 64.77 36.83 0)
 			(uuid "8e0ead43-59af-4e8d-8eec-8e434c4597c6")
 			(effects
@@ -321,7 +653,7 @@
 			)
 		)
 		(instances
-			(project "FPGABoard_GateMate_1"
+			(project "main"
 				(path "/c7d8d43d-63a2-4580-87e3-23da67ff2129"
 					(page "2")
 				)

@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -539,7 +539,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -661,29 +661,33 @@
         "uuid": "c7d8d43d-63a2-4580-87e3-23da67ff2129"
       }
     ],
-    "used_designators": "#PWR74,B1-2",
+    "used_designators": "Y1,U1-8,TP1-2,R1-24,#PWR1-55,D1,C1-74,B1,NT1,J1",
     "variants": []
   },
   "sheets": [
     [
       "c7d8d43d-63a2-4580-87e3-23da67ff2129",
-      "FPGABoard_GateMate_1"
+      "main"
     ],
     [
       "dfae07b0-50c4-48a4-ab13-3d1143cdfa18",
       "Connectors"
     ],
     [
-      "7eafa692-194c-419c-a07a-1b9770d0663f",
-      "FPGA_Config"
+      "bf072b7d-40b2-482f-af77-e6f086b16cad",
+      "Translator"
     ],
     [
       "d2acf127-4018-4eed-b057-fb0392b768f0",
-      "FPGA_IO_Banks"
+      "FPGA IO"
     ],
     [
       "b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548",
-      "FPGA_Power"
+      "FPGA Power"
+    ],
+    [
+      "7eafa692-194c-419c-a07a-1b9770d0663f",
+      "FPGA_Config"
     ]
   ],
   "text_variables": {},
