@@ -3426,7 +3426,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
+			(property "Reference" "U"
 				(at 0 24.384 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7543,7 +7543,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 158.75) (xy 63.5 158.75)
+			(xy 57.15 158.75) (xy 74.93 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8250,16 +8250,6 @@
 			(type default)
 		)
 		(uuid "d43961b8-c38c-47af-87b5-ad6676450e7e")
-	)
-	(wire
-		(pts
-			(xy 74.93 158.75) (xy 71.12 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73703fe-fa60-494d-a055-96457a60867d")
 	)
 	(wire
 		(pts
@@ -10230,10 +10220,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3007d583-cf70-48da-b869-a107164d0488")
 		(property "Reference" "C9"
@@ -11142,7 +11132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48330417-bf2a-480f-907b-bba67aff0024")
-		(property "Reference" "J1"
+		(property "Reference" "U3"
 			(at 95.25 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11261,7 +11251,7 @@
 		(instances
 			(project "main"
 				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
-					(reference "J1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12476,86 +12466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "passive:R0402")
-		(at 67.31 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74ef1e80-e04d-49fc-a7dc-9561474fa063")
-		(property "Reference" "R8"
-			(at 67.31 152.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27R"
-			(at 67.31 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 67.31 160.528 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1198b6c-2e50-4d78-9e85-c7e7dbc0f1ce")
-		)
-		(pin "2"
-			(uuid "62c6c24b-3554-45f4-a4bb-648d23bc7547")
-		)
-		(instances
-			(project "main"
-				(path "/564866ff-b654-4c06-b096-1cad86fb817b"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 35.56 180.34 0)
 		(unit 1)
@@ -12951,10 +12861,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b240aa9-b14a-4034-9cca-b55949ee4339")
 		(property "Reference" "C8"
