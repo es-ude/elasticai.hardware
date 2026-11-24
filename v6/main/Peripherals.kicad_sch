@@ -3072,16 +3072,6 @@
 		)
 		(uuid "289def79-5248-46cb-81c5-6eec71a8d7d5")
 	)
-	(label "PAC_SenseN_1"
-		(at 34.29 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b1c1666-e361-4a43-ab59-eb4772d995bc")
-	)
 	(label "PAC_SenseN_2"
 		(at 34.29 93.98 0)
 		(effects
@@ -3101,16 +3091,6 @@
 			(justify right bottom)
 		)
 		(uuid "3e59152f-594f-4841-ba85-6576448394b1")
-	)
-	(label "PAC_SenseP_1"
-		(at 34.29 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57d53349-223f-4a03-9ba4-19c2ab34a0ea")
 	)
 	(label "PPK2_SenseN_4"
 		(at 86.36 138.43 0)
@@ -3222,6 +3202,16 @@
 		)
 		(uuid "8fb029a1-9e1c-425c-bb6d-e7101deaa032")
 	)
+	(label "PAC_SenseN_1"
+		(at 34.29 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96e97f50-8104-431e-a037-03c8d8bb37c1")
+	)
 	(label "PAC_SenseN_4"
 		(at 34.29 111.76 0)
 		(effects
@@ -3291,6 +3281,16 @@
 			(justify left bottom)
 		)
 		(uuid "d470c2f4-4c57-4abd-a248-71091ef7e3f1")
+	)
+	(label "PAC_SenseP_1"
+		(at 34.29 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0e84b49-abbb-4ff8-9326-72f60cd97289")
 	)
 	(label "PAC_SenseN_3"
 		(at 34.29 102.87 0)
