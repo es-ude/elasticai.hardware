@@ -357,7 +357,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga_config.kicad_sch"
+		(property "Sheetfile" "fpga_cnf.kicad_sch"
 			(at 81.28 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -413,7 +413,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga_power.kicad_sch"
+		(property "Sheetfile" "fpga_pwr.kicad_sch"
 			(at 81.28 85.0396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -591,7 +591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
+		(property "Sheetfile" "header.kicad_sch"
 			(at 25.4 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)

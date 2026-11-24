@@ -208,7 +208,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/42249ca0-15a0-44fd-adcb-a952709cbd7e")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -926,7 +926,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/9a690eb8-4186-421a-b7a6-d378a7d0d48f")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1072,7 +1072,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/2989dce7-72a9-40db-83b4-9cf1bcb4e287")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1218,7 +1218,7 @@
 		(property ki_fp_filters "WSON-8-1EP_6x5mm*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/78191434-c81e-4836-a7cc-3c4c38101bc3")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2635,7 +2635,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/cb6742db-3b06-44a1-bf6e-62aaa9b27193")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4146,7 +4146,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/ebb8053b-ebb0-4f4e-ba5e-4b3d04aa0630")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4403,7 +4403,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/da0a026f-7c83-44f4-91b6-be6341efb17a")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8093,7 +8093,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/113a152b-25de-4143-bac4-ee537dfe3030")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8239,7 +8239,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dfae07b0-50c4-48a4-ab13-3d1143cdfa18/0aafaeb9-1286-4e06-b2d5-7d0296ab3817")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "header.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8530,7 +8530,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/9b2d150d-1444-4e76-ab23-5c9dc6102721")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8965,7 +8965,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/8b564077-0ba7-460b-9dc9-1456f818fded")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9255,7 +9255,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/80a481a1-630b-404f-aa2c-ed412010dd11")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9400,7 +9400,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/2556f316-c0c7-4536-9a83-5536cda65cc7")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9690,7 +9690,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/d7505c6f-4ba5-487f-bb49-427736e78228")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9836,7 +9836,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/d89d145d-28c4-4cf9-87fe-013324e8efd9")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9981,7 +9981,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/00d34587-9d60-49c1-8fe7-4d7e1353a812")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10126,7 +10126,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/838fbe8c-71a3-4f43-89e5-a3439d01d7d3")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10271,7 +10271,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/39b3ea42-03d1-48ea-81cd-92a52ac4516d")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10417,7 +10417,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dfae07b0-50c4-48a4-ab13-3d1143cdfa18/b15275fc-22e0-4e4c-ac08-547592a8eeb5")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "header.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10562,7 +10562,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/8416c539-d2ad-4d1c-a59e-53ce5cf6fbd6")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10707,7 +10707,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/26ba55b1-24d8-473f-acd3-00d38219fb11")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11194,7 +11194,7 @@
 		)
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/7ea69083-2482-4817-ba9e-b31b76358ad5")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11598,7 +11598,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/3f925cb0-471c-4c47-94e1-86133cd16f28")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12607,7 +12607,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/803b954e-5449-483b-a1c8-d0cc4b855c1f")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12897,7 +12897,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/4b9df7cb-0db0-437d-b1e4-29c4792b5264")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13049,7 +13049,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/4482b2bf-9d95-4b3d-b09a-68765a33c39c")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13434,7 +13434,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/a89fce7c-0eb4-4214-87a9-9213c2ff4d57")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13579,7 +13579,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/3b5f5767-348f-4b1e-b579-b33542e8bcba")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13725,7 +13725,7 @@
 		(property ki_fp_filters "QFN*1EP*4x4mm*P0.5mm*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/724af985-3626-4dbd-9e94-4c465d1c0ab8")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14508,7 +14508,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/b1394d0c-fd52-4d14-8959-e58a2839ec66")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14798,7 +14798,7 @@
 		)
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/d0c7165c-18a6-40c9-b1d4-3b0825200e9c")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14943,7 +14943,7 @@
 		)
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/ad71654f-7d0d-4753-b138-477aa5589319")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15233,7 +15233,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/e0d6160d-41ca-4023-9280-893b6029a74e")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15524,7 +15524,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/25d6e783-3da9-4d6e-a772-913198f23fd3")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15669,7 +15669,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/23decaf8-ec6e-4daa-aea1-e6ee25177f7c")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16106,7 +16106,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/921bfce3-52e6-4795-81ef-45817c847c1f")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16396,7 +16396,7 @@
 		)
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/72d8f6c8-7e62-41d0-85fe-672594a54427")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16541,7 +16541,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/141507f6-4b59-4322-977a-edc5eae02f0b")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16977,7 +16977,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dfae07b0-50c4-48a4-ab13-3d1143cdfa18/b26e6608-0ce5-485a-8575-bb316f0df461")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "header.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17267,7 +17267,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/018303c0-d227-44b2-839e-2249605520c0")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17558,7 +17558,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/9347a8f2-2829-4981-9c75-58e897de1f84")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17704,7 +17704,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/c5d4edc4-3e30-4a14-a82f-32b0117dc6ac")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17855,7 +17855,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/4649f8d8-6bbb-4456-a2d7-a0d8f2bfc20c")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17961,7 +17961,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/e6def828-b828-4945-9465-dbba5ce871b8")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18106,7 +18106,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/77ff489f-8112-4ab8-bd68-62f3b4e779dc")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18252,7 +18252,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/74542b3c-8f4d-4176-8d46-a7449282aec9")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18524,7 +18524,7 @@
 		)
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/57c01501-2986-4e91-ba54-6113b2dba982")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18669,7 +18669,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/9a5612b3-dfdb-42cd-9871-83ce1364e731")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18815,7 +18815,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/4e47e189-8b1a-4420-94dc-224d63a5bd89")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18960,7 +18960,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/81769164-6842-4f96-aab1-20e4828a9a97")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19251,7 +19251,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/f912770d-34a0-407b-a7c3-12ecca861203")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19396,7 +19396,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/d3c573cc-9ef1-401d-a2a2-6dff15bdd40e")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20115,7 +20115,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/ace83f1c-d7ed-4c06-b1e3-fa12e76911d2")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20405,7 +20405,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/d8622115-502a-4469-b31a-9b0b270b6e4a")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20550,7 +20550,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/8ac4b271-e84b-4b3f-b3f0-a830c51a676e")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20695,7 +20695,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/aecb76c8-7123-4249-8853-40e1b4643f5e")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20840,7 +20840,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/a922ec72-b11b-423c-9d4e-aa79237c7f3e")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20986,7 +20986,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/00feeb35-1e91-4927-9cb8-80cc2deb58a8")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21421,7 +21421,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/e8a1d2c0-f56d-4398-8ccf-306d15a88f03")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21566,7 +21566,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/4daa1119-5a7f-4fd6-a256-f25141630570")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21856,7 +21856,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/381a0615-e58a-49ad-8a7f-af0145241fa7")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22574,7 +22574,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/dfc0dbbb-7191-4861-899d-22368f7aa73d")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22864,7 +22864,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/191712c0-7679-4d72-b20e-2b44b860589b")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23154,7 +23154,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/ec88d5b6-809d-40b8-ba0d-3d7b4db3c249")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23300,7 +23300,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/bd6f8f0e-01e9-4f67-a79a-469ead9fe518")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23735,7 +23735,7 @@
 		)
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/8f257687-dabb-4a7b-b2f3-4c396327d3d0")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23881,7 +23881,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/2766fe14-5bf9-4bf1-ade8-b3f0ecc60396")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24027,7 +24027,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/9ba9626b-fba2-4d9b-929f-2beab970f0dc")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24318,7 +24318,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/d1acf018-3ec5-491f-a168-a723d616322b")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24609,7 +24609,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/dca760dc-0994-4739-ac7e-cff95546e98a")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24755,7 +24755,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/27a053f7-8d9c-4c05-b381-2b44db77b46d")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25052,7 +25052,7 @@
 		)
 		(path "/dfae07b0-50c4-48a4-ab13-3d1143cdfa18/a9585e14-0535-458b-a069-b49337bff5b3")
 		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
+		(sheetfile "header.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27212,7 +27212,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/a2b902e6-13b0-4cc5-b796-5f77d7d5c408")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27648,7 +27648,7 @@
 		)
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/87417640-87b1-4cb3-a074-7a855cfc62d1")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27794,7 +27794,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eafa692-194c-419c-a07a-1b9770d0663f/dfe66f92-9ca6-4c0d-b57c-538a32f52032")
 		(sheetname "/FPGA Config/")
-		(sheetfile "fpga_config.kicad_sch")
+		(sheetfile "fpga_cnf.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27945,7 +27945,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b6c4bbdd-4d9e-4fe5-a3f9-bbb3472d9548/39bd2c2c-ad81-4f5b-9755-7f4459558687")
 		(sheetname "/FPGA Power/")
-		(sheetfile "fpga_power.kicad_sch")
+		(sheetfile "fpga_pwr.kicad_sch")
 		(units
 			(unit
 				(name "A")
