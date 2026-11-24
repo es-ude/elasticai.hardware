@@ -541,669 +541,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LP873300RHDTQ1:LP873300RHDTQ1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at -3.048 42.418 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "LP873300RHDTQ1"
-				(at -9.144 40.132 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "QFN50P500X500X100-29N-D"
-				(at -14.478 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp8733-q1.pdf?ts=1628510235514&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLP8733-Q1%253FkeyMatch%253DLP873300RHDTQ1%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
-				(at -90.17 -0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Power Management Specialised - PMIC"
-				(at 0.762 5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1"
-				(at 36.83 -382.22 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-LP873300RHDTQ1"
-				(at 36.83 -482.22 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP873300RHDTQ1?qs=byeeYqUIh0Nkm0Gv0wlqtA%3D%3D"
-				(at 36.83 -582.22 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 36.83 -682.22 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LP873300RHDTQ1"
-				(at 36.83 -782.22 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "LP873300RHDTQ1_1_1"
-				(rectangle
-					(start -15.24 38.1)
-					(end 15.24 -63.5)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 20.32 3.81 180)
-					(length 5.08)
-					(name "VOUT_LDO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 24.13 180)
-					(length 5.08)
-					(name "FB_B0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 8.89 180)
-					(length 5.08)
-					(name "FB_B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -57.15 180)
-					(length 5.08)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -26.67 0)
-					(length 5.08)
-					(name "VANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -49.53 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -11.43 180)
-					(length 5.08)
-					(name "VOUT_LDO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -11.43 0)
-					(length 5.08)
-					(name "VIN_LDO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -54.61 0)
-					(length 5.08)
-					(name "NINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -59.69 0)
-					(length 5.08)
-					(name "CLKIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 19.05 0)
-					(length 5.08)
-					(name "VIN_B1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 16.51 0)
-					(length 5.08)
-					(name "VIN_B1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 19.05 180)
-					(length 5.08)
-					(name "SW_B1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 16.51 180)
-					(length 5.08)
-					(name "SW_B1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -52.07 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND_B1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -52.07 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND_B1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -46.99 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -44.45 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -59.69 180)
-					(length 5.08)
-					(name "SGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -52.07 180)
-					(length 5.08)
-					(name "PGND_B0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -52.07 180)
-					(length 5.08)
-					(hide yes)
-					(name "PGND_B0_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 34.29 180)
-					(length 5.08)
-					(name "SW_B0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 31.75 180)
-					(length 5.08)
-					(name "SW_B0_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 34.29 0)
-					(length 5.08)
-					(name "VIN_B0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 31.75 0)
-					(length 5.08)
-					(name "VIN_B0_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -57.15 0)
-					(length 5.08)
-					(name "GPO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -52.07 0)
-					(length 5.08)
-					(name "PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 3.81 0)
-					(length 5.08)
-					(name "VIN_LDO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -54.61 180)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:TLV73333PDBV"
 			(pin_names
 				(offset 0.254)
@@ -3461,6 +2798,669 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power_devices:LP873300RHDTQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at -3.048 42.418 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LP873300RHDTQ1"
+				(at -9.144 40.132 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "custom_library:QFN50P500X500X100-29N-D"
+				(at -14.478 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp8733-q1.pdf?ts=1628510235514&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLP8733-Q1%253FkeyMatch%253DLP873300RHDTQ1%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
+				(at -90.17 -0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Power Management Specialised - PMIC"
+				(at 0.762 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1"
+				(at 36.83 -382.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-LP873300RHDTQ1"
+				(at 36.83 -482.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP873300RHDTQ1?qs=byeeYqUIh0Nkm0Gv0wlqtA%3D%3D"
+				(at 36.83 -582.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 36.83 -682.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LP873300RHDTQ1"
+				(at 36.83 -782.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "LP873300RHDTQ1_1_1"
+				(rectangle
+					(start -15.24 38.1)
+					(end 15.24 -63.5)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 20.32 3.81 180)
+					(length 5.08)
+					(name "VOUT_LDO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 24.13 180)
+					(length 5.08)
+					(name "FB_B0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 8.89 180)
+					(length 5.08)
+					(name "FB_B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -57.15 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -26.67 0)
+					(length 5.08)
+					(name "VANA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -49.53 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -11.43 180)
+					(length 5.08)
+					(name "VOUT_LDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -11.43 0)
+					(length 5.08)
+					(name "VIN_LDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -54.61 0)
+					(length 5.08)
+					(name "NINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -59.69 0)
+					(length 5.08)
+					(name "CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 19.05 0)
+					(length 5.08)
+					(name "VIN_B1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 16.51 0)
+					(length 5.08)
+					(name "VIN_B1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 19.05 180)
+					(length 5.08)
+					(name "SW_B1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 16.51 180)
+					(length 5.08)
+					(name "SW_B1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -52.07 180)
+					(length 5.08)
+					(hide yes)
+					(name "PGND_B1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -52.07 180)
+					(length 5.08)
+					(hide yes)
+					(name "PGND_B1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -46.99 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -44.45 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -59.69 180)
+					(length 5.08)
+					(name "SGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -52.07 180)
+					(length 5.08)
+					(name "PGND_B0_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -52.07 180)
+					(length 5.08)
+					(hide yes)
+					(name "PGND_B0_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 34.29 180)
+					(length 5.08)
+					(name "SW_B0_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 31.75 180)
+					(length 5.08)
+					(name "SW_B0_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 34.29 0)
+					(length 5.08)
+					(name "VIN_B0_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 31.75 0)
+					(length 5.08)
+					(name "VIN_B0_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -57.15 0)
+					(length 5.08)
+					(name "GPO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -52.07 0)
+					(length 5.08)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 3.81 0)
+					(length 5.08)
+					(name "VIN_LDO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -54.61 180)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Battery IC"
 		(exclude_from_sim no)
@@ -3836,6 +3836,12 @@
 		(uuid "b5f8fb82-b73b-4867-adaf-55a17011dd24")
 	)
 	(junction
+		(at 242.57 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baea0328-3554-4fe8-a459-ad164665b7b0")
+	)
+	(junction
 		(at 134.62 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,6 +3967,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 87.63) (xy 242.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084fda6d-33c3-4513-80ab-55f90ed07e12")
+	)
+	(wire
+		(pts
 			(xy 114.3 185.42) (xy 116.84 185.42)
 		)
 		(stroke
@@ -4008,16 +4024,6 @@
 			(type default)
 		)
 		(uuid "0f9dbfe6-4b84-4e2b-bf35-3973b184a62e")
-	)
-	(wire
-		(pts
-			(xy 247.65 99.06) (xy 250.19 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1082d854-4d86-4a59-b2c0-e885b175e518")
 	)
 	(wire
 		(pts
@@ -4218,6 +4224,16 @@
 			(type default)
 		)
 		(uuid "36a85703-c1a7-42a1-b419-591d576e69c7")
+	)
+	(wire
+		(pts
+			(xy 242.57 101.6) (xy 247.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c28b7a-5a56-4779-a039-da2ee4c9625f")
 	)
 	(wire
 		(pts
@@ -4481,6 +4497,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 88.9) (xy 240.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564b274b-c002-46b9-96ec-94e7da3a80de")
+	)
+	(wire
+		(pts
 			(xy 219.71 60.96) (xy 219.71 63.5)
 		)
 		(stroke
@@ -4571,16 +4597,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 99.06) (xy 234.95 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605e7e2a-805e-4614-a0c8-730697f74009")
-	)
-	(wire
-		(pts
 			(xy 134.62 109.22) (xy 134.62 110.49)
 		)
 		(stroke
@@ -4608,6 +4624,16 @@
 			(type default)
 		)
 		(uuid "619ea720-2eb7-444d-80d2-1cce64b9e5b3")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6318e920-d88d-4a2d-8a33-2db6ebc399f1")
 	)
 	(wire
 		(pts
@@ -4838,6 +4864,16 @@
 			(type default)
 		)
 		(uuid "8921405f-6c4e-4fcb-a3db-195c33e35e7b")
+	)
+	(wire
+		(pts
+			(xy 234.95 101.6) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8922dd2b-1996-4a3d-9272-000bca0d4af0")
 	)
 	(wire
 		(pts
@@ -5308,6 +5344,16 @@
 			(type default)
 		)
 		(uuid "c9c17f4e-661a-48a7-8773-897d4981ef68")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f321e4-9565-4695-8a68-58206ecd8968")
 	)
 	(wire
 		(pts
@@ -6186,7 +6232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01e5ec84-07eb-49de-9a64-6ec85e59830f")
-		(property "Reference" "C308"
+		(property "Reference" "C303"
 			(at 91.948 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +6296,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C308")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0380a39c-e1c7-47a6-bd50-08245ea865c9")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0323"
 			(at 160.02 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6327,7 +6373,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0314")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0545451b-55f5-43de-8909-faef223091c4")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0324"
 			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -6404,7 +6450,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0308")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05663cbe-c0a7-44d9-8e13-674578609c03")
-		(property "Reference" "C304"
+		(property "Reference" "C313"
 			(at 67.818 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,7 +6542,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C304")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -6513,7 +6559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11dc4c1c-c656-4ef5-98ff-58dc37e460a2")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0311"
 			(at 72.39 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6573,7 +6619,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0303")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12e39110-e463-4884-ab3d-e518bb923b86")
-		(property "Reference" "C311"
+		(property "Reference" "C321"
 			(at 123.698 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +6711,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C311")
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1519aa2f-387b-424f-baa0-b90422f4e2a7")
-		(property "Reference" "C302"
+		(property "Reference" "C312"
 			(at 57.658 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +6803,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C302")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16f04f87-9ce3-4822-889e-3b43dfa884c1")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0315"
 			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6834,7 +6880,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0309")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -6851,7 +6897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bb6796b-777a-47d7-94bf-fd8565652bbc")
-		(property "Reference" "R303"
+		(property "Reference" "R302"
 			(at 79.248 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6961,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R303")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -6932,7 +6978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20c80970-e73d-44ca-9cc4-163e1e9eb34c")
-		(property "Reference" "C317"
+		(property "Reference" "C305"
 			(at 204.978 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6996,7 +7042,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C317")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -7013,7 +7059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2125887f-43e6-4712-8991-e2671845eb11")
-		(property "Reference" "C318"
+		(property "Reference" "C307"
 			(at 204.978 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7123,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C318")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -7173,7 +7219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28f0fc30-b047-4ce3-8360-ce4008c82f0b")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0304"
 			(at 193.04 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7232,7 +7278,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0316")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -7249,7 +7295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "294a41f2-d318-4341-8c68-7da6895e3df2")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0310"
 			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7309,7 +7355,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0311")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "303efe74-7837-4926-8fdf-ff57cbc7ed8a")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0320"
 			(at 54.61 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7475,7 +7521,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0301")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -7492,7 +7538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36c9b87a-da91-49a3-9454-43813220af49")
-		(property "Reference" "C305"
+		(property "Reference" "C318"
 			(at 67.818 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7567,7 +7613,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C305")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c1eced1-167b-46b6-a000-39f4eaadddf5")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0321"
 			(at 124.46 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7644,7 +7690,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0307")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -7661,7 +7707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "416c6cce-e1e4-4bc6-aea7-23b85ebdd476")
-		(property "Reference" "C319"
+		(property "Reference" "C316"
 			(at 207.518 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7782,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C319")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "425b2898-1679-499d-8dea-3eb0c36bd835")
-		(property "Reference" "C321"
+		(property "Reference" "C306"
 			(at 217.678 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,7 +7863,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C321")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45f04bc8-b177-425b-84cc-eefeaaf7db39")
-		(property "Reference" "C306"
+		(property "Reference" "C320"
 			(at 67.818 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7909,7 +7955,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C306")
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4975fe81-fb2d-4f9b-be63-4f7ef347dac5")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0309"
 			(at 72.39 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7986,7 +8032,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0302")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -8003,7 +8049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d99c0fe-5509-4af7-ae83-49cb26cd13ac")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR0314"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8108,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0318")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e51af70-572a-4f7a-9ffd-56d3d5fde7be")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0303"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8138,7 +8184,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0315")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -8155,7 +8201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "594819d4-1fc0-40a6-ab03-0b3ea5451bd0")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0318"
 			(at 139.7 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8215,7 +8261,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0310")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -8232,7 +8278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d693971-fe81-4916-85fa-1d8ee3faddad")
-		(property "Reference" "C310"
+		(property "Reference" "C319"
 			(at 123.698 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +8353,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C310")
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -8324,7 +8370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "600c63a5-bb7d-4ba6-b713-fb233c53a46d")
-		(property "Reference" "C316"
+		(property "Reference" "C301"
 			(at 204.978 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,7 +8434,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C316")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -8405,7 +8451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64b7c44c-708f-4218-9410-3b61f180c239")
-		(property "Reference" "C307"
+		(property "Reference" "C322"
 			(at 67.818 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8526,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C307")
+					(reference "C322")
 					(unit 1)
 				)
 			)
@@ -8497,7 +8543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77c140b6-6e9c-404f-ad69-b2376683608f")
-		(property "Reference" "C314"
+		(property "Reference" "C311"
 			(at 146.558 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8618,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C314")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -8589,7 +8635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78e96823-8da5-484d-9068-fc135c9cfac1")
-		(property "Reference" "R307"
+		(property "Reference" "R305"
 			(at 241.3 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,83 +8697,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b28763b-aff5-4e1f-9193-459556680328")
-		(property "Reference" "#PWR0325"
-			(at 226.06 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66b00972-5dae-47c2-8e93-3408bfbef4bf")
-		)
-		(instances
-			(project "main"
-				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0325")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -8913,7 +8883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "829c1453-7c93-4ae8-8e5d-b034f65a135a")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR0313"
 			(at 204.47 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8972,7 +8942,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0317")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9027,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 240.03 99.06 0)
+		(at 240.03 93.98 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9065,30 +9036,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "8619dbce-20a9-44d3-bcf3-2f5bd36e0e5b")
-		(property "Reference" "J301"
-			(at 241.3 92.71 0)
+		(property "Reference" "J302"
+			(at 237.49 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 241.3 95.25 0)
+			(at 237.49 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical"
-			(at 240.03 99.06 0)
+			(at 240.03 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 99.06 0)
+			(at 240.03 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9082,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 99.06 0)
+			(at 240.03 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +9107,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "J301")
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -9354,7 +9326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "V_SYS"
 			(at 238.76 38.6079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +9393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9974b99c-7a6b-4cb9-bce5-a4c01f625bb0")
-		(property "Reference" "C322"
+		(property "Reference" "C317"
 			(at 263.398 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9468,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C322")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0425130-439f-406f-9c8c-dc2689b42e3d")
-		(property "Reference" "#PWR0323"
+		(property "Reference" "#PWR0316"
 			(at 260.35 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9572,7 +9544,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0323")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -9580,7 +9552,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 99.06 90)
+		(at 246.38 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9589,8 +9561,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3bb62db-eb7b-42f0-832c-a0fbcb3142a8")
-		(property "Reference" "#PWR0324"
-			(at 256.54 99.06 0)
+		(property "Reference" "#PWR0308"
+			(at 252.73 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +9573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 99.06 0)
+			(at 250.19 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9611,7 +9583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 99.06 0)
+			(at 246.38 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9622,7 +9594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 99.06 0)
+			(at 246.38 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +9605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 99.06 0)
+			(at 246.38 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9648,7 +9620,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0324")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -9665,7 +9637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9a381aa-eb7f-4428-89d1-6f1cc214eaf8")
-		(property "Reference" "C312"
+		(property "Reference" "C310"
 			(at 137.668 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9740,7 +9712,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C312")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -9757,7 +9729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab90b4aa-e31e-47af-87d3-48109d607e84")
-		(property "Reference" "C320"
+		(property "Reference" "C302"
 			(at 216.408 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9821,7 +9793,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C320")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -9838,7 +9810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "add443d0-0b68-4d80-84fd-78732b99b967")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0322"
 			(at 142.24 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9898,7 +9870,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0313")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -9915,7 +9887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b86d282c-5d48-47e3-a4a8-36c3f0ded659")
-		(property "Reference" "R301"
+		(property "Reference" "R304"
 			(at 62.23 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +9951,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R301")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -10076,7 +10048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d785db-0eb2-46f6-b116-d494b9918861")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR0305"
 			(at 219.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10135,7 +10107,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0319")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -10152,7 +10124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c47d5575-aa23-4e2a-a9e2-ee5e174f51fb")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0319"
 			(at 72.39 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10212,7 +10184,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0305")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -10229,7 +10201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd2d50f7-e0eb-425d-8e17-23d8b611207e")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0317"
 			(at 72.39 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10289,7 +10261,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0304")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -10306,7 +10278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf83d99d-6fc2-4156-bbc9-fbcb21b49646")
-		(property "Reference" "C309"
+		(property "Reference" "C304"
 			(at 103.378 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10370,7 +10342,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C309")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -10476,7 +10448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "V_MCU"
 			(at 257.81 114.8079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10543,7 +10515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de213a6f-b0f0-42ea-b101-6c57c9854c9a")
-		(property "Reference" "C301"
+		(property "Reference" "C308"
 			(at 57.658 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,14 +10590,14 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C301")
+					(reference "C308")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LP873300RHDTQ1:LP873300RHDTQ1")
+		(lib_id "power_devices:LP873300RHDTQ1")
 		(at 93.98 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -10656,7 +10628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_library:QFN50P500X500X80-29N"
+		(property "Footprint" "custom_library:QFN50P500X500X100-29N-D"
 			(at 79.502 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -10858,7 +10830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6eef337-e7f9-42b8-aae4-4c7905986fa6")
-		(property "Reference" "C303"
+		(property "Reference" "C309"
 			(at 67.818 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10933,7 +10905,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C303")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -10950,7 +10922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8c4466a-9c06-4253-9401-d15cbd631315")
-		(property "Reference" "C313"
+		(property "Reference" "C314"
 			(at 137.668 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11025,7 +10997,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "C313")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -11042,7 +11014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eba69c01-65c6-4980-8f88-1858e2217c40")
-		(property "Reference" "R302"
+		(property "Reference" "R301"
 			(at 79.248 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11106,7 +11078,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R302")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -11123,7 +11095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef2b118a-198a-4b44-ae12-457877c499fa")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0301"
 			(at 229.87 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11183,7 +11155,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0320")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -11201,7 +11173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f920c4b0-9f7f-4b04-b79e-4722f07c88bb")
-		(property "Reference" "J302"
+		(property "Reference" "J301"
 			(at 43.18 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +11291,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "J302")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -11336,7 +11308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb71c44c-9afc-4912-8d97-25d76aa4b863")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0302"
 			(at 229.87 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11396,7 +11368,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "#PWR0321")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -11413,7 +11385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff15e0d2-69d3-43ce-b652-ea703a1c0e97")
-		(property "Reference" "R304"
+		(property "Reference" "R303"
 			(at 170.688 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11477,7 +11449,7 @@
 		(instances
 			(project "main"
 				(path "/c353698e-fca1-4ed3-95bc-4f5142868012/902366bc-6ca4-48af-8389-df3fa638596e"
-					(reference "R304")
+					(reference "R303")
 					(unit 1)
 				)
 			)
