@@ -4,18 +4,13 @@
 	(generator_version "10.0")
 	(uuid "c353698e-fca1-4ed3-95bc-4f5142868012")
 	(paper "A4")
-	(lib_symbols)
-	(text "Notes:\n- ..."
-		(exclude_from_sim no)
-		(at 177.8 167.386 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "50e8345b-00fd-4cd8-be3b-c12a7825946f")
+	(title_block
+		(title "ENv6 Base Board")
+		(date "2026-11-26")
+		(rev "1.0")
+		(company "Intelligent Embedded Systems Lab, University of Duisburg-Essen")
 	)
+	(lib_symbols)
 	(wire
 		(pts
 			(xy 184.15 33.02) (xy 191.77 33.02)
